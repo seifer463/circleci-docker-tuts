@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+
+<project name="BlueBilling Portal Selenium" basedir="." default="build.portal.selenium.compile" xmlns:ivy="antlib:org.apache.ivy.ant">
+
+	<!-- get the directory within which this project file is stored -->
+    <dirname property="imported.base.basedir"               file="${ant.file}"/>
+
+	<!-- ivy directory and files -->
+	<property name="ivy.install.version" value="2.5.0"/>
+    <property name="ivy.jar.dir" value="${user.home}/.ivy2/jars"/>
+    <property name="ivy.jar.file" value="${ivy.jar.dir}/ivy.jar"/>
+	    	
+	
+	<!-- declare classpath -->
+	<path id="3rd-party-classpath">
+		<fileset dir="libs">
+			<include name="/*.jar" />
+		</fileset>
+		<fileset dir="${java.home}/lib" includes="*.jar" />
+	</path>
+
+	<!--
+    ##
+    ##  Ivy Setup
+    ##
+    -->
+	
+	<!-- clean ivy cache -->
+	<target name="build.ivy.clean.cache" description="clean user's local ivy cache">
+		<echo message="Cleaning local Ivy cache ..." />
+		<delete dir="${user.home}/.ivy2/cache"/>
+		<echo message="Local Ivy cache deleted" />
+	</target>
+	
+	<!-- download ivy jar required for dependency resolution -->
+	<target name="build.ivy.download">
+		<echo message="Downloading Ivy jar ..." />
+		<mkdir dir="${ivy.jar.dir}"/>
+        <!-- download Ivy from web site so that it can be used even without any special installation -->
+        <get src="https://repo1.maven.org/maven2/org/apache/ivy/ivy/${ivy.install.version}/ivy-${ivy.install.version}.jar"
+             dest="ivy.jar.file" usetimestamp="true"/>
+		<echo message="Ivy jar downloaded"/>
+    </target>
+
+    <!-- =================================
+          target: install-ivy
+          this target is not necessary if you put ivy.jar in your ant lib directory if you already have ivy in your ant 
+          lib, you can simply remove this target and the dependency the 'go' target has on it
+  	================================= -->
+    <target name="build.ivy.install" depends="build.ivy.download" description="install ivy for the project">
+        <!-- try to load ivy here from local ivy dir, in case the user has not already dropped it into ant's lib dir 
+        	(note that the latter copy will always take precedence). We will not fail as long as the ivy jar is in at 
+        	least one of ant's lib dir or the local lib dir. -->
+		<echo message="Installing Ivy ..." />
+        <path id="ivy.lib.path">
+            <pathelement location="ivy.jar.file"/>
+        </path>
+        <taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
+    	<echo message="Ivy installed" />
+    </target>
+		
+	<!--
+	##
+	## Resolve Dependency
+	##
+	-->		
+	<target name="build.ivy.resolve" depends="build.ivy.install" description="resolves dependencies for the project">
+		<echo message="Resolving BlueBilling Portal dependencies ..." />
+		<mkdir dir="libs"/>
+		<delete>
+		   <fileset dir="libs">
+		      <include name="**/*"/>
+		   </fileset>
+		</delete>
+		<ivy:resolve file="ivy.xml" />
+		<ivy:report conf="default" todir="dependencyTree" />
+		<ivy:retrieve pattern="libs/[artifact]-[type]-[revision].[ext]" />
+		<echo message="BlueBilling Portal dependencies resolved" />
+		
+		<!-- copy external library -->
+		<echo message="Copying external library ..." />
+		<copy todir="libs">
+			<fileset dir="libs_external">
+				<include name="/*.jar" />
+			</fileset>
+		</copy>
+		<echo message="External library copied" />
+	</target>
+
+	<!--
+	##
+	## Compile project
+	##
+	-->
+	<target name="build.portal.selenium.compile" depends="build.ivy.resolve" description="compiles the project">
+		<echo message="Compiling Selenium Portal project ..." />
+		<mkdir dir="bin" />
+		<echo>ANT Java/JVM version: ${ant.java.version}</echo>
+		<echo>Java/JVM detailed version: ${java.version}</echo>
+		<javac source="1.8" 
+			target="1.8" 
+			srcdir="src"
+			destdir="bin"
+			debug="true"
+			includeantruntime="no"
+			includeJavaRuntime="true">
+			<compilerarg value="-XDignore.symbol.file" />
+			<classpath refid="3rd-party-classpath" />
+		</javac>
+
+		<copy todir="bin">
+			<fileset dir="src">
+				<include name="**/*.xml" />
+			</fileset>
+		</copy>
+		<echo message="Selenium Portal project compiled" />
+	</target>
+</project>

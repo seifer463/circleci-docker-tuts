@@ -1,0 +1,39 @@
+<suite name="Dev Move In Suite">
+	<test name="testing">
+		<classes>
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact01" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiExistingContact01" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiExistingContact02" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusExistingContact01" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusExistingContact02" />
+	   		<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusNewContact01" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusExistingContact03" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusExistingContact04" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiExistingContact03" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact02" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.VerifyCreatedCRMRecords01" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact03" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact04" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact05" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact06" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact07" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact08" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusNewContact02" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusNewContact03" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact09" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact10" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.VerifyCreatedCRMRecords02" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusNewContact04" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact11" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact12" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusNewContact05" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiNewContact13" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.VerifyValidations01" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiExistingContact05" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.SmallBusExistingContact05" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.ResiExistingContact04" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.VerifyCreatedCRMRecords03" />
+			<class name="au.com.blueoak.portal.dev.move_in.tests.VerifyValidations02" />
+		</classes>
+	</test>
+</suite>

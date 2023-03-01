@@ -1,0 +1,8 @@
+<suite name="Dev Make Payment Setup Suite">
+	<test name="testing">
+		<classes>
+			<!-- this class only needs to be executed once -->							
+			<class name="au.com.blueoak.portal.dev.make_payment.MakePaymentTestDataSetup" />			
+		</classes>
+	</test>
+</suite>

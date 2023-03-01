@@ -1,0 +1,1307 @@
+/* Variables for colors, font, and path to bucket with fonts(--font-light-path, --font-semibold-path) */
+
+:root {
+	--css-url: "";
+	--woff-url: "";
+	--font-family: Segoe UI, Regular;
+	--font-weight: 400;
+	--main-color: #FF8C00;
+	--text-color: #008000;
+	--disabled-color: rgba(0, 255, 255, 0.38);
+	--label-color: rgb(255, 0, 255);
+	--error-color: #00008B;
+	--warning-color: #BC8F8F;
+	--default-icon-color: #CD5C5C;
+	--secondary-button-color: #800000;
+	--secondary-button-background-color: #00FF00;	
+	--font-light-path: fonts/Boing_Light.otf;
+	--font-semibold-path: fonts/Boing_Semibold.otf;
+	--font-light: "Boing Light", "Helvetica Neue", sans-serif;
+	--font-semibold: "Boing Semibold", "Helvetica Neue", sans-serif;
+}
+
+/* / -------------- Default Settings -----------------  / */
+
+/* Main color and font for body */
+body {
+	font-family: var(--font-light) !important;
+	color: var(--text-color);
+}
+
+/* List item font settings */
+li {
+	font-family: var(--font-light);
+	font-size: 17px;
+}
+
+/* Default styles for all <p> in the portal */
+p {
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+svg path {
+	fill: var(--main-color);
+}
+
+label {
+  padding-bottom: 5px !important;
+}
+
+/* Default input styling */
+input {
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+/* Default textarea styling */
+textarea {
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+/* / -------------- Main Container Settings -----------------  / */
+
+/* Paddings from frame edges */
+.mat-card {
+    padding: 16px 0 !important;
+}
+
+/* Style for the box-shadow of the card of the portal */
+.mat-card,
+.mat-dialog-container {
+	-webkit-box-shadow: 0 0 10px rgba(210, 105, 30, 0.6);
+	box-shadow: 0 0 10px rgba(210, 105, 30, 0.6);
+	font-family: var(--font-light) !important;
+	color: var(--text-color) !important;
+}
+
+/* Settings for portal if it is in iframe */
+.iframeStyling {
+	width: 100%;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.iframeBodyBackground {
+	background-color: transparent !important;
+}
+
+/* Page background color */
+.bodyBackground {
+	background-color: #FFF0F5 !important;
+}
+
+/* Styles for user idle message */
+.toast-container .ngx-toastr {
+	width: 600px !important;
+	padding: 15px 15px 15px 20px !important;
+	font-family: var(--font-light) !important;
+	font-size: 17px;
+}
+
+#desktop-extra-header-height {
+	height: 0;
+}
+
+#mobile-extra-header-height {
+	height: 0;
+}
+
+/* / -------------- Header Settings -----------------  / */
+
+/* Portal header title font settings */
+.header-style {
+	font-family: var(--font-light) !important;
+	font-size: 25px;
+}
+
+/* Set header styling for Payment Portal when in mobile view */
+.header-name {
+	font-weight: 700 !important;
+	font-family: var(--font-light) !important;
+	font-size: 1.5em !important;
+	cursor: pointer;
+	float: left;
+	color: rgba(0, 0, 0, 0.7);
+	margin-left: 15px !important;
+}
+
+/* / -------------- Footer and Sidenav Settings -----------------  / */
+
+/* Footer section styles */
+.footer-body {
+	box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+	background-color: #EEE8AA;
+}
+
+/* Footer icon width */
+.image-bottom {
+	width: 44px;
+}
+
+/* Set styling for the footer text and navbar text but not including the contact number and email address colors */
+
+.footer-help,
+.navbar-text {
+	color: var(--text-color) !important;
+	font-size: 17px !important;
+	font-family: var(--font-light) !important;
+}
+
+/* Hidden sidenav header */
+.mat-drawer-backdrop.mat-drawer-shown {
+	background-color: transparent !important;
+}
+
+/* Sidenav header background color, and box shadow */
+.sidenav-header {
+	border-radius: 0px !important;
+	background-color: rgb(207, 216, 220);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* This is the background color for the help page in navbar */
+.mat-drawer-inner-container {
+	background-color: rgb(233, 150, 122);
+}
+
+/* Set styling for contact number and email address in support contact elements for both web and mobile view */
+.support-style {
+	color: #FF4500;
+}
+
+/** Set the color of the links for //p/a tags when you mouse hover */
+.support-style:hover {
+	color: #008080;
+}
+
+/* / -------------- Stepper Settings -----------------  / */
+
+/* Step header padding */
+.mat-vertical-stepper-header {
+    padding: 24px 12px !important;
+}
+
+/* Margin from each step content */
+.mat-vertical-content-container {
+    margin-left: 24px !important;
+}
+
+.mat-step-text-label {
+	font-size: 17px !important;
+	font-family: var(--font-light) !important;
+	font-weight: 500 !important;
+	color: var(--main-color) !important;
+}
+
+/* This is when the header is not selected */
+.stepper-label {
+	font-size: 17px !important;
+	font-family: var(--font-light) !important;
+	font-weight: 500 !important;
+	color: #9400D3;
+}
+
+/* Selected step label color */
+.mat-step-label-selected p {
+	color: var(--main-color);
+	font-size: 17px !important;
+}
+
+/* Background color for not selected step header icon */
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit,
+.mat-step-header .mat-step-icon {
+    background-color: #FA8072 !important;
+}
+
+/* Background color for selected step header icon */
+.mat-step-header .mat-step-icon-selected {
+    background-color: var(--main-color) !important;
+}
+
+/* / -------------- Response Frame Settings -----------------  / */
+
+/* Server response header styling. This is just below the x icon */
+.response-header {
+	color: #556B2F;
+	font-family: var(--font-light) !important;
+	font-weight: 600;
+}
+
+/* API error header(e.k. error in getting portal configuration) */ 
+.err-header-style {
+	font-family: var(--font-light) !important;
+	font-weight: 600;
+	color: #8A2BE2;
+	font-size: 17px;
+}
+
+/* API error message styling */
+.api-label-error {
+	color: var(--error-color);
+	font-size: 17px;
+	font-family: var(--font-light) !important;
+	font-weight: 600;
+}
+
+/* Make payment error page styling */
+.response-page {
+	font-size: 19px;
+	font-family: var(--font-light) !important;
+}
+
+/* Styling for the 'email sent to' message in the success/error page */
+.email-sent-to {
+	font-family: var(--font-light) !important;
+	font-weight: 600;
+	color: rgba(152, 251, 152, 1);
+	font-size: 16px;
+}
+
+/* / -------------- Make Payment Settings -----------------  / */
+
+/* Set styling for the disabled button for the Make Payment */
+.mat-flat-button.mat-primary[disabled],
+.mat-flat-button.mat-accent[disabled],
+.mat-flat-button.mat-warn[disabled],
+.mat-flat-button[disabled][disabled],
+.mat-raised-button.mat-primary[disabled],
+.mat-raised-button.mat-accent[disabled],
+.mat-raised-button.mat-warn[disabled],
+.mat-raised-button[disabled][disabled],
+.mat-fab.mat-primary[disabled],
+.mat-fab.mat-accent[disabled],
+.mat-fab.mat-warn[disabled],
+.mat-fab[disabled][disabled],
+.mat-mini-fab.mat-primary[disabled],
+.mat-mini-fab.mat-accent[disabled],
+.mat-mini-fab.mat-warn[disabled],
+.mat-mini-fab[disabled][disabled] {
+	background-color: #DC143C !important;
+}
+
+/* Button styling when its not disabled */
+.mat-flat-button.mat-primary,
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary {
+	background-color: var(--main-color) !important;
+	height: 48px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 13px;
+	color: #FFFFF0 !important;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Set the styling for the processing fee when it is showed */
+.processingFeeDiv {
+	width: 90%;
+	text-align: center;
+	background-color: #AFEEEE;
+	color: var(--error-color);
+	border: 1px solid #D2B48C;
+	font-family: var(--font-light) !important;
+	font-size: 15px;
+}
+
+/* Total payment amount */
+.total-amount {
+	font-family: var(--font-light) !important;
+	font-size: 21px;
+	font-weight: 600;
+	color: var(--main-color);
+	margin-right: 26px;
+}
+
+/* Merchant Warrior error message styling */ 
+.error-body {
+	color: var(--error-color);
+	font-family: var(--font-light) !important;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+/* / -------------- Buttons Settings -----------------  / */
+
+/* 'Next' button styles */
+.btn-next.mat-button {
+	background-color: var(--main-color) !important;
+	color: #BDB76B !important;
+	font-size: 13px;
+	padding: 0 15px;
+	font-family: var(--font-semibold) !important;
+}
+
+/* 'Previos' button styles */
+.btn-previous.mat-button {
+	background-color: #FF6347;
+	color: #696969;
+	font-size: 13px;
+	padding: 0 15px;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Last 'Previos' button in the acceptance section */
+.btn-previous-last.mat-button {
+	background-color: #DAA520;
+	color: #FFE4C4;
+	font-size: 14px;
+	height: 48px;
+	padding: 0 15px;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Cancel button */
+.btn-cancel.mat-button {
+	background-color: var(--main-color) !important;
+	height: 48px;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #4682B4 !important;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Submit button */
+.btn-submit.mat-flat-button {
+	background-color: var(--main-color) !important;
+	height: 48px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 14px;
+	color: #D8BFD8 !important;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Confirmation button 'Yes' */
+.btn-yes {
+	margin-right: 10px !important;
+	background-color: var(--main-color);
+	color: #8FBC8F;
+	font-size: 13px;
+	width: 50px;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Confirmation button 'No' */
+.btn-no {
+	background-color: var(--secondary-button-background-color);
+	color: var(--secondary-button-color);
+	font-size: 13px;
+	width: 50px;
+	font-family: var(--font-semibold) !important;
+}
+
+/* Button to remove or add contact */
+.btn-contact {
+	color: var(--text-color);
+	font-size: 13px;
+	width: 185px !important;
+	font-family: var(--font-light) !important;
+}
+
+/* Contact button icon color */
+.btn-contact .mat-icon {
+	color: var(--main-color);
+}
+
+/* Close button for the account number dialog */
+.dialog-button-close {
+	background-color: var(--main-color) !important;
+	color: #FDF5E6 !important;
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+/* 'Try Again' button when submitting the payment or getting the portal configuration has an error */
+.try-again {
+	background-color: var(--main-color);
+	color: #F0E68C;
+	font-size: 14px;
+	font-family: var(--font-semibold) !important;
+}
+
+/* / -------------- Icons Settings -----------------  / */
+
+/* Position for icons in inputs */
+.mat-form-field-suffix {
+	margin-top: auto !important;
+	margin-bottom: 2px !important;
+}
+
+/* Default color for globe icons */
+.icon-style {
+	color: var(--default-icon-color);
+}
+
+/* Color for icon in address search, when invalid google api and address cannot be gotten */
+.clear-icon {
+	color: #6B8E23;
+}
+
+/* Color for help icon */
+.help-icon {
+	color: var(--default-icon-color);
+}
+
+/* Size of close sidenav icon 'x' */
+.mat-icon-close-side-nav {
+	font-size: 40px;
+}
+
+/* Size of open sidenav icon */
+.mat-icon-list-side-nav-content {
+	font-size: 35px;
+}
+
+/* Error styles for datepicker and globe icons */
+.error-date,
+.error-globe-icon {
+	color: var(--error-color) !important;
+}
+
+/* Styles for valid datepicker and globe icons */
+.valid-date,
+.valid-globe-icon {
+	color: var(--main-color) !important;
+}
+
+/* Color for the datepicker icon, if field has a value and it is valid or field is invalid but it is focused */
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float mat-datepicker-toggle path,
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float.ng-invalid.mat-focused mat-datepicker-toggle path {
+	fill: var(--main-color) !important;
+}
+
+/* Color for the datepicker icon, if field has a value and it is invalid */
+mat-form-field.mat-form-field-appearance-legacy.ng-touched.ng-invalid mat-datepicker-toggle path {
+	fill: var(--error-color) !important;
+}
+
+/* / -------------- Spinner Settings -----------------  / */
+
+/* Setting color of the loading spinner */
+.mat-progress-spinner circle,
+.mat-spinner circle {
+	stroke: var(--main-color) !important;
+}
+
+/* Styles for spinner text, which displayed on portal init */
+.spinner-loading-text-style {
+	text-align: center;
+	font-family: var(--font-light) !important;
+	margin-bottom: 80px;
+	margin-left: -20px;
+	margin-top: 15px;
+}
+
+/* Set the background color  of the progress  bar when its on 0% */
+.mat-progress-bar.mat-warn .mat-progress-bar-buffer {
+	background-color: #2E8B57 !important;
+}
+
+
+/* Set the background color of the progress bar when its greater than 0% */
+.mat-progress-bar.mat-warn .mat-progress-bar-fill::after {
+	background-color: var(--main-color) !important;
+}
+
+/* This is the 'Processing payment...' text being displayed */
+.progressBar {
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+	color: #8B4513;
+}
+
+/* / -------------- Form Fields Labels Settings -----------------  / */
+
+/* Default label styling when its not focused */
+.mat-form-field-appearance-legacy .mat-form-field-label,
+.mwPayframeNotFocusedLabel {
+	color: var(--label-color);
+	font-size: 17px;
+	font-family: var(--font-light) !important;
+}
+
+/* Font color for focused invalid label */
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float.ng-invalid.mat-focused
+.mat-form-field-label:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+}
+
+/* Font color for valid label */
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float:not(.ng-invalid):not(.mat-focused):not(.warningInputField) 
+.mat-form-field-label:not(.errorInputLabel) {
+	color: var(--main-color) !important;
+}
+
+/* Font color for invalid and untouched label */
+.mat-form-field.mat-form-field-invalid.ng-untouched .mat-form-field-label {
+	color: var(--label-color);
+}
+
+/* Font color for invalid and touched label */
+.mat-form-field.mat-form-field-invalid.ng-touched .mat-form-field-label {
+	color: var(--error-color) !important;
+}
+
+/* Font color for focused label */
+.mat-form-field.mat-focused .mat-form-field-label {
+	color: var(--main-color) !important;
+}
+
+/* Font color for label in warning state */
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float:not(.mat-form-field-disabled).warningInputField
+.mat-form-field-label:not(.mat-form-field-disabled) {
+	color: var(--warning-color) !important;
+}
+
+/* Font color for floating error label */
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float.ng-invalid.ng-touched .mat-form-field-label {
+	color: var(--error-color) !important;
+}
+
+/* Styling for floating label */
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+	transform: translateY(-1.28125em) !important;
+	font-size: 13px;
+	font-family: var(--font-light) !important;
+}
+
+/* Correcting gap between input value and label */
+.mat-form-field-appearance-legacy .mat-form-field-label {
+	padding-top: 3px !important;
+}
+
+/* / -------------- Form Fields Underlines Settings -----------------  / */
+
+/* Default underline styles */
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+	background-color: var(--text-color);
+}
+
+/* Underline color, when field is invalid, but untouched, so it should be the same as default color */
+.mat-form-field.mat-form-field-invalid.ng-untouched .mat-form-field-underline {
+	background-color: var(--text-color);
+}
+
+/* Underline color for invalid input field (Connection frame)*/
+.errorInputField,
+.mat-form-field.mat-form-field-invalid .errorInputField .mat-form-field-underline { 
+	background-color: var(--error-color) !important;
+}
+
+/* Underline color, when field is invalid and touched, so it should be in the error color */
+.mat-form-field.mat-form-field-invalid.ng-touched .mat-form-field-underline {
+	background-color: var(--error-color) !important;
+}
+
+/* Underline color if input focused */
+.mat-form-field.mat-form-field-should-float.mat-focused .mat-form-field-underline {
+	background-color: var(--main-color) !important;
+}
+
+/* Underline color for filled untouched input fields */
+.mat-form-field-should-float.ng-untouched .mat-form-field-underline {
+	background-color: var(--main-color);
+}
+
+/* Underline color if input focused */
+.mat-form-field.mat-form-field-should-float.mat-focused .mat-form-field-underline {
+	background-color: var(--main-color) !important;
+}
+
+/* Underline color, when field has value, it isn't in error state and it isn't in warning state */
+.mat-form-field.mat-form-field-should-float:not(.ng-invalid):not(.warningInputField)  .mat-form-field-underline:not(.mat-form-field-disabled):not(.errorInputField),
+.mat-form-field.disabled .mat-form-field-underline,
+.mat-form-field-disabled .mat-form-field-underline {
+	background-color: var(--main-color) !important;
+}
+
+/* Color for underline, when field has value and it is in warning state */
+.mat-form-field.mat-form-field-should-float.warningInputField .mat-form-field-underline {
+	background-color: var(--warning-color) !important;
+}
+
+/* Underline pattern on disabled inputs */
+.mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline,
+.disabled .mat-form-field-underline {
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.92) 0,
+		rgba(0, 0, 0, 0.92) 33%,
+		transparent 0
+	);
+}
+
+/* / -------------- Form Fields Checkboxes and Radiobuttons Settings -----------------  / */
+
+/* Hiding svg if checkbox isn't checked */
+.mat-checkbox:not(.mat-checkbox-checked) svg {
+	display: none !important;
+}
+
+/* Checkbox label styling */
+.mat-checkbox {
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+	color: var(--text-color);
+}
+
+/* Color for disabled radiobuttons labels */
+.mat-radio-button.mat-radio-disabled .mat-radio-label-content {
+	color: var(--disabled-color);
+}
+
+/* Color for disabled rediobuttons border */
+.mat-radio-button.mat-radio-disabled .mat-radio-outer-circle {
+	border-color: var(--disabled-color) !important;
+}
+
+/* Default radio buttons and checkboxes border color */
+.mat-radio-outer-circle:not(.error-outer-radio-button),
+.mat-checkbox-frame:not(.errorAuthorization) {
+	border-color: rgba(255, 215, 0, 0.54);
+}
+
+/* Checked checkbox background color */
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-checkbox-checked.mat-accent .mat-checkbox-background,
+.mat-pseudo-checkbox-checked {
+	background-color: var(--main-color) !important;
+}
+
+/* Outer circle color for checked radio button */
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+	border-color: var(--main-color) !important;
+}
+
+/* Inner circle color */
+.mat-radio-button.mat-accent .mat-radio-inner-circle {
+	background-color: var(--main-color) !important;
+}
+
+/* Styles for outer circle, when radiobutton is invalid */
+.mat-radio-group.ng-touched.ng-invalid .mat-radio-outer-circle {
+	border-color: var(--error-color) !important;
+}
+
+/* Border color for invalid checkbox (Applies for account contact, direct debit, acceptance, confirmation checkboxes)*/
+.error-checkbox .mat-checkbox-frame {
+	border-color: var(--error-color) !important;
+}
+
+/* Styles for checkbox, when selection list(e.k. life support equipment) is invalid */
+.mat-selection-list.ng-touched.ng-invalid .mat-pseudo-checkbox {
+	color: var(--error-color);
+}
+
+/* Default border color for selection list(e.k. life support equipment) checkbox */
+.mat-pseudo-checkbox {
+	color: rgba(255, 215, 0, 0.54);
+}
+
+/* / -------------- Other Form Fields Elements Settings -----------------  / */
+
+/* Error hint settings */
+mat-hint {
+	color: var(--error-color) !important;
+	font-family: var(--font-light) !important;
+	font-size: 13px !important;
+	margin-top: 0px !important;
+}
+
+/* Warning hint color */
+.hint-warning {
+	color: var(--warning-color) !important;
+}
+
+/* Color for input and selection values */
+.mat-input-element,
+.mat-select-value,
+.mat-list-base .mat-list-option {
+    color: var(--text-color) !important;
+}
+
+/* Color for disabled input values */
+.mat-input-element:disabled {
+	color: var(--text-color) !important;
+	-webkit-text-fill-color: var(--text-color) !important;
+}
+
+/* Invalid untouched selection input arrow color  */
+.move-in-step-form .mat-form-field.ng-invalid.ng-untouched .mat-select.mat-select-invalid .mat-select-arrow {
+  opacity: 0;
+}
+
+/* Color of focused selection box arrow */
+.mat-form-field.mat-focused.mat-primary .mat-select-arrow {
+    color: var(--main-color);
+}
+
+/* Font settings for radio labels */
+.mat-radio-label {
+	font-size: 17px !important;
+	font-family: var(--font-light) !important;
+}
+
+/* Font settings for list items and options */
+.mat-list-item,
+.mat-option {
+	color: #F4A460 !important;
+	font-size: 17px !important;
+	font-family: var(--font-light) !important;
+}
+
+/* Selected option text */
+.mat-option.mat-selected:not(.mat-option-disabled) {
+    color: var(--main-color) !important;
+}
+
+/* Section value input text */
+.mat-select-value-text {
+	font-family: var(--font-light) !important;
+	font-size: 17px;
+}
+
+/* Font family for all fields, toggle link in address search, <mat-select> */
+.mat-form-field,
+.link-search-address,
+.mat-select {
+	font-family: var(--font-light) !important;
+}
+
+/* Size of gap between input value and underline  */
+.mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0.7em 0;
+}
+
+/* / -------------- Form Values and Fields Settings -----------------  / */
+
+/* Font for additional notes symbols count */
+.note-length {
+	font-family: var(--font-light);
+}
+
+/* Color of link near checkbox */
+.checkbox-container a {
+	color: var(--main-color);
+}
+
+/* Acceptance section information text font settings */
+.acceptance-p {
+	font-family: var(--font-light) !important;
+	font-size: 17px;
+}
+
+/* Color for acceptance navigation links */
+.acceptance-p a {
+	color: var(--main-color);
+}
+
+.lbl-commencement-date,
+.lbl-supply-address,
+.lbl-life-support,
+.lbl-commercial-entity-details,
+.lbl-personal-identification,
+.lbl-notified,
+.lbl {
+	color: var(--text-color);
+	font-family: var(--font-light) !important;
+	font-size: 20px !important;
+}
+
+/* Account contact notifications labels and primary labels */
+.label-primary,
+.notification-style-first-column {
+	color: var(--text-color);
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+/* Font family for container with checkboxes and introduction in account contact section */
+.notification-container {
+	font-family: var(--font-light);
+}
+
+/* Styles for 'Cannot find address' option */
+.cannot-find-address {
+	border-top: 2px solid #FF8C00 !important;
+	background-color: #FFFFE0 !important;
+}
+
+/* Background color for selected day */
+.mat-calendar-body-selected {
+	background-color: var(--main-color);
+}
+
+/* / -------------- Account Number Dialog Settings -----------------  / */
+
+/* Font settings for the text on the top of account number dialog */
+.account-sample-number {
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+/* Backdrop color when clicking the account number sample page */
+.cdk-overlay-dark-backdrop {
+	background-color: #FFFAFA !important;
+}
+
+/* / -------------- Connection Frame and Example Forms Settings -----------------  / */
+
+/* Input label color when its valid */
+.mat-form-field.mat-form-field-should-float .validInputLabel {
+    color: var(--main-color) !important;
+}
+
+/* Underline color if the input is valid */
+.mat-form-field.mat-form-field-should-float .validInput,
+.mat-form-field.mat-form-field-should-float .validInput .mat-form-field-underline {
+	background-color: var(--main-color) !important;
+}
+
+.mat-form-field.mat-form-field-should-float .warningInputField {
+	background-color: var(--warning-color) !important;
+} 
+
+/* Valid input label color */
+.mat-form-field.mat-form-field-should-float:not(.mat-form-field-disabled) .validInputLabel:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+}
+
+/* Progress bar background color, when merchant warrior has an error */
+.errorProgress.mat-warn .mat-progress-bar-fill::after {
+	background-color: var(--error-color) !important;
+}
+
+/* Label color for filled untouched fileds */
+.optionalFieldInputLabel,
+.mat-form-field-should-float.ng-untouched .mat-form-field-label:not(.errorInputLabel) {
+	color: var(--main-color) !important;
+}
+
+/* Underline color for filled optional fields */
+.optionalInput {
+	background-color: var(--main-color) !important;
+}
+
+/* Invalid input label color */
+.errorInputLabel {
+	color: var(--error-color) !important;
+}
+
+/* Focused input label color */
+.labelFocused {
+	color: var(--main-color) !important;
+}
+
+/* Invalid checkboxes and radio buttons borders color */
+.errorAuthorization,
+.error-outer-radio-button {
+    border-color: var(--error-color) !important;
+}
+
+/* Invalid input text color */
+.errorField {
+	color: #808000 !important;
+}
+
+/* / -------------- Uploader Settings -----------------  / */
+
+/* Styles for uploader text */
+app-uploader {
+  font-family: var(--font-light) !important;
+  color: var(--text-color);
+}
+
+/* Connection font style for wrapper */
+.e-upload.e-control-wrapper {
+	font-family: var(--font-light);
+}
+
+/* File name and type color */
+.e-file-name,
+.e-file-type {
+	color: var(--text-color) !important;
+}
+
+/* File size color */
+.e-upload .e-upload-files .e-upload-file-list .e-file-container .e-file-size {
+    color: rgba(199, 21, 133, 0.54) !important;
+}
+
+/* File delete button color */
+.e-upload .e-upload-files .e-file-delete-btn.e-icons {
+	color: #FFF8DC !important;
+}
+
+/* Success file upload text color */
+.e-file-status.e-upload-success {
+	color: #FF00FF !important;
+}
+
+/* Color of validation failed text */
+.e-file-status.e-validation-fails {
+	color: var(--error-color) !important;
+}
+
+/* Style for link in uploader text */
+.upload-file-link {
+	color: var(--main-color);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* Color for result text(File uploaded successfully, Error in file upload), when in error state */
+.uploadfile .mat-error {
+	color: var(--error-color);
+}
+
+/* Uploader border */
+.uploadfile {
+	border:  1px solid rgba(176, 224, 230, 1);
+}
+
+/* Uploader border color in error state*/
+.error-upload-container {
+	border:  1px solid var(--error-color);
+}
+
+/* Progressbar color */
+.e-upload-progress-bar.e-upload-progress {
+	background: #DEB887 !important;
+}
+
+/* Font family for uploaded file container */
+.e-upload .e-upload-files .e-upload-file-list .e-file-container {
+	font-family: var(--font-light);
+}
+
+/* / -------------- Timepicker Settings -----------------  / */
+
+/* Font family for AM/PM label */
+ngb-timepicker {
+	font-family: var(--font-light);
+}
+
+/* Color for arrows */
+ngb-timepicker .btn-link {
+    color: var(--main-color) !important;
+}
+
+/* Border radius for box, where numbers or placeholders(HH, MM or 00, 00 ) are shown*/
+ngb-timepicker .form-control {
+    border-radius: 0 !important;
+}
+
+/* Styles for focused box, where numbers or placeholders(HH, MM or 00, 00 ) are shown*/
+ngb-timepicker .form-control:focus {
+    border-color: var(--main-color) !important;
+    box-shadow: none !important;
+}
+
+/* Styles for button, which toggle AM/PM  */
+ngb-timepicker .btn-outline-primary {
+    width: 60px;
+    height: 30px;
+    border-radius: 0;
+    font-size: 16px;
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+/* Styles for hovered button, which toggle AM/PM  */
+ngb-timepicker .btn-outline-primary:hover {
+    color: #F0FFFF !important;
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+/* Styles for focused button, which toggle AM/PM  */
+ngb-timepicker .btn-outline-primary:focus {
+    box-shadow: none !important;
+}
+
+/* Color of box borders, where hours and minutes located */
+.hours .form-control {
+    border-color: #20B2AA;
+    color: var(--text-color);
+}
+
+/* Color of placeholders(HH, MM), which replace hours and minutes before user pick up exact number */
+.hours .form-control::placeholder {
+    color: #8B0000;
+}
+
+/* / -------------- Media Settings -----------------  / */
+
+/* Background color and header name in mobile view */
+@media screen and (max-width: 515px) {
+	.bodyBackground {
+		background-color: #f5f5f5 !important;
+	}
+
+	.header-name {
+		font-size: 1em !important;
+		margin-top: 10px !important;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.divItem {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/************ BELOW ARE NOT IN THE default portal_config.css BUT WE ARE USING THEM IN THE PORTAL TESTING ************/
+
+/** for the globe icon in the google lookup or ABN/ACN lookup */
+.icon-style {
+	color: #FFDAB9;
+}
+
+/** Set the color of the links for //p/a tags */
+p a {
+	color: #FF4500;
+}
+
+/** Set the color of the links for //p/a tags when you mouse hover */
+p a:hover {
+	color: #008080;
+}
+
+/** Checkbox link in the Direct Debit authorisation and acceptance page checkboxes link */
+.checkbox-container a {
+	color: #FF4500;
+}
+
+/* Set the background color for the div tag in the mat options (e.g. Tenancy Type, Address lookup, etc...) 
+or mat select (e.g. Type of Concession Card, etc...)
+*/
+.mat-autocomplete-panel,
+.mat-select-panel {
+	background: #E6E6FA !important;
+}
+
+/** This is for the n/a under notification types */
+.lbl_p_notified {
+	color: #8B008B !important;
+}
+
+/* Style for the box-shadow of the card of the portal when showing in standalone */
+.mat-card,
+.mat-dialog-container {
+    -webkit-box-shadow: 0 0 10px rgba(102, 205, 170, 1) !important;
+    box-shadow: 0 0 10px rgba(102, 205, 170, 1) !important;
+}
+
+/************ BELOW ARE NOT IN THE default portal_config.css SO WILL COMMENT THEM FOR NOW ************/
+/*
+.e-upload .e-upload-files .e-file-remove-btn.e-icons {
+    color: #CD853F;
+}
+*/
+
+/* This is for the Supply details introduction */
+/*
+.supply-details-introduction {
+	font-size: 17px;
+	font-family: var(--font-light);
+}
+*/
+
+/* Set the input label color when its valid */
+/*
+.mat-form-field.mat-form-field-should-float:not(.mat-form-field-disabled) .validInputLabel:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+}
+
+.mat-form-field-should-float:not(.warningInputField) .mat-form-field-underline {
+    background-color: var(--main-color);
+}
+
+.mat-form-field-can-float .mat-input-server:focus + .mat-form-field-label-wrapper .mat-form-field-label {
+    transform: translateY(-1.34375em) scale(0.83) !important;
+}
+
+.mat-form-field-appearance-legacy.mat-form-field-disabled
+.mat-form-field-underline {	
+    background-image: linear-gradient(to right,
+		rgba(0, 0, 0, 0.92) 0,
+		rgba(0, 0, 0, 0.92) 33%,
+		transparent 0);	
+}
+
+.disabled .mat-form-field-underline {
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.92) 0,
+		rgba(0, 0, 0, 0.92) 33%,
+		transparent 0
+	);
+	background-color: transparent !important;
+}
+
+.mat-form-field-should-float:not(.mat-form-field-disabled).ng-untouched .mat-form-field-underline:not(.mat-form-field-disabled) {
+	background-color: var(--main-color);
+}
+
+.move-in-step-form .mat-form-field.ng-invalid.ng-untouched .mat-form-field-ripple {
+	background-color: rgba(0,0,0,.87);
+	opacity: 0;
+}
+*/
+
+/* caret-color Change the underline color of the field if it is in focused */
+/*
+.mat-form-field.mat-focused .mat-form-field-ripple,
+.labelFocused {
+	background-color: var(--main-color) !important;
+	color: var(--main-color);
+}
+
+.mat-form-field.mat-focused .mat-form-field-label:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+	font-family: var(--font-light) !important;
+}
+*/
+
+/* set the underline color if the input is valid */
+/*
+.mat-form-field.mat-form-field-should-float:not(.mat-form-field-disabled) .valid-input:not(.mat-form-field-disabled) {
+	background-color: var(--main-color) !important;
+}
+*/
+
+/* Change the bottom color of the field when input is invalid */
+/*
+.error-input-field,
+.mat-form-field.mat-form-field-invalid .error-input-field .mat-form-field-ripple {
+    background-color: var(--error-color) !important;
+}
+*/
+
+/* Set font styles for the button for the Make Payment */
+/*
+.mat-flat-button.mat-primary,
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary {
+	color: #fff !important;
+	font-family: var(--font-semibold) !important;
+}
+*/
+
+/* disabled Button when account number is invalid or input is empty */
+/*
+.disabledButtonNext {
+	color: #6A5ACD !important;
+}
+/*
+
+/* navbar header radius to 0px and configure its background color. This is where the icon is placed. */
+/*
+.matCard {
+	border-radius: 0px !important;
+	background-color: rgb(220, 220, 220);
+}
+*/
+
+/*
+.mat-step-header .mat-step-label-selected {
+	color: var(--main-color) !important;
+}
+*/
+
+/* Set the input label color when its has a value and optional */
+/*
+.optionalFieldInputLabel:not(.mat-form-field-disabled),
+.mat-form-field-should-float:not(.mat-form-field-disabled).ng-untouched .mat-form-field-label:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+}
+
+.lbl_electricity_required,
+.notification_style_first_column {
+	color: var(--text-color);
+	font-family: var(--font-light) !important;
+	font-size: 17px !important;
+}
+
+.how_would {
+	font-family: var(--font-light);
+}
+*/
+
+/** For underline of untouched invalid field */
+/*
+.mat-form-field.mat-form-field-invalid.ng-untouched .mat-form-field-ripple {
+	background-color: rgba(0,0,0,.87);
+}
+*/
+
+/** For underline of touched invalid field */
+/*
+.mat-form-field.mat-form-field-invalid.ng-touched .mat-form-field-ripple {
+	background-color: var(--error-color);
+}
+
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float:not(.mat-form-field-disabled):not(.warningInputField)
+.mat-form-field-label:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+}
+
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float.ng-invalid
+.mat-form-field-label {
+	color: var(--error-color) !important;
+}
+
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float.ng-invalid.mat-focused
+.mat-form-field-label:not(.mat-form-field-disabled) {
+	color: var(--main-color) !important;
+}
+
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float
+mat-datepicker-toggle
+path {
+	fill: var(--main-color) !important;
+}
+*/
+
+/** Change date picker icons when in error state */
+/*
+mat-form-field.mat-form-field-appearance-legacy.ng-touched.ng-invalid
+mat-datepicker-toggle
+path {
+	fill: var(--error-color) !important;
+}
+
+mat-form-field.mat-form-field-appearance-legacy.mat-form-field-should-float.ng-invalid.mat-focused
+mat-datepicker-toggle
+path {
+	fill: var(--main-color) !important;
+}
+
+.mat-form-field-should-float:not(.mat-form-field-disabled):not(.warningInputField)  .mat-form-field-underline:not(.mat-form-field-disabled){
+	background-color: var(--main-color) !important;
+}
+*/
+
+/** The underline color when text labels are in read only mode */
+/*
+.mat-form-field.mat-form-field-disabled  .mat-form-field-underline {
+  background-color: var(--main-color) !important;
+}
+
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+	color: var(--main-color);
+}
+
+.mat-card-side-nav {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) !important;
+}
+*/

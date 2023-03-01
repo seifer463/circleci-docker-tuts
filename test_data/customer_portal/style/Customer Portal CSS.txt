@@ -1,0 +1,365 @@
+root.main-color
+= pink
+= #FF7F50
+
+root.text-color
+= darkblue
+= #00008B
+
+root.label-color
+= chocolate
+= #D2691E
+
+root.bg-color
+= azure
+= #F0FFFF
+
+root.error-color
+= teal
+= #008080
+
+default-consumption
+= gold
+= rgb(255,215,0)
+
+default-production
+= darkkhaki
+= rgb(189,183,107)
+
+greenhouse-gas
+= limegreen
+= rgb(50,205,50)
+
+electricity-consumption
+= olive
+= rgb(128,128,0)
+
+electricity-production
+= cyan
+= rgb(0,255,255)
+
+water-consumption
+= darkcyan
+= rgb(0,139,139)
+
+water-production
+= powderblue
+= rgb(176,224,230)
+
+hot-water-consumption
+= dodgerblue
+= rgb(30,144,255)
+
+hot-water-production
+= navy
+= rgb(0,0,128)
+
+cold-water-consumption
+= slateblue
+= rgb(106,90,205)
+
+cold-water-production
+= fuchsia
+= rgb(255,0,255)
+
+thermal-consumption
+= purple
+= rgb(128,0,128)
+
+thermal-production
+= palevioletred
+= rgb(219,112,147)
+
+air-conditioning-consumption
+= mistyrose
+= rgb(255,228,225)
+
+air-conditioning-production
+= sienna
+= rgb(160,82,45)
+
+thermal-chilled-consumption
+= lightcoral
+= rgb(240,128,128)
+
+thermal-chilled-production
+= lemonchiffon
+= rgb(255,250,205)
+
+thermal-hot-water-consumption
+= darkslateblue
+= rgb(72,61,139)
+
+thermal-hot-water-production
+= beige
+= rgb(245,245,220)
+
+.mat-form-field .mat-input-element
+= crimson
+= #DC143C
+
+.mat-form-field.mat-focused .mat-input-element
+= darkseagreen
+= #8FBC8F
+
+.mat-form-field.mat-form-field-invalid:not(.mat-form-field-should-float) .mat-form-field-label
+= blueviolet
+= #8A2BE2
+
+.btn
+= honeydew
+= #F0FFF0
+
+.footer.background-color
+= dimgray
+= #696969
+
+.service .mat-expansion-panel.background-color
+= lavender
+= #E6E6FA
+
+.lock path.fill
+= wheat
+= #F5DEB3
+
+.life-support, .primary-contact.background
+= seashell
+= #FFF5EE
+
+.life-support path.primary-contact path.fill
+= indianred
+= #CD5C5C
+
+.contact-details .primary.color
+= tomato
+= rgb(255,99,71)
+
+.notification svg path.fill
+= peachpuff
+= #FFDAB9
+
+.payment-form .mat-form-field.mat-focused .mat-form-field-ripple.color
+= plum
+= rgb(221,160,221)
+
+.processingFees.background-color
+= ivory
+= #FFFFF0
+
+.processingFees.border
+= darkslategray
+= #2F4F4F
+
+.processingFees.color
+= saddlebrown
+= #8B4513
+
+.custom-tooltip.background-color
+= lightcyan
+= rgb(224,255,255
+
+.custom-tooltip.color
+= goldenrod
+= #2F4F4F
+
+.custom-tooltip::before
+= darkorange
+= rgb(255,140,0)
+
+.btn:hover
+= cornflowerblue
+= #6495ED
+
+.mat-calendar-body-in-range::before
+= bisque
+= rgb(255,228,196)
+
+.mat-form-field-type-mat-date-range-input .mat-form-field-outline-thick
+= darkred
+= rgb(139,0,0)
+
+.matCardWidth
+= mediumvioletred
+= rgb(199,21,133)
+
+.login-form .spinner circle,
+.reset-form .spinner circle,
+.change-form .spinner circle
+= deepskyblue
+= #00BFFF
+
+.shadow
+= coral
+= #FF7F50
+
+.side-nav
+= moccasin
+= #FFE4B5
+
+.side-nav .menu
+= lightgreen
+= #90EE90
+
+.side-nav .mat-expansion-panel
+= steelblue
+= #4682B4
+
+.side-nav .mat-expansion-panel:last-of-type
+= thistle
+= #D8BFD8
+
+.side-shadow
+= tan
+= rgb(210,180,140)
+
+.negative-balance
+= darksalmon
+= #E9967A
+
+.positive-overdue
+= midnightblue
+= #191970
+
+.life-support,
+.primary-contact
+= darkgreen
+= #006400
+
+.contact-details .primary
+= cadetblue
+= rgb(95,158,160)
+
+.contact-details .mat-expansion-panel,
+.service .mat-expansion-panel
+= oldlace
+= #FDF5E6
+
+.notifications
+= mediumpurple
+= #9370DB
+
+.notification .icon-default
+= palegreen
+= #98FB98
+
+.carousel-indicators li
+= sandybrown
+= rgb(244,164,96)
+
+.consumption 
+= mediumslateblue
+= rgb(123,104,238)
+
+.production
+= deeppink
+= rgb(255,20,147)
+
+.comparison
+= mediumspringgreen
+= rgb(0,250,154)
+
+.worse-comparison.color
+= lightgoldenrodyellow
+= rgb(250,250,210)
+
+.worse-comparison.background
+= darkmagenta
+= rgb(139,0,139)
+
+.worse-comparison .icon-default
+= antiquewhite
+= rgb(250,235,215)
+
+.better-comparison.color
+= lavenderblush
+= rgb(255,240,245)
+
+.better-comparison.background
+= silver
+= rgb(192,192,192)
+
+.better-comparison .icon-default
+= yellowgreen
+= rgb(154,205,50)
+
+app-make-payment-dialog .lock
+= firebrick
+= #B22222
+
+.processingFees.background-color
+= papayawhip
+= #FFEFD5
+
+.processingFees.border
+= olivedrab
+= #6B8E23
+
+.processingFees.color
+= black
+= #000000
+
+.progressBar .mat-progress-bar-buffer
+= aliceblue
+= #F0F8FF
+
+.errHeaderStyle
+= green
+= #008000
+
+.apiLabelError
+= paleturquoise
+= #AFEEEE
+
+.collapse-expand .icon-default
+= gainsboro
+= #DCDCDC
+
+.primary-contact-icon
+= orangered
+= #FF4500
+
+.life-support-icon
+= seagreen
+= #2E8B57
+
+.life-support-electricity-icon
+= skyblue
+= #87CEEB
+
+.dialog-header
+= darkviolet
+= #9400D3
+
+table,
+mat-row,
+mat-header-row,
+mat-footer-row,
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell 
+= red
+= rgb(255,0,0)
+
+.mat-checkbox-frame
+= mediumaquamarine
+= rgb(102,205,170)
+
+.btn.mat-button-disabled.background-color
+= lightskyblue
+= rgb(135,206,250)
+
+.btn.mat-button-disabled.color
+= darkolivegreen
+= rgb(85,107,47)
+
+.mat-form-field.mat-form-field-disabled.filled .mat-form-field-underline
+= floralwhite
+= #FFFAF0
+
+.tokenization-result.success .progressBar .mat-progress-bar-fill::after
+= navajowhite
+= rgb(255,222,173)
+
+.tokenization-result.fail .progressBar .mat-progress-bar-fill::after
+= blue
+= rgb(0,0,255)

@@ -1,0 +1,757 @@
+{
+  "LOGIN": {
+    "LABEL": {
+      "TITLE": "{{portalName}} oNlInE PoRtAl lOgIn",
+      "FORGOT_PASSWORD": "fOrGoT PaSsWoRd? FiRsT TiMe uSeR?"
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "eMaIl aDdReSs iS ReQuIrEd fIeLd",
+      "INVALID_EMAIL_ADDRESS": "iNvAlId eMaIl aDdReSs",
+      "REQUIRED_PASSWORD": "pAsSwOrD Is rEqUiReD FiElD"
+    },
+    "PLACEHOLDER": {
+      "EMAIL_ADDRESS": "eMaIl aDdReSs",
+      "PASSWORD": "pAsSwOrD"
+    },
+    "BUTTON": {
+      "LOG_IN": "lOg iN"
+    }
+  },
+  "MISSING_CONFIG": {
+    "HEADER_LABEL": "uNaBlE To lOaD OnLiNe pOrTaL",
+    "MESSAGE_LABEL": "pRoBlEm lOaDiNg tHe cOnFiGuRaTiOn fIlE, pLeAsE ChEcK ThE CoNfIgUrAtIoN FiLe nAmE",
+    "BUTTON_LABEL": "tRy aGaIn"
+  },
+  "RESET_PASSWORD": {
+    "LABEL": {
+      "TITLE": "rEsEt {{portalName}} oNlInE PoRtAl pAsSwOrD",
+      "REMEMBERED_PASSWORD": "rEmEmBeReD YoUr pAsSwOrD?"
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "eMaIl aDdReSs iS ReQuIrEd fIeLd",
+      "INVALID_EMAIL_ADDRESS": "iNvAlId eMaIl aDdReSs"
+    },
+    "PLACEHOLDER": {
+      "EMAIL_ADDRESS": "eMaIl aDdReSs"
+    },
+    "BUTTON": {
+      "SEND_LINK": "sEnD ReSeT LiNk"
+    },
+    "DIALOG": {
+      "SUCCESS_TITLE": "pAsSwOrD ReSeT LiNk",
+      "SUCCESS_CONTENT": "iF An aCtIvE ReGiStRaTiOn iS FoUnD ThE ReSeT LiNk wIlL Be eMaIlEd tO ThE SpEcIfIeD EmAiL AdDrEsS. tHiS MaY TaKe uP To 1 mInUtE."
+    }
+  },
+  "CHANGE_PASSWORD": {
+    "LABEL": {
+      "TITLE": "sEt {{portalName}} oNlInE PoRtAl pAsSwOrD",
+      "UPDATE_TITLE": "uPdAtE {{portalName}} pAsSwOrD",
+      "UPDATE_INTRODUCTION_TEXT": "yOu pAsSwOrD HaS ExPiReD, pLeAsE UpDaTe uSiNg tHe bElOw rEqUiReMeNtS.",
+      "TIP": "yOuR PaSsWoRd lEnGtH MuSt bE At lEaSt {{minPassLength}} cHaRaCtErS LoNg{{included_details}} aNd mUsT NoT CoNtAiN SpAcEs oR EmOjI.",
+      "MUST_CONTAIN": "mUsT CoNtAiN"
+    },
+    "ERROR": {
+      "REQUIRED_PASSWORD": "pAsSwOrD Is rEqUiReD FiElD",
+      "PASSWORD_LENGTH": "pAsSwOrD LeNgTh mUsT Be aT LeAsT {{minPassLength}} ChArAcTeRs lOnG",
+      "WEAK_PASSWORD": "wEaK PaSsWoRd",
+      "PASSWORD_MISMATCH": "pAsSwOrD DoEs nOt mAtCh",
+      "PASSWORD_MUST": "pAsSwOrD MuSt cOnTaIn ",
+      "NEEDS_UPPER_CASE": "aT LeAsT OnE UpPeR CaSe",
+      "NEEDS_LOWER_CASE": "aT LeAsT OnE LoWeR CaSe",
+      "NEEDS_NUMBER": "aT LeAsT OnE NuMbEr",
+      "NEEDS_NON_ALPHA": "aT LeAsT OnE SpEcIaL ChArAcTeR",
+      "MUST_NOT_CONTAIN_SPACES": "pAsSwOrD MuSt nOt cOnTaIn sPaCeS",
+      "MUST_NOT_CONTAIN_EMOJI": "pAsSwOrD MuSt nOt cOnTaIn eMoJi"
+    },
+    "PLACEHOLDER": {
+      "PASSWORD": "pAsSwOrD",
+      "CONFIRM_PASSWORD": "cOnFiRm pAsSwOrD"
+    },
+    "BUTTON": {
+      "SET_PASSWORD": "sEt pAsSwOrD",
+      "UPDATE_PASSWORD": "uPdAtE PaSsWoRd",
+      "PROCEED_LOGIN": "pRoCeEd wItH LoGiN",
+      "LOG_IN": "lOg iN",
+      "TRY_AGAIN": "tRy aGaIn",
+      "REQUEST_AGAIN": "rEqUeSt aGaIn"
+    },
+    "DIALOG": {
+      "SUCCESS": "pAsSwOrD HaS BeEn sUcCeSsFuLlY ReSeT.",
+      "FAIL": "tImE AlLoWeD To cOmPlEtE ThE PaSsWoRd rEsEt hAs eXpIrEd. PlEaSe cOnTaCt cUsToMeR SuPpOrT FoR AsSiStAnCe oR SuBmIt a rEqUeSt fOr aNoThEr pAsSwOrD ReSeT LiNk.",
+      "UPDATE_FAIL": "tHeRe wAs a pRoBlEm uPdAtInG ThE PaSsWoRd. PlEaSe cOnTaCt cUsToMeR SuPpOrT FoR AsSiStAnCe oR TrY AgAiN.",
+      "WEAK_PASSWORD": "pRoViDeD PaSsWoRd iS NoT StRoNg eNoUgH, sUcH As bY CoNtAiNiNg dIcTiOnArY WoRdS Or bEiNg a cOmMoN PaSsWoRd. PlEaSe sPeCiFy a nEw pAsSwOrD.",
+      "INCOMPLETE_LINK": "tHe lInK UsEd tO AcCeSs tHiS PaGe iS InCoMpLeTe. PlEaSe tRy aGaIn bY ClIcKiNg oN ThE LiNk pRoViDeD In tHe pAsSwOrD ReSeT EmAiL. iF YoU CoNtInUe sEeInG ThIs eRrOr, PlEaSe cOnTaCt oUr cUsToMeR SuPpOrT TeAm."
+    }
+  },
+  "HEADER": {
+    "LABEL": {
+      "TITLE": "mY {{portalName}}",
+      "LOGOUT": "lOgOuT",
+      "ACCOUNT": "mY AcCoUnT",
+      "ACCOUNT_SECONDARY_TEXT": "wHaT ArE My aCcOuNt dEtAiLs?",
+      "USAGE": "mY UsAgE",
+      "USAGE_SECONDARY_TEXT": "hOw mUcH Am i uSiNg?",
+      "BILLS": "mY BiLlS",
+      "BILLS_SECONDARY_TEXT": "wHaT WaS I BiLlEd?",
+      "MAKE_PAYMENT": "mAkE A PaYmEnT",
+      "MAKE_PAYMENT_SECONDARY_TEXT": "pAy mY AcCoUnT",
+      "ACCESSING_PORTAL": "yOu aRe aCcEsSiNg pOrTaL As"
+    },
+    "PLACEHOLDER": {
+      "ACCOUNT_DETAILS": "aCcOuNt nUmBeR Or aCcOuNt nAmE...",
+      "TENANCY_ADDRESS": "sErViCe/tEnAnCy aDdReSs ..."
+    },
+    "BUTTON": {
+      "SEARCH_BY": "sEaRcH By",
+      "ACCOUNT": "aCcOuNt",
+      "SERVICES": "sErViCeS"
+    },
+    "OPTIONS": {
+      "MORE_SERVICES": "sHoW {{amountRows}} mOrE SeRvIcEs/tEnAnCy aDdReSsEs...",
+      "MORE_ACCOUNT": "sHoW {{amountRows}} mOrE AcCoUnTs...",
+      "NO_ACCOUNTS_FOUND": "nO AcCoUnTs fOuNd",
+      "NO_SERVICES_FOUND": "nO SeRvIcEs/tEnAnCy aDdReSsEs fOuNd"
+    }
+  },
+  "FOOTER": {
+    "LABEL": {
+      "WEBSITE": "{{portalName}} wEbSiTe"
+    }
+  },
+  "ACCOUNT": {
+    "LABEL": {
+      "COMPANY": "cOmPaNy",
+      "TRADING_NAME": "t/A",
+      "REGISTRATION_NUMBER": "aBn/aCn",
+      "POSTAL_ADDRESS": "pOsTaL AdDrEsS",
+      "DIRECT_DEBIT": "dIrEcT DeBiT",
+      "CONCESSION": "cOnCeSsIoN",
+      "NO_PAYMENT_METHOD": "nOnE EsTaBlIsHeD",
+      "NUMBER_ENDING": "eNdInG",
+      "EXPIRY": "eXpIrEs",
+      "CONCESSION_CARD_EXPIRY": "eXpIrY:",
+      "CREDIT_CARD": "cReDiT CaRd",
+      "CARD_NUMBER": "cArD NuMbEr:",
+      "BANK_ACCOUNT": "bAnK AcCoUnT",
+      "NONE_SPECIFIED": "nOnE SpEcIfIeD",
+      "CLICK_HERE": "cLiCk hErE",
+      "TO_PROVIDE_DIRECT_DEBIT": "tO PrOvIdE DiReCt dEbIt dEtAiLs",
+      "TO_CONCESSION_DETAILS": "tO FiNd oUt aBoUt aVaIlAbLe cOnCeSsIoNs",
+      "CONCESSION_UPDATE_NOT_AVAILABLE": "iF YoU HoLd a vAlId cOnCeSsIoN CaRd aNd yOu aRe tHe pRiMaRy aCcOuNt hOlDeR, yOu cAn oBtAiN FuRtHeR DeTaIlS FrOm oUr wEbSiTe oN HoW To aDvIsE Us oF YoUr cOnCeSsIoN DeTaIlS.",
+      "BSB": "bSb",
+      "ACCOUNT": "aCcOuNt",
+      "SERVICE": "sErViCe",
+      "SERVICES": "sErViCeS",
+      "LIFE_SUPPORT": "lIfE SuPpOrT In uSe",
+      "SERVICE_WITH_CLOSE_DATE": "oPeN FrOm {{openDate}} tO {{closeDate}}",
+      "SERVICE_ONLY_OPEN_DATE": "oPeN SiNcE {{openDate}}",
+      "SERVICE_WITH_FUTURE_DATES": "oPeNiNg fRoM {{openDate}} tO {{closeDate}}",
+      "SERVICE_FUTURE_OPEN_DATE": "oPeNiNg fRoM {{openDate}}",
+      "CONTACT_DETAILS": "aCcOuNt cOnTaCt",
+      "CONTACTS_DETAILS": "aCcOuNt cOnTaCtS",
+      "MAIN_CONTACT": "pRiMaRy",
+      "BUSINESS_HOUR_PHONE": "pHoNe, BuSiNeSs hOuRs",
+      "AFTER_HOUR_PHONE": "pHoNe, AfTeR HoUrS",
+      "MOBILE": "mObIlE",
+      "EMAIL_ADDRESS": "eMaIl aDdReSs",
+      "NOTIFICATIONS": "nOtIfIcAtIoNs",
+      "BILLS": "bIlL DeLiVeRy",
+      "REMINDERS": "rEmInDeRs",
+      "ACCOUNT_ISSUES": "aCcOuNt iSsUeS",
+      "ACCOUNT_CHANGES": "aCcOuNt uPdAtEs",
+      "MARKETING": "mArKeTiNg",
+      "NOTIFICATION_ENABLED": "{{method}} eNaBlEd",
+      "NOTIFICATION_DISABLED": "{{method}} dIsAbLeD",
+      "NOT_AVALIABLE": "{{method}} oPtIoN NoT AvAiLaBlE"
+    },
+    "DEBIT_DIALOG": {
+      "HEADER": "sSl-sEcUrE PaYmEnT GaTeWaY",
+      "SETUP_AUTOMATED_PAYMENT": "sEtUp dIrEcT DeBiT (aUtOmAtEd pAyMeNt) On tHe aCcOuNt?",
+      "UPDATE_AUTOMATED_PAYMENT": "uPdAtE CuRrEnCt dIrEcT DeBiT (aUtOmAtEd pAyMeNt) On tHe aCcOuNt?",
+      "YES": "yEs, A",
+      "BANK_ACCOUNT": "bAnK AcCoUnT",
+      "CREDIT_CARD": "cReDiT CaRd",
+      "REMOVE": "rEmOvE, i wIlL PaY By dUe dAtE",
+      "BANK_ACCOUNT_NAME": "bAnK AcCoUnT NaMe",
+      "ACCOUNT_BSB": "aCcOuNt bSb",
+      "ACCOUNT_NUMBER": "aCcOuNt nUmBeR",
+      "LOADING_PAYFRAME": "cReAtInG SeCuRe aReA FoR CrEdIt cArD EnTrY ... PlEaSe wAiT.",
+      "NAME_ON_CARD": "nAmE On cReDiT CaRd",
+      "CARD_NUMBER": "cReDiT CaRd nUmBeR",
+      "CARD_EXPIRES": "cReDiT CaRd eXpIrEs",
+      "CURRENT_DETAILS": [
+        "aCcOuNt cUrReNt hAs tHe fOlLoWiNg",
+        "dIrEcT DeBiT DeTaIlS SpEcIfIeD:"
+      ],
+      "CONFIRM_REMOVE": [
+        "yEs, I CoNfIrM ThAt aBoVe",
+        "dIrEcT DeBiT DeTaIlS ArE To bE ReMoVeD FrOm tHe aCcOuNt aNd i wIlL PaY BiLlS WhEn tHaY FaLl dUe."
+      ],
+      "ALSO_APPLY": "aPpLy tHe dIrEcT DeBiT (aUtOmAtEd pAyMeNt) ChAnGe tO AlL {{count}} aCcOuNtS YoU HaVe aCcEsS To?",
+      "YES_APPLY": "yEs, ApPlY ThE ChAnGe tO AlL {{count}} aCcOuNtS",
+      "NO_APPLY": "nO, oNlY ApPlY ThE AbOvE ChAnGe tO ThE CuRrEnT AcCoUnT",
+      "SECURING": ["sEcUrInG", "dEtAiLs ... pLeAsE WaIt."],
+      "ALSO_REMOVE": "aLsO ReMoVe aNy dIrEcT DeBiT (aUtOmAtEd pAyMeNt) On aLl {{count}} aCcOuNtS YoU HaVe aCcEsS To?",
+      "YES_REMOVE": "yEs, ReMoVe aNy dIrEcT DeBiT SpEcIfIeD On aLl {{count}} aCcOuNtS",
+      "NO_REMOVE": "nO, oNlY ReMoVe tHe dIrEcT DeBiT FrOm tHe cUrReNt aCcOuNt",
+      "REMOVING": ["rEmOvInG", "dEtAiLs ... pLeAsE WaIt."],
+      "ADD_DETAILS": "aDd dEtAiLs",
+      "UPDATE_DETAILS": "uPdAtE DeTaIlS",
+      "REMOVE_DETAILS": "rEmOvE DeTaIlS",
+      "EDIT_CREDIT_CARD": "eDiT CrEdIt cArD DeTaIlS",
+      "CANCEL_EDITING": "cAnCeL CrEdIt cArD EdItInG",
+      "SUCCESS_CREDIT_CARD": "cReDiT CaRd dEtAiLs hAvE BeEn sUcCeSsFuLlY SeCuReD.",
+      "SUCCESS_CREDIT_CARD_FOR_ALL": "cReDiT CaRd dEtAiLs hAvE BeEn sUcCeSsFuLlY SeCuReD FoR AlL {{count}} aCcOuNtS.",
+      "FAIL_CREDIT_CARD": "cReDiT CaRd dEtAiLs cOuLd nOt bE SeCuReD DuE To {{message}}.",
+      "FAIL_CREDIT_CARD_FOR_ALL": "cReDiT CaRd dEtAiLs cOuLd nOt bE SeCuReD FoR AlL {{failedCount}} aCcOuNtS DuE To {{message}}.",
+      "WARNING_CREDIT_CARD": "cReDiT CaRd dEtAiLs hAvE BeEn sUcCeSsFuLlY SeCuReD FoR {{count}} aCcOuNtS.\nfAiLeD To sEcUrE DeTaIlS FoR FoLlOwInG {{failedCount}} aCcOuNtS: ",
+      "SUCCESS_BANK_ACCOUNT": "bAnK AcCoUnT DeTaIlS HaVe bEeN SuCcEsSfUlLy sEcUrEd.",
+      "SUCCESS_BANK_ACCOUNT_FOR_ALL": "bAnK AcCoUnT DeTaIlS HaVe bEeN SuCcEsSfUlLy sEcUrEd fOr aLl {{count}} aCcOuNtS.",
+      "FAIL_BANK_ACCOUNT": "bAnK AcCoUnT DeTaIlS CoUlD NoT Be sEcUrEd dUe tO {{message}}.",
+      "FAIL_BANK_ACCOUNT_FOR_ALL": "bAnK AcCoUnT DeTaIlS CoUlD NoT Be sEcUrEd fOr aLl {{failedCount}} aCcOuNtS DuE To {{message}}.",
+      "WARNING_BANK_ACCOUNT": "bAnK AcCoUnT DeTaIlS HaVe bEeN SuCcEsSfUlLy sEcUrEd fOr {{count}} aCcOuNtS.\nfAiLeD To sEcUrE DeTaIlS FoR FoLlOwInG {{failedCount}} aCcOuNtS: ",
+      "SUCCESS_REMOVE": "dIrEcT DeBiT DeTaIlS HaVe bEeN SuCcEsSfUlLy rEmOvEd.",
+      "SUCCESS_REMOVE_FOR_ALL": "dIrEcT DeBiT DeTaIlS HaVe bEeN SuCcEsSfUlLy rEmOvEd fOr aLl {{count}} aCcOuNtS.",
+      "FAIL_REMOVE": "dIrEcT DeBiT DeTaIlS CoUlD NoT Be rEmOvEd dUe tO {{message}}.",
+      "FAIL_REMOVE_FOR_ALL": "dIrEcT DeBiT DeTaIlS CoUlD NoT Be rEmOvEd fOr aLl {{count}} aCcOuNtS DuE To {{message}}.",
+      "WARNING_REMOVE": "dIrEcT DeBiT DeTaIlS HaVe bEeN SuCcEsSfUlLy rEmOvEd fOr {{count}} aCcOuNtS.\nfAiLeD To rEmOvE DeTaIlS FoR FoLlOwInG {{failedCount}} aCcOuNtS: ",
+      "METHOD_ERROR": "mAkInG AnY ChAnGe tO ThE DiReCt dEbIt iS CuRrEnTlY NoT AlLoWeD, pLeAsE CoNtAcT CuStOmEr sUpPoRt.",
+      "AUTH_ERROR_TITLE": "aUtHeNtIcAtIoN ErRoR",
+      "AUTH_ERROR_CONTENT": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd bEcAuSe {{message}}.<br>pLeAsE, lOg iNtO ThE SyStEm aGaIn.",
+      "AUTH_ERROR_PARAGRAPH": "yOu cUrReNtLy aRe nOt aUtHoRiSeD To aCcEsS ThE FaIlEd aCcOuNt(s). pLeAsE LoGiN AgAiN.",
+      "ERROR": {
+        "REQUIRED_FIELD": "rEqUiReD FiElD",
+        "BSB_LENGTH": "aCcOuNt bSb sHoUlD Be 6 dIgItS LoNg",
+        "ACCOUNT_NUMBER_LENGTH": "aCcOuNt nUmBeR ShOuLd bE At lEaSt 6 dIgItS LoNg",
+        "BANK_ACCOUNT_CARD_NUMBER": "wE HaVe dEtEcTeD ThAt a cReDiT CaRd nUmBeR HaS BeEn eNtErEd. ThIs sEcTiOn iS OnLy fOr bAnK AcCoUnTs. If yOu wOuLd lIkE To pAy bY CrEdIt cArD, pLeAsE SeLeCt tHe cReDiT CaRd pAyMeNt oPtIoN.",
+        "BANK_ACCOUNT_NUMBERS_ONLY": "iNvAlId vAlUe"
+      },
+      "TOOLTIPS": {
+        "EDIT": "eDiT",
+        "ADD_CONCESSION": "aDd",
+        "ADD_DIRECT_DEBIT": "aDd dIrEcT DeBiT"
+      }
+    },
+    "CONCESSION_DIALOG": {
+      "HEADER": "cOnCeSsIoN",
+      "PLACEHOLDERS": {
+        "CARD_HOLDER_NAME": "cArD HoLdEr nAmE",
+        "CARD_TYPE": "tYpE Of cOnCeSsIoN CaRd",
+        "CARD_HOLDER_NUMBER": "cArD HoLdEr nUmBeR",
+        "EXPIRY_DATE": "eXpIrY (mM/YyYy)",
+        "TYPE_OF_CONCESSION_CARD": "tYpE Of cOnCeSsIoN CaRd"
+      },
+      "TOOLTIPS": {
+        "EDIT": "eDiT",
+        "ADD": "aDd"
+      },
+      "ERROR_LABEL": {
+        "REQUIRED_CARDHOLDER": "rEqUiReD FiElD",
+        "NO_CARD_TYPE_SELECTED": "iNcOrReCt cOnCeSsIoN CaRd nUmBeR",
+        "CONCESSION_ERROR": "pRoBlEm oBtAiNiNg cOnCeSsIoN TyPeS FoR ThE SuPpLy aDdReSs. SeLeCt nO AbOvE AnD MeNtIoN In tHe sPeCiAl nOtEs sEcTiOn bElOw tHaT YoU WeRe uNaBlE To aDd cOnCeSsIoN DeTaIlS",
+        "REQUIRED_CARD_TYPE": "rEqUiReD FiElD",
+        "REQUIRED_CONCESSION_NUMBER": "rEqUiReD FiElD",
+        "INVALID_EXPIRY_DATE": "iNvAlId dAtE",
+        "REQUIRED_CONCESSION_EXPIRY": "rEqUiReD FiElD"
+      },
+      "AGREE": "yEs, I AgReE",
+      "NOT_AGREE": " nO, i dO NoT AgReE",
+      "FILE_COUNT_EXCEED": "uNaBlE To uPlOaD AlL ReQuEsTeD FiLeS As mAxImUm aLlOwAbLe fIlEs iS",
+      "FILE_DUPLICATE_FOUND": "cAnNoT Be uPlOaDeD As tHeY AlReAdY ArE PrEsEnT. pLeAsE ReMoVe tHeSe eXiStInG FiLeS AnD UpLoAd aGaIn",
+      "SUBMIT": "sUbMiT",
+      "UPLOADER": {
+        "SUCCESS": "fIlE UpLoAdEd sUcCeSsFuLlY",
+        "FAIL": "fAiLeD To uPlOaD",
+        "FILE_EXCEEDED": ["eRrOr: FiLe sIzE ExCeEdS", "mB"],
+        "INVALID_TYPE": "fIlE TyPe iS NoT AlLoWeD",
+        "DELETE": "dElEtE",
+        "REMOVE": "rEmOvE",
+        "CANCEL": "aBoRt"
+      },
+      "CONFIRM_DIALOG": {
+        "DELETE_IMAGE_CONFIRMATION": "aRe yOu sUrE YoU WoUlD LiKe tO ReMoVe tHiS FiLe?",
+        "LABEL": {
+          "YES": "yEs",
+          "NO": "nO",
+          "DRAG_AND_DROP": [
+            "dRaG-AnD-DrOp fIlE HeRe oR",
+            "cLiCk tO BrOwSe fOr fIlE",
+            "tO UpLoAd"
+          ]
+        },
+        "UPLOAD_CONCESSION_FILE": "a sCaN Or pIcTuRe oF YoUr cOnCeSsIoN CaRd",
+        "LOADING_FILES": "lOaDiNg fIlEs..."
+      }
+    }
+  },
+  "ACCOUNT_CONTACT": {
+    "TITLE": {
+      "ADD_CONTACT": "aDd aUtHoRiSeD CoNtAcT",
+      "EDIT_MAIN_CONTACT": "eDiT AcCoUnT HoLdEr",
+      "EDIT_OTHER_CONTACT": "eDiT AuThOrIsEd cOnTaCt"
+    },
+    "INTRODUCTION_TEXT": {
+      "ADD_CONTACT": "aDdInG SoMeOnE YoU TrUsT To mAnAgE YoUr aCcOuNt wIlL EnAbLe tHeM To mAkE EnQuIrIeS Or uPdAtE InFoRmAtIoN On yOuR BeHaLf.",
+      "EDIT_MAIN_CONTACT": "",
+      "EDIT_OTHER_CONTACT": "hAvInG SoMeOnE YoU TrUsT To mAnAgE YoUr aCcOuNt wIlL EnAbLe tHeM To mAkE EnQuIrIeS Or uPdAtE InFoRmAtIoN On yOuR BeHaLf."
+    },
+    "TITLE_NOTIFICATION": {
+      "ADD_CONTACT": "wHaT NoTiFiCaTiOnS Is tHe aUtHoRiSeD CoNtAcT To rEcEiVe?",
+      "EDIT_MAIN_CONTACT": "wHaT NoTiFiCaTiOnS Is tHe aCcOuNt hOlDeR To rEcEiVe?",
+      "EDIT_OTHER_CONTACT": "wHaT NoTiFiCaTiOnS Is tHe aUtHoRiSeD CoNtAcT To rEcEiVe?"
+    },
+    "NOTIFICATION_NOT_AVAILABLE": "n/A",
+    "ERROR": {
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "FIRSTNAME_INVALID": "iNvAlId fIrSt nAmE",
+      "LASTNAME_INVALID": "iNvAlId lAsT NaMe",
+      "INVALID_EMAIL": "iNvAlId eMaIl aDdReSs",
+      "INVALID_PHONE_NUMBER": "iNvAlId pHoNe nUmBeR"
+    },
+    "PLACEHOLDER": {
+      "FIRST_NAME": "fIrSt nAmE",
+      "LAST_NAME": "lAsT NaMe",
+      "EMAIL": "eMaIl (ThIs wIlL AlSo cHaNgE ThE PoRtAl lOgIn eMaIl fOr tHiS CoNtAcT)",
+      "MOBILE_PHONE_NUMBER": "mObIlE PhOnE NuMbEr",
+      "BUSINESS_PHONE_NUMBER": "bUsInEsS HoUr pHoNe nUmBeR",
+      "AFTER_PHONE_NUMBER": "aFtEr hOuRs pHoNe nUmBeR"
+    },
+    "BUTTON": {
+      "ADD_CONTACT": "aDd cOnTaCt",
+      "EDIT_CONTACT": "uPdAtE CoNtAcT"
+    },
+    "TOOLTIPS": {
+      "EDIT": "eDiT",
+      "ADD": "aDd aUtHoRiSeD CoNtAcT",
+      "POSTAL": "pOsTaL",
+      "EMAIL": "eMaIl",
+      "SMS": "sMs"
+    },
+    "DIALOG": {
+      "SUCCESS_ADD": "sUcCeSsFuLlY AdDeD ThE NeW CoNtAcT To tHe aCcOuNt",
+      "SUCCESS_UPDATE": "sUcCeSsFuLlY UpDaTeD ThE CoNtAcT"
+    },
+    "LOADING": "sAvInG AcCoUnT CoNtAcT ... PlEaSe wAiT",
+    "NOTHING_CHANGED":"nOtHiNg hAs bEeN SaVeD AnD NoNe oF ThE DeTaIlS HaVe cHaNgEd"
+  },
+  "ACCESS_LOG_DIALOG": {
+    "TITLE": "nOtHiNg hAs bEeN SaVeD AnD NoNe oF ThE DeTaIlS HaVe cHaNgEd",
+    "LINK_LABEL": "aCcEsS AcTiViTy",
+    "BUTTON": "dIsPlAy mOrE LoGs ...",
+    "IP_ADDRESS": "iP AdDrEsS:",
+    "NO_LOGS": "tHe aCcOuNt cUrReNtLy hAs nO AcCeSs lOgS.",
+    "PORTAL_PASSWORD_RESET_REQUEST": "pAsSwOrD ReSeT WaS ReQuEsTeD",
+    "PORTAL_PASSWORD_UPDATE": "pAsSwOrD WaS UpDaTeD",
+    "PORTAL_LOGIN_SUCCESS": "sUcCeSsFuLlY LoGgEd-iN",
+    "PORTAL_LOGIN_FAILURE": "lOgIn fAiLeD",
+    "PORTAL_ACCESS_ENABLE": "pOrTaL AcCeSs wAs eNaBlEd",
+    "PORTAL_ACCESS_LOCK": "pOrTaL AcCeSs wAs lOcKeD"
+  },
+  "LIFE_SUPPORT_DIALOG": {
+    "TITLE": "lIfE SuPpOrT",
+    "TEXT_INTRO": "iF YoU Or a mEmBeR Of yOuR HoUsEhOlD DePeNd oN ElEcTrIcItY FoR LiFe sUpPoRt eQuIpMeNt, YoU NeEd tO LeT Us kNoW. yOu cAn lEt uS KnOw bY ReGiStErInG YoUr dEvIcE BeLoW.<br><br>oNcE We hAvE ReGiStErEd yOu fOr lIfE SuPpOrT, wE WiLl aDvIsE YoUr lOcAl eNeRgY DiStRiBuToR AnD SeNd yOu a mEdIcAl cOnFiRmAtIoN FoRm aNd pRaCtIcAl aDvIcE On wHaT To dO In tHe eVeNt oF A PoWeR FaIlUrE Or iNtErRuPtIoN (pLaNnEd oR UnPlAnNeD).<br><br>yOu wIlL NeEd tO CoMpLeTe tHe mEdIcAl cOnFiRmAtIoN FoRm, HaVe yOuR MeDiCaL PrAcTiTiOnEr sIgN It aNd tHeN ReTuRn iT To uS.<br><br>iS AnYoNe aT ThIs pRoPeRtY DePeNdS On eLeCtRiCiTy fOr lIfE SuPpOrT EqUiPmEnT?",
+    "OPTION_YES": "yEs",
+    "OPTION_NO": "nO",
+    "SUBMIT": "uPdAtE LiFe sUpPoRt",
+    "SELECT_EQUIPMENT": "pLeAsE SeLeCt oNe oR MoRe lIfE SuPpOrT DeViCeS In-uSe:",
+    "LOADING": "uPdAtInG LiFe sUpPoRt dEtAiLs ... pLeAsE WaIt",
+    "SUCCESS_UPDATE": "sUcCeSsFuLlY UpDaTeD LiFe sUpPoRt dEtAiLs",
+    "UNSUCCESS_UPDATE": "uPdAtInG FaIlEd...",
+    "LIFE_SUPPORT_EQUIPMENT": {
+      "OXYGEN CONCENTRATOR": "oXyGeN CoNcEnTrAtOr",
+      "INTERMITTENT PERITONEAL DIALYSIS MACHINE": "iNtErMiTtEnT PeRiToNeAl dIaLySiS MaChInE",
+      "HAEMODIALYSIS MACHINE": "hAeMoDiAlYsIs mAcHiNe",
+      "CHRONIC POSITIVE AIRWAYS PRESSURE RESPIRATOR": "cHrOnIc pOsItIvE AiRwAyS PrEsSuRe rEsPiRaToR",
+      "CRIGLER NAJJAR SYNDROME PHOTOTHERAPY EQUIPMENT": "cRiGlEr nAjJaR SyNdRoMe pHoToThErApY EqUiPmEnT",
+      "VENTILATOR FOR LIFE SUPPORT": "vEnTiLaToR FoR LiFe sUpPoRt",
+      "OTHER": "oThEr"
+    },
+    "ERROR_LABEL": {
+      "INSTALLED_EQUIPMENT_OTHER": "sPeCiFy tHe nAmE Of tHe eQuIpMeNt"
+    }
+  },
+  "USAGE": {
+    "LABEL": {
+      "SERVICE": "sErViCe",
+      "SERVICES": "sErViCeS",
+      "NO_SERVICES": "nO SeRvIcE AtTaChEd tO AcCoUnT.",
+      "LIFE_SUPPORT": "lIfE SuPpOrT In uSe",
+      "NOVE_OUT_TOOLTIP": "sUbMiT MoVe-oUt rEqUeSt",
+      "MOVE_OUT_ADDITIONAL_NOTE": "aLsO MoViNg oUt oF ",
+      "SERVICE_WITH_CLOSE_DATE": "oPeN FrOm {{openDate}} tO {{closeDate}}",
+      "SERVICE_ONLY_OPEN_DATE": "oPeN SiNcE {{openDate}}",
+      "CONSUMPTION": "cOnSuMpTiOn",
+      "PRODUCTION": "pRoDuCtIoN",
+      "AVERAGE_CONS_PROD": "aVeRaGe cOnSuMpTiOn / pRoDuCtIoN",
+      "AVERAGE_CONS": "aVeRaGe cOnSuMpTiOn",
+      "AVERAGE_PROD": "aVeRaGe pRoDuCtIoN",
+      "AVG_DAILY_CONSUMPTION": "aVg mOnThLy cOnSuMpTiOn",
+      "AVG_DAILY_PRODUCTION": "aVg mOnThLy pRoDuCtIoN",
+      "AVG_DAILY_CONSUMPTION_AND_PRODUCTION": "aVg mOnThLy cOnSuMpTiOn / pRoDuCtIoN",
+      "GREENHOUSE_GAS": "gReEnHoUsE GaS",
+      "INVOICE": "iNvOiCe",
+      "ISSUED_DUE": "iSsUeD {{issueDate}} aNd dUe {{dueDate}}",
+      "BILLED": "bIlLeD",
+      "BILLED_PERIOD": "fRoM {{startDate}} tO {{endDate}}",
+      "NO_DATA": "tHe sErViCe hAs nOt bEeN BiLlEd yEt.",
+      "CONSUMPTION_SNAPSHOT": "yOuR CoNsUmPtIoN SnApShOt",
+      "PRODUCTION_SNAPSHOT": "yOuR PrOdUcTiOn sNaPsHoT",
+      "RECENT_BILL": "mOsT ReCeNt bIlL",
+      "COMPARE_BILL": "sAmE MoNtH LaSt yEaR BiLl",
+      "RECENT_MONTHLY": "yOuR MoSt rEcEnT AvErAgE MoNtHlY",
+      "NOT_CHANGED": "hAs nOt cHaNgEd",
+      "IS_NOTHING": "iS NoThInG",
+      "SIGNIFICANTLY_HIGHER": "sIgNiFiCaNtLy hIgHeR",
+      "LESS": "lEsS",
+      "MORE": "mOrE",
+      "SIGNIFICANTLY_LESS": "sIgNiFiCaNtLy lEsS",
+      "SIGNIFICANTLY_MORE": "sIgNiFiCaNtLy mOrE",
+      "COMPARED_TO_LAST": "cOmPaReD To sAmE MoNtH LaSt yEaR.",
+      "COMPARED_NOT_AVAILABLE": "sAmE MoNtH LaSt yEaR Is nOt aVaIlAbLe fOr cOmPaRiSoN."
+    },
+    "SERVICES": {
+      "WATER": "wAtEr",
+      "ELECTRICITY": "eLeCtRiCiTy",
+      "THERMAL_CHILLED": "aIr cOnDiTiOnInG",
+      "AIR_CONDITIONING": "aIr cOnDiTiOnInG",
+      "THERMAL_HOT_WATER": "hOt wAtEr",
+      "HOT_WATER": "hOt wAtEr",
+      "COLD_WATER": "cOlD WaTeR",
+      "THERMAL": "tHeRmAl",
+      "GAS": "gAs"
+    },
+    "BUTTON": {
+      "MOVE_OUT": "mOvE OuT",
+      "LIFE_SUPPORT": "lIfE SuPpOrT"
+    }
+  },
+  "SUMMARY": {
+    "LABEL": {
+      "LAST_INVOICE_BALANCE": "lAsT InVoIcE BaLaNcE",
+      "SINCE_LAST_INVOICE": "aMoUnT SiNcE LaSt iNvOiCe",
+      "CURRENT_ACCOUNT_BALANCE": "cUrReNt aCcOuNt bAlAnCe",
+      "TOTAL_OVERDUE": "aMoUnT OvErDuE",
+      "LAST_INVOICE_BALANCE_TOOLTIP": "aMoUnT ThAt wAs sHoWn oN ThE LaSt iNvOiCe tHaT WaS IsSuEd.",
+      "SINCE_LAST_INVOICE_TOOLTIP": "aMoUnT (cHaRgEs, CrEdItS, pAyMeNtS AnD ReFuNdS) aPpLiEd tO ThE AcCoUnT AfTeR ThE LaSt iNvOiCe wAs iSsUeD.",
+      "CURRENT_ACCOUNT_BALANCE_TOOLTIP": "tOtAl aMoUnT OwInG On tHe aCcOuNt cUrReNtLy.",
+      "TOTAL_OVERDUE_TOOLTIP": "aMoUnT ReMaInS UnPaId aFtEr iT WaS DuE As aT ToDaY.",
+      "NOT_AVALIABLE": "-",
+      "CREDIT": "cR"
+    }
+  },
+  "BILLS": {
+    "LABEL": {
+      "HISTORY": "aCcOuNt hIsToRy",
+      "DOWNLOADS": "dOwNlOaDs",
+      "DOWNLOAD_STATEMENT": "dOwNlOaD AcCoUnT StAtEmEnT",
+      "DOWNLOAD_HISTORY": "dOwNlOaD TrAnSaCtIoN HiStOrY",
+      "DOWNLOAD_INVOICES": "dOwNlOaD MuLtIpLe iNvOiCeS",
+      "CANCELLED": "cAnCeLlEd"
+    },
+    "TABLE": {
+      "DATE": "dAtE",
+      "TYPE": "tYpE",
+      "DESCRIPTION": "dEsCrIpTiOn",
+      "DUE_DATE": "dUe dAtE",
+      "AMOUNT": "aMoUnT",
+      "BALANCE": "bAlAnCe",
+      "DOWNLOAD_TOOLTIP": "dOwNlOaD BiLl",
+      "BILL_EXTENSION": "bIlL ExTeNsIoN",
+      "DISPLAY_MORE": "dIsPlAy mOrE TrAnSaCtIoNs ...",
+      "RETRIEVING_MORE": "rEtRiEvInG TrAnSaCtIoNs ...",
+      "REFERENCE": "rEfErEnCe",
+      "NO_DATA": "aCcOuNt cUrReNtLy hAs nO TrAnSaCtIoNs.",
+      "EXTENDEND_TO": ["eXtEnDeNd", "tO"]
+    },
+    "DIALOG": {
+      "TITLE": ["sElEcT ThE DaTe rAnGe fOr wHiCh", "tO Be dOwNlOaDeD"],
+      "TRANSACTION_HISTORY": "tRaNsAcTiOn hIsToRy",
+      "BILLS": "bIlLs",
+      "ACCOUNT_STATEMENT": "aCcOuNt sTaTeMeNt",
+      "RANGE": {
+        "LAST_6": "lAsT 6 MoNtHs",
+        "LAST_12": "lAsT 12 mOnThS",
+        "THIS_YEAR": "tHiS YeAr",
+        "LAST_YEAR": "lAsT YeAr",
+        "THIS_FINANCIAL": "cUrReNt fInAnCiAl yEaR",
+        "LAST_FINANCIAL": "lAsT FiNaNcIaL YeAr",
+        "CUSTOM": "dAtE RaNgE"
+      },
+      "SELECT_DATE_RANGE": "eNtEr a cUsToM DaTe rAnGe",
+      "FROM_DATE": "fRoM DaTe",
+      "TO_DATE": "tO DaTe",
+      "DOWNLOADING": ["dOwNlOaDiNg", "... pLeAsE WaIt."],
+      "TRANSACTIONS": "tRaNsAcTiOnS",
+      "INVOICES": "iNvOiCeS",
+      "SUCCESS": ["sUcCeSsFuLlY DoWnLoAdEd", "fOr tHe rEqUeStEd pErIoD."],
+      "NO_DATA": ["nO", "hAvE BeEn fOuNd fOr tHe rEqUeStEd pErIoD."],
+      "NO_ACCOUNT_STATEMENT": "nO AcCoUnT TrAnSaCtIoN FoUnD FoR ThE ReQuEsTeD PeRiOd fOr wHiCh aN StAtEmEnT CoUlD Be pRoViDeD.",
+      "IS": "iS",
+      "ARE": "aRe",
+      "FROM": "fRoM",
+      "ALL_OF": "aLl oF",
+      "FY": "fY",
+      "DATE_REQUIRED": "cHoOsE DaTe rAnGe",
+      "INVALID_DATE_RANGE": "dAtE RaNgE Is iNvAlId"
+    },
+    "TRANSACTION_TYPE": {
+      "ADJ": "aDjUsTmEnT",
+      "BNV": "uTiLiTy bIlL",
+      "DCS": "dIsCoUnT",
+      "INV": "iNvOiCe",
+      "PAY": "pAyMeNt",
+      "RFD": "rEfUnD",
+      "CHG": "cHaRgE"
+    },
+    "BUTTON": {
+      "PAY": "pAy",
+      "DOWNLOAD": "dOwNlOaD"
+    },
+    "BILL_EXTENSION": {
+      "TITLE": "bIlL ExTeNsIoN",
+      "CONTENT": "sElEcT ThE DaTe tO WhIcH YoU WoUlD LiKe tO ExTeNd tHe\nbIlL DuE DaTe tO (cAnNoT ReQuEsT LoNgEr tHaN FoUr wEeKs)",
+      "ONE_WEEK": "oNe wEeK (bIlL ExTeNdEd tO {{inOneWeek}})",
+      "TWO_WEEK": "tWo wEeKs (BiLl eXtEnDeD To {{inTwoWeek}})",
+      "SPECIFY_DATA": "sPeCiFy dAtE",
+      "EXTEND_TO": "eXtEnD To {{dateFormat}}",
+      "ERROR": {
+        "DATE_IS_INVALID": "dAtE Is iNvAlId",
+        "REQUIRED_FIELD": "rEqUiReD FiElD"
+      },
+      "BUTTON": {
+        "SUBMIT": "sUbMiT"
+      },
+      "LOADING": {
+        "UPDATING_DUE_DATE": "rEqUeStInG BiLl eXtEnSiOn... PlEaSe wAiT.",
+        "MESSAGE": {
+          "IS_DONE": "sUcCeSsFuLlY ExTeNdEd tHe dUe tHaT On tHe sElEcTeD BiLl",
+          "ERROR": "aN ErRoR HaS OcCuRrEd"
+        }
+      },
+      "NO_FURTHER_EXTENSION": "<p class='content content-title'>nO FuRtHeR ExTeNsIoNs aRe aVaIlAbLe fOr tHe sElEcTeD BiLl, PlEaSe gEt iN ToUcH WiTh uS.</p>",
+      "ADDITIONAL": ""
+    }
+
+  },
+  "MAKE_PAYMENT": {
+    "LABEL": {
+      "LOADING": "lOaDiNg sEcUrE PaYmEnT ArEa ... pLeAsE WaIt",
+      "PAYMENT_AMOUNT": "pAyMeNt aMoUnT",
+      "EMAIL_CHECKBOX": "eMaIl a pAyMeNt rEcEiPt",
+      "EMAIL": "eMaIl aDdReSs (SePaRaTe mUlTiPlE EmAiLs wItH A CoMmA)",
+      "TOTAL": "tOtAl",
+      "PROCESSING_FEE": "pRoCeSsInG FeE Of {{fee}} iS ApPlIcAbLe. A ToTaL Of {{amount}} wIlL Be pRoCeSsEd",
+      "PROGRESS_BAR": "pRoCeSsInG PaYmEnT...",
+      "SECURE_PAYMENT": "sSl-sEcUrE PaYmEnT GaTeWaY",
+      "LARGE_AMOUNT_CHECKBOX": "lArGe pAyMeNt aMoUnT DeTeCtEd, TiCk tO CoNfIrM ThE AmOuNt iS CoRrEcT"
+    },
+    "ERROR": {
+      "MINIMUM_AMOUNT": "mInImUm oF {{amount}} rEqUiReD",
+      "INVALID_ACCOUNT_NUMBER": "aCcOuNt nUmBeR Is iNvAlId",
+      "INVALID_PAYMENT_AMOUNT": "pAyMeNt aMoUnT Is iNvAlId",
+      "REQUIRED_ACCOUNT_NUMBER": "aCcOuNt nUmBeR Is rEqUiReD",
+      "REQUIRED_EMAIL_ADDRESS": "eMaIl aDdReSs iS ReQuIrEd",
+      "INVALID_EMAIL_ADDRESS": "tHeSe eMaIl aDdReSsEs aRe iNvAlId",
+      "API_MW_DETAILS_403": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd aS We cOuLd nOt vErIfY SuPpLiEd dEtAiLs. PlEaSe tRy aGaIn bUt iF ThIs pRoBlEm pErSiSt pLeAsE CoNtAcT CuStOmEr sErViCe tO CoMpLeTe tHe pAyMeNt",
+      "API_MW_DETAILS_500": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd dUe tO TeChNiCaL DiFfIcUlTiEs. PlEaSe tRy aGaIn bUt iF ThIs pRoBlEm pErSiSt pLeAsE CoNtAcT CuStOmEr sErViCe tO CoMpLeTe tHe pAyMeNt",
+      "API_MW_DETAILS_400": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd dUe tO TeChNiCaL DiFfIcUlTiEs. PlEaSe tRy aGaIn bUt iF ThIs pRoBlEm pErSiSt pLeAsE CoNtAcT CuStOmEr sErViCe tO CoMpLeTe tHe pAyMeNt"
+    },
+    "BUTTON": {
+      "MAKE_PAYMENT": "mAkE PaYmEnT"
+    },
+    "DIALOG": {
+      "CLIENT_ERROR_TITLE": "sUpPlIeD DeTaIlS ErRoR",
+      "CLIENT_ERROR_CONTENT": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd aS We cOuLd nOt vErIfY SuPpLiEd dEtAiLs.<Br>pLeAsE TrY AgAiN BuT If tHiS PrObLeM PeRsIsT PlEaSe cOnTaCt cUsToMeR SeRvIcE To cOmPlEtE ThE PaYmEnT.",
+      "SERVER_ERROR_TITLE": "sErVeR ErRoR",
+      "SERVER_ERROR_CONTENT": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd dUe tO TeChNiCaL DiFfIcUlTiEs.<br>pLeAsE TrY AgAiN BuT If tHiS PrObLeM PeRsIsT PlEaSe cOnTaCt cUsToMeR SeRvIcE To cOmPlEtE ThE PaYmEnT.",
+      "AUTH_ERROR_TITLE": "aUtHeNtIcAtIoN ErRoR",
+      "AUTH_ERROR_CONTENT": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd bEcAuSe oF AuThEnTiCaTiOn dEtAiLs eRrOr.<Br>pLeAsE, lOg iNtO ThE SyStEm aGaIn."
+    }
+  },
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "nAmE On cArD",
+      "CARD_NUMBER": "cArD NuMbEr",
+      "CARD_EXPIRY": "eXpIrY (mM/Yy)",
+      "CARD_CVV": "cVv"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "cArD HoLdEr nAmE Is rEqUiReD",
+      "CARD_HOLDER_LENGTH_MIN": "cArD HoLdEr nAmE Is tOo sHoRt",
+      "CARD_HOLDER_LENGTH_MAX": "cArD HoLdEr nAmE Is tOo lOnG",
+      "CARD_NUMBER_REQUIRED": "cArD NuMbEr iS ReQuIrEd",
+      "CARD_NUMBER_LENGTH_MIN": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_LENGTH_MAX": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_VALID_CARD": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_NOT_SUPPORTED": "sPeCiFiEd cArD TyPe iS NoT AcCePtEd",
+      "CARD_EXPIRY_REQUIRED": "cArD ExPiRy iS ReQuIrEd",
+      "CARD_EXPIRY_INVALID": "cArD ExPiRy iS InVaLiD",
+      "CARD_EXPIRY_EXPIRED": "cArD HaS ExPiReD",
+      "CARD_CVV_REQUIRED": "cVv rEqUiReD",
+      "CARD_CVV_LENGTH_MIN": "cVv iNvAlId",
+      "CARD_CVV_LENGTH_MAX": "cVv iNvAlId"
+    },
+    "DIALOG": {
+      "WAIT": "pRoCeSsInG PaYmEnT... pLeAsE WaIt.",
+      "SUCCESS": "pAyMeNt sUcCeSsFuLlY PrOcEsSeD",
+      "FAIL": "pAyMeNt fAiLeD... {{message}}",
+      "FAIL_DETAILS_EMAIL": "fAiLeD PaYmEnT DeTaIlS HaS BeEn eMaIlEd tO<br>{{emails}}.",
+      "SUCCESS_DETAILS_EMAIL": "pAyMeNt rEcEiPt hAs bEeN EmAiLeD To<br>{{emails}}."
+    }
+  },
+  "DIALOG": {
+    "ERROR": "eRrOr",
+    "TOKEN_IS_EXPIRED": "pAsSwOrD ReSeT ToKeN HaS ExPiReD, pLeAsE SuBmIt aNoThEr pAsSwOrD ReSeT ReQuEsT To oBtAiN An aCtIvE ReSeT ToKeN",
+    "UPDATE_TOKEN_IS_EXPIRED": "pAsSwOrD ReSeT ToKeN HaS ExPiReD, pLeAsE SuBmIt aNoThEr lOgIn rEqUeSt tO ObTaIn aN AcTiVe rEsEt tOkEn",
+    "TOKEN_INVALID": "pAsSwOrD ReSeT ToKeN Is iNvAlId, PlEaSe sUbMiT AnOtHeR PaSsWoRd rEsEt rEqUeSt tO ObTaIn aN AcTiVe rEsEt tOkEn",
+    "UPDATE_TOKEN_INVALID": "pAsSwOrD ReSeT ToKeN Is iNvAlId, PlEaSe sUbMiT AnOtHeR LoGiN ReQuEsT To oBtAiN An aCtIvE ReSeT ToKeN",
+    "PREVIOUS_SESSION_TITLE": "pReViOuS SeSsIoN EnDeD",
+    "PREVIOUS_SESSION_CONTENT": "yOuR PrEvIoUs pOrTaL SeSsIoN ThAt wAs sTiLl aCtIvE HaS BeEn aUtOmAtIcAlLy eNdEd, OnLy tHe cUrReNt oNe wIlL ReMaIn aCtIvE",
+    "CLIENT_ERROR_TITLE": "nO DeTaIlS",
+    "CLIENT_ERROR_CONTENT": "wE CoUlD NoT FiNd aNy dEtAiLs iN ThE SyStEm tHaT MaTcHeD.<br>pLeAsE, lOg iNtO ThE SyStEm aGaIn.",
+    "ACCESS_ERROR_TITLE": "aCcEsS NoT AvAiLaBlE",
+    "ACCESS_ERROR_CONTENT": "yOu cUrReNtLy aRe nOt aUtHoRiSeD To aCcEsS ThE SpEcIfIeD DeTaIlS ReQuEsTeD. pLeAsE LoGiN AgAiN.",
+    "SERVER_ERROR_TITLE": "sErVeR ErRoR",
+    "SERVER_ERROR_CONTENT": "yOuR ReQuEsT CoUlD NoT Be cOmPlEtEd dUe tO TeChNiCaL DiFfIcUlTiEs. PlEaSe, TrY AgAiN.<br>iF ThE PrObLeM PeRsIsTs cOnTaCt cUsToMeR SeRvIcE.",
+    "INTERNET_CONNECTION_ERROR_TITLE": "iNtErNeT CoNnEcTiOn eRrOr",
+    "INTERNET_CONNECTION_ERROR_CONTENT": "pRoBlEm lOgIn, LoOkS LiKe yOu dOn’t hAvE InTeRnEt cOnNeCtIoN.<br>pLeAsE FiX YoUr iNtErNeT CoNnEcTiOn bEfOrE TrYiNg aGaIn.",
+    "LOGIN_ERROR_TITLE": "iNcOrReCt lOg iN DeTaIlS PrOvIdEd",
+    "LOGIN_ERROR_CONTENT": "tHe eMaIl aDdReSs aNd pAsSwOrD PrOvIdEd iS InCoRrEcT.",
+    "LOGIN_ERROR_UPDATE_TITLE": "wE'Re mAkInG 'mY AcCoUnT' sAfEr fOr yOu",
+    "LOGIN_ERROR_UPDATE_CONTENT": "tO KeEp oUr cUsToMeRs 'mY AcCoUnT' iNfOrMaTiOn sEcUrE, wE'Ve cHaNgEd tHe rEqUiReMeNtS FoR AlL 'mY AcCoUnT' pAsSwOrDs. ThEsE NeW ReQuIrEmEnTs wIlL HeLp kEeP YoUr iNfOrMaTiOn sAfE AnD SeCuRe.",
+    "EMPTY_ACCOUNTS_LIST_TITLE": "nO AcCoUnTs",
+    "EMPTY_ACCOUNTS_LIST_CONTENT": "cUrReNtLy yOu dO NoT HaVe aCcEsS To aNy aCcOuNt.<br>pLeAsE, cOnTaCt cUsToMeR SeRvIcE FoR AsSiStAnCe.",
+    "EMPTY_PERMISSIONS_LIST_TITLE": "nO PeRmIsSiOnS",
+    "EMPTY_PERMISSIONS_LIST_CONTENT": "cUrReNtLy yOu dO NoT HaVe pErMiSsIoNs.<br>pLeAsE, cOnTaCt cUsToMeR SeRvIcE FoR AsSiStAnCe.",
+    "TRANSACTION_INCOMPLETE_TITLE": "tRaNsAcTiOn iS NoT CoMpLeTeD",
+    "TRANSACTION_INCOMPLETE_CONTENT": "pLeAsE, wAiT UnTiL TrAnSaCtIoN Is cOmPlEtE.",
+    "SERVICE_CLOSING_TITLE": "mOvE-OuT ReQuEsT",
+    "SERVICE_CLOSING_CONENT": "Would you also like to close the{{other}} oPeN SeRvIcE?",
+    "SERVICES_CLOSING_CONENT": "wOuLd yOu aLsO LiKe tO ClOsE ThE{{other}} oPeN SeRvIcEs?",
+    "SESSION_ENDED_TITLE": "cUrReNt sEsSiOn eNdEd",
+    "SESSION_ENDED_CONTENT": "yOuR CuRrEnT PoRtAl sEsSiOn hAs eNdEd eItHeR BeCaUsE It eXpIrEd oR BeCaUsE AnOtHeR AcTiVe sEsSiOn wAs cReAtEd.",
+    "ACCOUNT_MODIFY_ERROR_TITLE": "pRoBlEm uPdAtInG CoNtAcT",
+    "ACCOUNT_MODIFY_ERROR_BODY": "tHe cOnTaCt cOuLd nOt bE UpDaTeD. pLeAsE CoNtAcT CuStOmEr sUpPoRt tO HeLp yOu wItH YoUr rEqUeSt.",
+    "CONTACT_UPDATE_ERROR_NO_ACCESS_TO_RELATED_ACCOUNT": "tHe cOnTaCt tHaT Is bEiNg eDiTeD HaS AcCeSs tO An aCcOuNt tHaT YoU Do nOt hAvE AcCeSs tO. pLeAsE CoNtAcT CuStOmEr sUpPoRt tO HeLp yOu wItH YoUr rEqUeSt.",
+    "CONTACT_UPDATE_ERROR_SIMILAR_CONTACT_EXISTS": "cOnTaCt tHaT Is tRyInG To bE AdDeD AlReAdY ExIsTs, PlEaSe cOnTaCt uS FoR FuRtHeR AsSiStAnCe.",
+    "BUTTON": {
+      "GOT_IT": "gOt iT!",
+      "YES": "yEs",
+      "NO": "nO"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PAGE_TITLE": "mY {{title}} aCcOuNt",
+      "CLOSE_MESSAGE": "tHiS WiNdOw/tAb iS No lOnGeR ReQuIrEd,<br/>fOr pRiVaCy rEaSoNs wE EnCoUrAgE YoU To cLoSe iT",
+      "LOADING_CONFIG": "lOaDiNg cUsToMeR PoRtAl cOnFiGuRaTiOn ...",
+      "PROGRESS_BAR_SUBMIT": "sUbMiTtInG YoUr rEqUeSt...",
+      "PROGRESS_BAR_LONG_RESPONSE": "sUbMiTtInG YoUr rEqUeSt iS TaKiNg a bIt lOnGeR ThAn eXpEcTeD. sOrRy fOr tHe dElAy, PlEaSe dO NoT ClOsE ThIs wInDoW",
+      "HEADER": "cUsToMeR ReQuEsT",
+      "TRY_AGAIN": "tRy aGaIn",
+      "IDLE_TIME": [
+        "yOu hAvE BeEn iNaCtIvE FoR",
+        "fOr pRiVaCy rEaSoNs tHiS FoRm wIlL AuToMaTiCaLlY Be cLeArEd iN"
+      ],
+      "NEXT": "nExT",
+      "PREVIOUS": "pReViOuS"
+    },
+    "ERROR": {
+      "PORTALCONFIG_ERROR": "pRoBlEm oBtAiNiNg cOnFiGuRaTiOn fIlE ... PlEaSe tRy aGaIn sHoRtLy."
+    },
+    "PAYMENT": {
+      "CONTACT_SUPPORT": ["nEeD HeLp? CaLl uS On", "oR EmAiL Us aT"]
+    }
+  },
+  "WALKTHROUGH": {
+    "STEPS": {
+      "SEARCH_BAR": {
+        "TITLE": "sEaRcH BaR",
+        "BODY": "sEaRcH HeRe iF YoU HaVe mUlTiPlE AcCoUnTs."
+      },
+      "MOBILE_SEARCH_BAR": {
+        "TITLE": "sEaRcH BaR",
+        "BODY": "sEaRcH HeRe iF YoU HaVe mUlTiPlE AcCoUnTs."
+      },
+      "LAST_INVOICE_BALANCE": {
+        "TITLE": "lAsT InVoIcE BaLaNcE",
+        "BODY": "tOtAl fOr yOuR LaSt iNvOiCe."
+      },
+      "SINCE_LAST_INVOICE": {
+        "TITLE": "aMoUnT SiNcE LaSt iNvOiCe",
+        "BODY": "tOtAl pAyMeNtS AnD CrEdItS SiNcE YoUr lAsT InVoIcE."
+      },
+      "CURRENT_ACCOUNT_BALANCE": {
+        "TITLE": "cUrReNt aCcOuNt bAlAnCe",
+        "BODY": "tOtAl aCcOuNt bAlAnCe, CoMbInAtIoN Of lAsT InVoIcE AnD NeW ChArGeS."
+      },
+      "TOTAL_OVERDUE": {
+        "TITLE": "aMoUnT OvErDuE",
+        "BODY": "aMoUnT Of yOuR AcCoUnT BaLaNcE ThAt iS CuRrEnTlY OvErDuE."
+      },
+      "BUTTON_PAY": {
+        "TITLE": "pAy bUtToN",
+        "BODY": "cLiCk hErE If yOu wAnT To pAy yOuR OvErDuE AmOuNt nOw."
+      },
+      "OPEN_DIRECT_DEBIT_DIALOG": {
+        "TITLE": "dIrEcT DeBiT",
+        "BODY": "cLiCk hErE To aDd, EdIt oR ReMoVe yOuR DiReCt dEbIt."
+      },
+      "EDIT_CONCESSION_CARD": {
+        "TITLE": "cOnCeSsIoN CaRd",
+        "BODY": "cLiCk hErE FoR MoRe iNfOrMaTiOn oN YoUr cOnCeSsIoN."
+      },
+      "ADD_CONCESSION_CARD": {
+        "TITLE": "cOnCeSsIoN CaRd",
+        "BODY": "cLiCk hErE To aDd cOnCeSsIoN CaRd dEtAiLs."
+      },
+      "OPEN_DIALOG_ACCOUNT_CONTACT": {
+        "TITLE": "aDd cOnTaCt",
+        "BODY": "cLiCk hErE To aDd a nEw cOnTaCt tO ThIs aCcOuNt."
+      },
+      "EDIT_PRIMARY_ACCOUNT_CONTACT": {
+        "TITLE": "eDiT AcCoUnT HoLdEr",
+        "BODY": "cLiCk hErE To eDiT AcCoUnT HoLdEr cOnTaCt."
+      },
+      "EDIT_SECONDARY_ACCOUNT_CONTACT": {
+        "TITLE": "eDiT AuThOrIsEd cOnTaCt",
+        "BODY": "cLiCk hErE To eDiT An aUtHoRiSeD CoNtAcT."
+      },
+      "LIFE_SUPPORT_BUTTON": {
+        "TITLE": "lIfE SuPpOrT",
+        "BODY": "cLiCk hErE To aDd lIfE SuPpOrT DeTaIlS FoR ThIs sErViCe."
+      },
+      "MOVE_OUT_BUTTON": {
+        "TITLE": "mOvE OuT",
+        "BODY": "cLiCk hErE To cOmPlEtE A MoVe oUt fOr tHiS SeRvIcE."
+      },
+      "COLLAPSE_EXPAND": {
+        "TITLE": "eXpAnD SeRvIcE",
+        "BODY": "cLiCk hErE To eXpAnD ThIs sErViCe aNd sEe mOrE InFoRmAtIoN LiKe uSaGe aNd tOtAl cOnSuMpTiOn."
+      },
+      "DOWNLOADS": {
+        "TITLE": "dOwNlOaDs",
+        "BODY": "cLiCk hErE To dOwNlOaD An aCcOuNt sTaTeMeNt, TrAnSaCtIoN HiStOrY Or mUlTiPlE InVoIcEs."
+      }
+    },
+    "RELEASE": {
+      "A": ["SEARCH_BAR", "MOBILE_SEARCH_BAR", "COLLAPSE_EXPAND", "PROFILE"],
+      "B": ["DOWNLOADS", "MOVE_OUT_BUTTON"],
+      "C": ["SINCE_LAST_INVOICE"],
+      "D": [
+        "BUTTON_PAY",
+        "TOTAL_OVERDUE",
+        "CURRENT_ACCOUNT_BALANCE",
+        "LAST_INVOICE_BALANCE",
+        "OPEN_DIRECT_DEBIT_DIALOG"
+      ],
+      "E": [
+        "OPEN_DIALOG_ACCOUNT_CONTACT",
+        "EDIT_ACCOUNT_CONTACT",
+        "ADD_CONCESSION_CARD",
+        "EDIT_CONCESSION_CARD",
+        "LIFE_SUPPORT_BUTTON"
+      ]
+    }
+  }
+}

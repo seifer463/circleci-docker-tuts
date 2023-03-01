@@ -1,0 +1,261 @@
+--root.main-color
+= darkorange
+= #FF8C00
+
+--root.text-color
+= green
+= #008000
+
+--root.disabled-color
+= cyan
+= rgb(0,255,255)
+
+--root.label-color
+= fuchsia
+= #FF00FF
+= rgb(255,0,255)
+
+--root.error-color
+= darkblue
+= #00008B
+
+--root.warning-color
+= rosybrown
+= #BC8F8F
+
+--default-icon-color:
+= indianred
+= #CD5C5C
+
+--secondary-button-color
+= maroon
+= #800000
+
+--secondary-button-background-color
+= lime
+= #00FF00
+
+.mat-card, .mat-dialog-container-webkit-box-shadow
+= chocolate
+= rgb(210,105,30)
+
+.mat-card, .mat-dialog-container.box-shadow
+= chocolate
+= rgb(210,105,30)
+
+.e-upload .e-upload-files .e-upload-file-list .e-file-container .e-file-size
+= mediumvioletred
+= rgb(199,21,133)
+
+.e-upload .e-upload-files .e-file-remove-btn.e-icons
+= peru
+= #CD853F
+
+.bodyBackground
+= lavenderblush
+= #FFF0F5
+
+.processingFeeDiv.background-color
+= paleturquoise
+= #AFEEEE
+
+.processingFeeDiv.border
+= tan
+= #D2B48C
+
+.btn-previous.background-color
+= tomato
+= #FF6347
+
+.btn-previous.color
+= dimgray
+= #696969
+
+.btn-previous-last.background-color
+= goldenrod
+= #DAA520
+
+.btn-previous-last.color
+= bisque
+= #FFE4C4
+
+.cannot-find-address.border-top
+= darkorange
+= #FF8C00
+
+.cannot-find-address.background-color
+= lightyellow
+= #FFFFE0
+
+.btn-cancel.color
+= steelblue
+= #4682B4
+
+.btn-submit.color
+= thistle
+= #D8BFD8
+
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit,
+.mat-step-header .mat-step-icon
+= salmon
+= #FA8072
+
+.footer-body
+= palegoldenrod
+= #EEE8AA
+
+.response-header
+= darkolivegreen
+= #556B2F
+
+.err-header-style
+= blueviolet
+= #8A2BE2
+
+.mat-radio-outer-circle:not(.error-outer-radio-button),
+.mat-checkbox-frame:not(.errorAuthorization),
+.mat-pseudo-checkbox 
+= gold
+= rgb(255,215,0)
+
+.progressBar
+= saddlebrown
+= #8B4513
+
+.mat-progress-bar.mat-warn .mat-progress-bar-buffer
+= seagreen
+= #2E8B57
+
+.hours .form-control
+= lightseagreen
+= #20B2AA
+
+.hours .form-control::placeholder
+= darkred
+= #8B0000
+
+.mat-flat-button.mat-primary[disabled],
+.mat-flat-button.mat-accent[disabled],
+.mat-flat-button.mat-warn[disabled],
+.mat-flat-button[disabled][disabled],
+.mat-raised-button.mat-primary[disabled],
+.mat-raised-button.mat-accent[disabled],
+.mat-raised-button.mat-warn[disabled],
+.mat-raised-button[disabled][disabled],
+.mat-fab.mat-primary[disabled],
+.mat-fab.mat-accent[disabled],
+.mat-fab.mat-warn[disabled],
+.mat-fab[disabled][disabled],
+.mat-mini-fab.mat-primary[disabled],
+.mat-mini-fab.mat-accent[disabled],
+.mat-mini-fab.mat-warn[disabled],
+.mat-mini-fab[disabled][disabled]
+= crimson
+= #DC143C
+
+.mat-flat-button.mat-primary,
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary
+= color
+= ivory
+= #FFFFF0
+
+.btn-next
+= darkkhaki
+= #BDB76B
+
+.btn-yes
+= darkseagreen
+= #8FBC8F
+
+.disabledButtonNext
+= slateblue
+= #6A5ACD
+
+.dialog-button-close
+= oldlace
+= #FDF5E6
+
+.cdk-overlay-dark-backdrop
+= snow
+= #FFFAFA
+
+.icon-style
+= peachpuff
+= #FFDAB9
+
+.clear-icon
+= olivedrab
+= #6B8E23
+
+.e-file-status.e-upload-success
+= magenta
+= #FF00FF
+
+.e-upload-progress-bar.e-upload-progress
+= burlywood
+= #DEB887
+
+.mat-drawer-inner-container
+= darksalmon
+= rgb(233,150,122)
+
+.matCard
+= gainsboro
+= rgb(220,220,220)
+
+.stepper-label
+= darkviolet
+= #9400D3
+
+.mat-autocomplete-panel
+= lavender
+= #E6E6FA
+
+.uploadfile 
+= powderblue
+= rgb(176,224,230)
+
+p a
+= orangered
+= #FF4500
+
+.checkbox-container a
+= orangered
+= #FF4500
+
+p a:hover
+= teal
+= #008080
+
+.lbl_p_notified
+= darkmagenta
+= #8B008B
+
+.try-again
+= khaki
+= #F0E68C
+
+.errorField
+= olive
+= #808000
+
+.e-upload .e-upload-files .e-file-delete-btn.e-icons
+= cornsilk
+= #FFF8DC
+
+ngb-timepicker .btn-outline-primary:hover
+= azure
+= #F0FFFF
+
+email-sent-to
+= palegreen
+= #98FB98
+= rgb(152,251,152)
+
+-webkit-box-shadow, box-shadow
+= mediumaquamarine
+= #66CDAA
+= rgb(102,205,170)

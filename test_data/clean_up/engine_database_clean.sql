@@ -1,0 +1,174 @@
+/** CLEAN THE ENGINE DATABASE */
+
+SET NAMES utf8;
+SET SQL_MODE='';
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO';
+SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;
+
+TRUNCATE bbdef_account_category;
+TRUNCATE bbdef_atb_periods;
+TRUNCATE bbdef_collection_strategies_charges;
+TRUNCATE bbdef_collection_strategies_stages;
+TRUNCATE bbdef_collection_strategies;
+TRUNCATE bbdef_service_point_category;
+TRUNCATE bbdef_payment_plan_strategies;
+TRUNCATE bbdef_payment_plan_strategies_stages;
+TRUNCATE bbdef_metering_cpd_dates;
+TRUNCATE bbdef_metering_tou_elements;
+TRUNCATE bbdef_metering_tou;
+TRUNCATE bbdef_general_ledger_accounts;
+TRUNCATE bbdef_notifications_strategies;
+
+TRUNCATE bbref_daylight_savings;
+TRUNCATE bbref_daylight_savings_elements;
+TRUNCATE bbref_public_holidays;
+TRUNCATE bbref_public_holidays_elements;
+TRUNCATE bbref_loss_factors;
+TRUNCATE bbdef_entity_attributes;
+
+TRUNCATE bbsnp_account_balance;
+TRUNCATE bbsnp_account_transactions;
+TRUNCATE bbsnp_site_addresses;
+TRUNCATE bbsnp_metering_summary;
+TRUNCATE bbeng_bills_delivery_status_map;
+TRUNCATE bbeng_bills_delivery_status;
+TRUNCATE bbeng_bills_generation_artifacts_map;
+TRUNCATE bbeng_bills_generation_artifacts;
+TRUNCATE bbeng_bills_generation_events;
+TRUNCATE bbeng_bills_generation_requirements;
+TRUNCATE bbeng_bills_generation;
+TRUNCATE bbeng_bills_artifacts_map;
+TRUNCATE bbeng_bills_artifacts;
+TRUNCATE bbeng_bills_charges_interests_details;
+TRUNCATE bbeng_bills_charges_rebate_details;
+TRUNCATE bbeng_bills_charges_rated_quantity;
+TRUNCATE bbeng_bills_charges_rated;
+TRUNCATE bbeng_bills_charges_fixed;
+TRUNCATE bbeng_bills_charges;
+TRUNCATE bbeng_bills;
+
+TRUNCATE bbeng_bills_consumptions_tariffs;
+TRUNCATE bbeng_bills_consumptions;
+TRUNCATE bbeng_bills_consumption_map;
+TRUNCATE bbeng_bills_summaries;
+
+TRUNCATE bbeng_banking_records_allocation;
+TRUNCATE bbeng_banking_records;
+TRUNCATE bbeng_banking_processing;
+TRUNCATE bbeng_banking_download;
+
+TRUNCATE bbeng_account_notifications_events;
+TRUNCATE bbeng_account_notifications;
+
+TRUNCATE bbeng_account_collection_events;
+TRUNCATE bbeng_account_collections;
+TRUNCATE bbeng_account_payment_plan_schedule;
+TRUNCATE bbeng_account_payment_plan;
+
+TRUNCATE bbeng_billers_payment_methods;
+TRUNCATE bbeng_billers_responsibilities;
+TRUNCATE bbeng_billers_banking_charges;
+TRUNCATE bbeng_billers_ddebit_charges;
+TRUNCATE bbeng_billers_ddebit_details;
+TRUNCATE bbeng_billers_payment_gateway;
+TRUNCATE bbeng_billers_banking;
+TRUNCATE bbeng_billers;
+
+TRUNCATE bbeng_account_transactions_audit;
+TRUNCATE bbeng_account_transactions;
+TRUNCATE bbeng_account_service_points_demand;
+TRUNCATE bbeng_account_service_points_attribute;
+TRUNCATE bbeng_account_service_points_audit;
+TRUNCATE bbeng_account_service_points;
+TRUNCATE bbeng_account_ddebit_regular_events;
+TRUNCATE bbeng_account_ddebit_regular_audit;
+TRUNCATE bbeng_account_ddebit_regular;
+TRUNCATE bbeng_account_ddebit_details_audit;
+TRUNCATE bbeng_account_ddebit_details;
+TRUNCATE bbeng_account_ddebit_history;
+TRUNCATE bbeng_account_concession_cards_audit;
+TRUNCATE bbeng_account_concession_cards;
+TRUNCATE bbeng_account_details;
+
+TRUNCATE bbeng_ddebit_batch;
+
+TRUNCATE bbeng_charge_profiles_linked; 
+TRUNCATE bbeng_charge_profiles_items;
+TRUNCATE bbeng_charge_profiles;
+
+TRUNCATE bbeng_metering_consumptions_elements;
+TRUNCATE bbeng_metering_consumptions;
+TRUNCATE bbeng_metering_reading_indices_elements;
+TRUNCATE bbeng_metering_reading_indices;
+TRUNCATE bbeng_metering_reading_intervals;
+TRUNCATE bbeng_metering_processing;
+
+TRUNCATE bbeng_metering_schedule_config_meters_audit;
+TRUNCATE bbeng_metering_schedule_config_meters;
+TRUNCATE bbeng_metering_schedule_config_locations_audit;
+TRUNCATE bbeng_metering_schedule_config_locations;
+TRUNCATE bbeng_metering_schedule_config_sites_audit;
+TRUNCATE bbeng_metering_schedule_config_sites;
+
+TRUNCATE bbeng_service_points_meters_states;
+
+TRUNCATE bbeng_service_points_meters;
+TRUNCATE bbeng_service_points_attributes;
+TRUNCATE bbeng_service_points;
+TRUNCATE bbeng_meters;
+
+TRUNCATE bbeng_template_property_attributes;
+TRUNCATE bbeng_template_properties;
+
+TRUNCATE bbeng_site_collections;
+TRUNCATE bbeng_site_profiles_audit;
+TRUNCATE bbeng_site_profiles;
+TRUNCATE bbeng_site_attributes;
+TRUNCATE bbeng_site_details;
+
+TRUNCATE bbeng_metering_schedule_tasks_events;
+TRUNCATE bbeng_metering_schedule_indices_elements;
+TRUNCATE bbeng_metering_schedule_indices;
+TRUNCATE bbeng_metering_schedule_meters;
+TRUNCATE bbeng_metering_manager_task;
+TRUNCATE bbeng_metering_schedule_artifacts;
+TRUNCATE bbeng_metering_schedule_tasks;
+TRUNCATE bbeng_metering_schedule_jobs_events;
+TRUNCATE bbeng_metering_schedule_jobs;
+
+TRUNCATE bbeng_metering_manager;
+
+TRUNCATE bbprt_payment_processing;
+
+TRUNCATE bbeng_api_keys;
+
+TRUNCATE bbdef_online_request_strategies_stages;
+TRUNCATE bbdef_online_request_strategies;
+
+TRUNCATE bbeng_online_request_contacts_personal_ids_audit;
+TRUNCATE bbeng_online_request_contacts_personal_ids;
+TRUNCATE bbeng_online_request_contacts_notify_setting_audit;
+TRUNCATE bbeng_online_request_contacts_notify_setting;
+TRUNCATE bbeng_online_request_validations;
+TRUNCATE bbeng_online_request_services_audit;
+TRUNCATE bbeng_online_request_services_attributes;
+TRUNCATE bbeng_online_request_services;
+TRUNCATE bbeng_online_request_ddebit_details_audit;
+TRUNCATE bbeng_online_request_ddebit_details;
+TRUNCATE bbeng_online_request_contacts_audit;
+TRUNCATE bbeng_online_request_contacts;
+TRUNCATE bbeng_online_request_artifacts_audit;
+TRUNCATE bbeng_online_request_artifacts;
+TRUNCATE bbeng_online_request_concession_cards_audit;
+TRUNCATE bbeng_online_request_concession_cards;
+TRUNCATE bbeng_online_request_details_audit;
+TRUNCATE bbeng_online_request_details_events;
+TRUNCATE bbeng_online_request_details;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+SET SQL_NOTES=@OLD_SQL_NOTES;

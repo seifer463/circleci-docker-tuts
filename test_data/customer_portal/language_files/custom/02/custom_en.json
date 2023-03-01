@@ -1,0 +1,20 @@
+{
+  "LOGIN": {
+    "LABEL": {
+      "TITLE": "{{portalName}} online portal login",
+      "FORGOT_PASSWORD": "forgot password? first time user?"
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "email address is required field",
+      "INVALID_EMAIL_ADDRESS": "invalid email address",
+      "REQUIRED_PASSWORD": "password is required field"
+    },
+    "PLACEHOLDER": {
+      "EMAIL_ADDRESS": "email address",
+      "PASSWORD": "password"
+    },
+    "BUTTON": {
+      "LOG_IN": "log in"
+    }
+  }
+}

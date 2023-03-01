@@ -1,0 +1,11 @@
+{
+  "PORTAL": {
+    "LABEL": {
+      "IDLE_TIME": [
+        "yOu hAvE BeEn iNaCtIvE FoR",
+        "fOr pRiVaCy rEaSoNs tHiS FoRm wIlL AuToMaTiCaLlY Be cLeArEd iN"
+      ],
+	  "SECONDS": "sEcOnDs"
+    }
+  }
+}

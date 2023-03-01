@@ -1,0 +1,105 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "Name on Card",
+      "CARD_NUMBER": "Card Number",
+      "CARD_EXPIRY": "Expiry (MM/YY)",
+      "CARD_CVV": "CVV"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "Card holder name is required",
+      "CARD_HOLDER_INVALID": "Name is invalid",
+      "CARD_HOLDER_LENGTH_MIN": "Card holder name is too short",
+      "CARD_HOLDER_LENGTH_MAX": "Card holder name is too long",
+      "CARD_NUMBER_REQUIRED": "Card number is required",
+      "CARD_NUMBER_LENGTH_MIN": "Card number is invalid",
+      "CARD_NUMBER_LENGTH_MAX": "Card number is invalid",
+      "CARD_NUMBER_VALID_CARD": "Card number is invalid",
+      "CARD_NUMBER_NOT_SUPPORTED": "Specified card type is not accepted",
+      "CARD_EXPIRY_REQUIRED": "Card expiry is required",
+      "CARD_EXPIRY_INVALID": "Card expiry is invalid",
+      "CARD_EXPIRY_EXPIRED": "Card has expired",
+      "CARD_CVV_REQUIRED": "CVV required",
+      "CARD_CVV_LENGTH_MIN": "CVV invalid",
+      "CARD_CVV_LENGTH_MAX": "CVV invalid"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PAYMENT_AMOUNT": "Payment Amount",
+      "LARGE_AMOUNT_CHECKBOX": "Large payment amount detected, tick to confirm the amount is correct.",
+      "EMAIL_CHECKBOX": "Email a payment receipt",
+      "EMAIL_LABEL": "Email Address (separate multiple emails with a comma)",
+      "ACCOUNT_NUMBER": "Account Number",
+      "BUTTON_PAYMENT": "Make Payment",
+      "PROGRESS_BAR": "Processing payment...",
+      "PROGRESS_BAR_SECURE": "Creating secure payment connection...",
+      "LOADING_CONFIG": "Loading secure payment area...",
+      "HEADER": [
+        "Pay my",
+        "Account"
+      ],
+      "IDLE_TIME": [
+        "You are currently inactive! This window will automatically refresh in",
+        "seconds"
+      ],
+      "CLOSE_BUTTON": "Close",
+      "ACCOUNT_NUMBER_SAMPLE": "Your account number can be found at the marked position on your bill",
+      "TRY_AGAIN": "Try Again",
+      "BTN_NEXT": "NEXT",
+      "TOTAL": "TOTAL"
+    },
+    "ERROR": {
+      "INVALID_ACCOUNT_NUMBER": "Account number is invalid",
+      "INVALID_PAYMENT_AMOUNT": "Payment amount is invalid",
+      "ACCOUNT_NUMBER_NOT_FOUND": "No details found",
+      "MINIMUM_AMOUNT": [
+        "Minimum of",
+        "required"
+      ],
+      "REQUIRED_ACCOUNT_NUMBER": "Account number is required",
+      "REQUIRED_EMAIL_ADDRESS": "Email address is required",
+      "INVALID_EMAIL_ADDRESS": "These email addresses are invalid",
+      "API_MW_DETAILS_403": "Your request could not be processed as we could not verify supplied details. Please try again but if this problem persist please contact customer service to complete the payment",
+      "API_MW_DETAILS_500": "Your request could not be processed due to technical difficulties. Please try again but if this problem persist please contact customer service to complete the payment",
+      "API_MW_DETAILS_400": "Your request could not be processed due to technical difficulties. Please try again but if this problem persist please contact customer service to complete the payment"
+    },
+    "PAYMENT": {
+      "SUCCESS": {
+        "HEADER": "Payment successfully processed",
+        "EMAILED_TO": "Payment receipt has been emailed to"
+      },
+      "FAILED": {
+        "HEADER": "Payment processing failed",
+        "EMAILED_TO": "Failed payment details has been emailed to"
+      },
+      "PORTAL_CONFIG": {
+        "PORTALCONFIG_ERROR": "Problem loading payment portal, please try again shortly",
+        "HEADER": "Unable to load payment portal",
+        "HEADER_TITLE_ERROR": "Problem loading payment portal, please try again shortly",
+        "MW_UNABLE_TO_LOAD": "Problem communicating with payment portal, please try again shortly"
+      },
+      "PROCESSING_FEE": {
+        "CALCULATED_AMOUNT": [
+          "Processing fee of",
+          "is applicable. A total of",
+          "will be processed"
+        ],
+        "ERROR_GETTING_PROCESSING_FEE": "Problem retrieving processing fees, please continue your payment"
+      },
+      "CONTACT_SUPPORT": [
+        "Need Help? Call us on",
+        "or email us at"
+      ]
+    }
+  },
+  "CONNECTION_ERROR": {
+    "CONNECTION_ERROR_LABELS": {
+      "NO_CONNECTION_HEADER": "Connection Error",
+      "NO_CONNECTION": "Problem login, looks like you don't have Internet connection.<br>Please fix your Internet connection before trying again.",
+      "NO_BACKEND_HEADER": "Server Error",
+      "NO_BACKEND": "Problem login, looks like our server is having problems, system administrator has been notified.<br>Please try again shortly"
+    },
+    "BUTTON": "Got it"
+  }
+}

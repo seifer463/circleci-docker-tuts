@@ -1,0 +1,14 @@
+<suite name="Dev Move Out Suite">
+	<test name="testing">
+		<classes>
+			<class name="au.com.blueoak.portal.dev.move_out.tests.ResiNewContact01" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.ResiExistingContact01" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.SmallBusExistingContact01" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.ResiExistingContact02" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.SmallBusNewContact01" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.SmallBusExistingContact02" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.ResiExistingContact03" />
+			<class name="au.com.blueoak.portal.dev.move_out.tests.VerifyCreatedCRMRecords01" />
+		</classes>
+	</test>
+</suite>

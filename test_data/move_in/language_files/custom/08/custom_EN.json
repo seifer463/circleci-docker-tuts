@@ -1,0 +1,636 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "nAmE On cReDiT CaRd",
+      "CARD_NUMBER": "cReDiT CaRd nUmBeR",
+      "CARD_EXPIRY": "cReDiT CaRd eXpIrY (mM/Yy)",
+      "CARD_CVV": "cVv"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "rEqUiReD FiElD",
+	  "CARD_HOLDER_INVALID": "nAmE Is iNvAlId",
+      "CARD_HOLDER_LENGH_MIN": "cArD HoLdEr nAmE Is tOo sHoRt",
+      "CARD_HOLDER_LENGH_MAX": "cArD HoLdEr nAmE Is tOo lOnG",
+      "CARD_NUMBER_REQUIRED": "rEqUiReD FiElD",
+      "CARD_NUMBER_LENGTH_MIN": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_LENGTH_MAX": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_INVALID_CARD": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_NOT_SUPPORTED": "cArD TyPe iS NoT AcCePtEd",
+      "CARD_EXPIRY_REQUIRED": "rEqUiReD FiElD",
+      "CARD_EXPIRY_INVALID": "cArD ExPiRy iS InVaLiD",
+      "CARD_EXPIRY_EXPIRED": "cArD HaS ExPiReD",
+      "CARD_CVV_REQUIRED": "rEqUiReD FiElD",
+      "CARD_CVV_LENGTH_MIN": "cVv tOo sHoRt",
+      "CARD_CVV_LENGTH_MAX": "cVv tOo lOnG",
+      "ERROR_SUBMITTING": "cReDiT CaRd dEtAiLs cOuLd nOt bE SeCuReD DuE To"
+    }
+  },
+  "SUPPLY_DETAILS": {
+    "HEADER": "sUpPlY DeTaIlS",
+    "CONTENT_BODY": {
+      "CANCEL_SEARCH": "mAnUaL AdDrEsS SeArCh",
+      "QUICK_SEARCH": "qUiCk aDdReSs sEaRcH",
+      "MOVING_IN_AS": "i aM A:",
+      "TENANT": "tEnAnT",
+      "OWNER": "oWnEr",
+      "PROPERTY_MANAGER": "pRoPeRtY MaNaGeR Or lEtTiNg aGeNt",
+      "LESS_COMMENCEMENT_DATE": "lEaSe cOmMeNcEmEnT DaTe",
+      "MOVE_IN_DATE": "mOvE In dAtE",
+      "SUPPLY_ADDRESS": "sUpPlY AdDrEsS",
+      "MOVE_IN_DATE_SAME_AS_SETTLEMENT_DATE": "sEtTlEmEnT DaTe sAmE As mOvE In dAtE?",
+      "SELECTED_SETTLEMENT_YES": "yEs",
+      "SELECTED_SETTLEMENT_NO": "nO",
+      "SETTLEMENT_DATE": "sEtTlEmEnT DaTe",
+      "SELECTED_HOLIDAY_RENTAL_YES": "yEs",
+      "SELECTED_HOLIDAY_RENTAL_NO": "nO",
+      "IS_THIS_HOLIDAY_RENTAL": "iS ThIs a hOlIdAy rEnTaL Or hOlIdAy lEtTiNg?",
+      "RESPONSIBLE_FOR_PAYING": "wHo iS ReSpOnSiBlE FoR PaYiNg tHe aCcOuNt?",
+      "RESPONSIBLE_OWNER_OWNER": "i aM, tHe oWnEr",
+      "RESPONSIBLE_OWNER_MANAGER": "pRoPeRtY MaNaGeR",
+      "RESPONSIBLE_MANAGER_MANAGER": "i am, the property manager",
+      "RESPONSIBLE_MANAGER_OWNER": "tEnAnT/OwNeR",
+      "OWNER_AGREEMENT_DATE": "oWnEr aGrEeMeNt dAtE",
+      "SUPPLY_ADDRESS_FIELD": "pLeAsE StArT TyPiNg sUpPlY AdDrEsS",
+      "REQUIRED_SERVICE": "rEqUiReD FiElD",
+      "ELECTRICITY": "eLeCtRiCiTy",
+      "ELECTRICITY_REQUIRED": "iS ElEcTrIcItY ReQuIrEd fOr sPeCiFiC MeDiCaL EqUiPmEnT?",
+      "FILE_COUNT_EXCEED": "uNaBlE To uPlOaD AlL ReQuEsTeD FiLeS As mAxImUm aLlOwAbLe fIlEs iS",
+      "FILE_DUPLICATE_FOUND": "cAnNoT Be uPlOaDeD As tHeY AlReAdY ArE PrEsEnT. pLeAsE ReMoVe tHeSe eXiStInG FiLeS AnD UpLoAd aGaIn",
+      "WATER_REQUIRED": "iS WaTeR ReQuIrEd fOr sPeCiFiC MeDiCaL EqUiPmEnT?",
+      "LIFE_SUPPORT": "lIfE SuPpOrT",
+	  "POSTCODE": "pOsTcOdE",
+      "EQUIPMENT_FOR_LIFE_SUPPORT": "iS AnYoNe aT ThIs pRoPeRtY DePeNdEnT On eLeCtRiCiTy fOr lIfE SuPpOrT EqUiPmEnT",
+      "SELECT_EQUIPMENT": "pLeAsE SeLeCt oNe oR MoRe lIfE SuPpOrT DeViCeS In-uSe:",
+      "LIFE_SUPPORT_EQUIPMENT": {
+        "OXYGEN CONCENTRATOR": "oXyGeN CoNcEnTrAtOr",
+        "INTERMITTENT PERITONEAL DIALYSIS MACHINE": "iNtErMiTtEnT PeRiToNeAl dIaLySiS MaChInE",
+        "HAEMODIALYSIS MACHINE": "hAeMoDiAlYsIs mAcHiNe",
+        "CHRONIC POSITIVE AIRWAYS PRESSURE RESPIRATOR": "cHrOnIc pOsItIvE AiRwAyS PrEsSuRe rEsPiRaToR",
+        "CRIGLER NAJJAR SYNDROME PHOTOTHERAPY EQUIPMENT": "cRiGlEr nAjJaR SyNdRoMe pHoToThErApY EqUiPmEnT",
+        "VENTILATOR FOR LIFE SUPPORT": "vEnTiLaToR FoR LiFe sUpPoRt",
+        "OTHER": "oThEr"
+      },
+      "EQUIPMENT_FOR_MEDICAL_COOLING": "iS EqUiPmEnT In uSe fOr mEdIcAl cOoLiNg pUrPoSe aT ThE SuPpLy aDdReSs?",
+      "OPTION_LIFE_SUPPORT_YES": "yEs",
+      "OPTION_LIFE_SUPPORT_NO": "nO",
+      "OWNER_AGREEMENT_DATE_SAME_AS_SETTLEMENT_DATE": "sEtTlEmEnT DaTe sAmE As oWnEr aGrEeMeNt dAtE?",
+      "COMPLEX_NAME": "cOmPlEx nAmE (iF KnOwN)",
+      "TENANCY_TYPE": "tEnAnCy tYpE",
+      "TENANCY_TYPES": {
+        "NOT_APPLICABLE": "nOt aPpLiCaBlE",
+        "APART": "aPaRtMeNt",
+        "ATM": "aTm",
+        "HOUSE": "hOuSe",
+        "LOT": "lOt",
+        "OFFICE": "oFfIcE",
+        "SHOP": "sHoP",
+        "SITE": "sItE",
+        "SUITE": "sUiTe",
+        "TENANCY": "tEnAnCy",
+        "UNIT": "uNiT",
+        "VILLA": "vIlLa"
+      },
+      "TENANCY_NUMBER": "tEnAnCy nUmBeR",
+      "STREET_NUMBER": "sTrEeT NuMbEr",
+      "STREET_NAME": "sTrEeT NaMe",
+      "STREET_TYPE": "sTrEeT TyPe",
+      "LOCALITY": "cItY/SuBuRb",
+      "STATE": "sTaTe",
+      "PUBLIC_ICON": "aDdReSs sEaRcH",
+      "CLEAR_ICON": "aDdReSs sEaRcH UnAvAiLaBlE",
+      "SEARCHING_ICON": "sEaRcHiNg aDdReSs...",
+      "SUPPLY_CONNECTED": "sUpPlY CoNnEcTeD",
+      "SERVICE_CONNECTION": "iS SeRvIcE CuRrEnTlY CoNnEcTeD (i.e. On)?",
+      "CONNECTED": "cOnNeCtEd",
+      "DISCONNECTED": "dIsCoNnEcTeD",
+      "DO_NOT_KNOW": "dO NoT KnOw",
+      "CANNOT_FIND_ADDRESS": "cAnNoT FiNd aDdReSs? ClIcK HeRe tO CoMpLeTe dEtAiLs mAnUaLlY"
+    },
+    "ERROR_LABEL": {
+      "INSTALLED_EQUIPMENT_OTHER": "sPeCiFy tHe nAmE Of tHe eQuIpMeNt",
+      "STREET_NAME_REQUIRED": "rEqUiReD FiElD",
+      "STREET_TYPE_REQUIRED": "rEqUiReD FiElD",
+      "LOCALITY_REQUIRED": "rEqUiReD FiElD",
+      "STATE_REQUIRED": "rEqUiReD FiElD",
+      "POSTCODE_REQUIRED": "rEqUiReD FiElD",
+      "ADDRESS_SEARCH": "sElEcT FrOm dRoPdOwN",
+      "INVALID_DATE": "iNvAlId dAtE",
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "REQUIRED_OTHER_EQUIPMENT": "sPeCiFy tHe nAmE Of tHe eQuIpMeNt",
+      "SELECT_FROM_DROPDOWN": "sElEcT FrOm dRoPdOwN",
+      "CANNOT_SELECT_PUBLIC_HOLIDAY": "cAnNoT SeLeCt pUbLiC HoLiDaY",
+      "CANNOT_SELECT_WEEKEND": "cAnNoT SeLeCt wEeKeNd",
+      "LOADING_PUBLIC_HOLIDAYS": "lOaDiNg pUbLiC HoLiDaYs"
+    }
+  },
+  "TRADE_WASTE": {
+    "HEADER": "tRaDe wAsTe",
+    "CONTENT_BODY": {
+      "TRADE_WASTE_DISCHARGED": "wIlL TrAdE WaStE Be dIsChArGeD?",
+      "EQUIPMENT_INSTALLED": "iS TrAdE WaStE EqUiPmEnT InStAlLeD?",
+      "SELECTED_YES": "yEs",
+      "SELECTED_NO": "nO",
+      "SELECT_EQUIPMENT": "pLeAsE SeLeCt oNe oR MoRe tRaDe wAsTe eQuIpMeNt iNsTaLlEd",
+      "TRADE_WASTE_EQUIPMENT": {
+        "GREASE_TRAP": "gReAsE TrAp",
+        "GREASE_EXTRACTOR": "gReAsE ExTrAcToR - FiLtEr",
+        "OIL_SEPARATOR": "oIl/pLaTe sEpArAtOr",
+        "DILUTION_PIT": "dIlUtIoN PiT",
+        "OIL_SUMP": "oIl tRaP-GaRaGe sUmP",
+        "SOLID_PIT": "sOlId sEtTlEmEnT PiT",
+        "BASKET_TRAP": "bAsKeT TrAp",
+        "SILVER_UNIT": "sIlVeR ReCoVeRy uNiT",
+        "PLASTER_ARRESTOR": "pLaStEr aRrEsToR",
+        "HOLDING_TANK": "hOlDiNg tAnK",
+        "COOLING_PIT": "cOoLiNg pIt",
+        "EFFLUENT_TANK": "eFfLuEnT TaNk fInAl",
+        "EFFLUENT_PUMP": "eFfLuEnT PuMp",
+        "LINT_TRAP": "lInT TrAp",
+        "OTHER": "oThEr"
+      },
+      "BUSINESS_ACTIVITY_HEADER": "bUsInEsS AcTiViTy aT ThE PrOpErTy",
+      "RETAIL_FOOD_BUSINESS": "rEtAiL FoOd bUsInEsS",
+      "RETAIL_MOTOR_VEHICLE": "rEtAiL MoToR VeHiClE",
+      "OTHER": "oThEr",
+      "DISCHARGE_INFORMATION": {
+        "HEADER": "dIsChArGe iNfOrMaTiOn",
+        "INFO": "pLeAsE AnSwEr tHe bElOw dEtAiLs tO ThE BeSt oF YoUr aBiLiTy. If yOu aRe uNsUrE YoU MaY LeAvE It bLaNk.",
+        "MAX_RATE": "mAxImUm iNsTaNtAnEoUs fLoW RaTe (LiTrEs / sEcOnD)",
+        "MAX_VOLUME": "mAxImUm dAiLy dIsChArGe vOlUmE (lItReS)",
+        "START_DATE": "dIsChArGe sTaRt dAtE",
+        "DAYS": "dIsChArGe dAyS (sElEcT OnE Or mOrE)",
+        "HOURS_STARTING": "dIsChArGe hOuRs sTaRtInG",
+        "HOURS_ENDING": "dIsChArGe hOuRs eNdInG",
+        "DAY_OF_WEEK": {
+          "SUN": "sU",
+          "MON": "mO",
+          "TUE": "tU",
+          "WED": "wE",
+          "THU": "tH",
+          "FRI": "fR",
+          "SAT": "sA"
+        }
+      },
+      "ERROR_LABEL": {
+        "BUSINESS_ACTIVITY": "sElEcT FrOm dRoPdOwN",
+        "INSTALLED_EQUIPMENT": "sElEcT At lEaSt oNe",
+        "INSTALLED_EQUIPMENT_OTHER": "sPeCiFy tHe nAmE Of tHe eQuIpMeNt",
+        "NOT_POSITIVE_NUMBER": "sHoUlD Be a pOsItIvE VaLuE",
+        "NO_START_HOUR": "sPeCiFy sTaRt oF ThE DiScHaRgE HoUrS",
+        "NO_END_HOUR": "sPeCiFy eNd oF ThE DiScHaRgE HoUrS",
+        "FILE_EXCEEDED": ["eRrOr: FiLe sIzE ExCeEdS ", "mB."]
+      }
+    }
+  },
+  "ACCOUNT_DETAILS": {
+    "HEADER": "aCcOuNt dEtAiLs",
+    "CONTENT_BODY": {
+      "TYPE_OF_ACCOUNT": "aCcOuNt tYpE",
+      "RESIDENTIAL": "rEsIdEnTiAl",
+      "COMMERCIAL": "cOmMeRcIaL",
+      "COMMERCIAL_ENTITY": "cOmMeRcIaL EnTiTy dEtAiLs",
+      "COMPANY_ABN_ACN": "cOmPaNy aBn oR AcN",
+      "COMPANY_NAME": "cOmPaNy/eNtItY NaMe",
+      "TRADING_NAME": "tRaDiNg nAmE",
+      "PUBLIC_ICON": "bUsInEsS DeTaIlS SeArCh",
+      "SEARCHING_ICON": "sEaRcHiNg bUsInEsS DeTaIlS..."
+    },
+    "ERROR_LABEL": {
+      "TIMEOUT_ERROR": "aBn/aCn sEaRcH CuRrEnTlY UnAvAiLaBlE, pLeAsE EnTeR MaNuAlLy",
+      "NOT_ACTIVE": "pRoViDeD AbN/AcN Is cUrReNtLy nOt aCtIvE",
+      "NOT_FOUND": "nO MaTcHeS FoUnD FoR PrOvIdEd aBn/aCn",
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "REQUIRED_ENTITY": "rEqUiReD FiElD",
+      "INVALID_ENTITY": "tHe eNtItY NaMe sHoUlD Be aLpHaNuMeRiC",
+      "INVALID_ABN": "iNvAlId aBn/aCn"
+    }
+  },
+  "MAIN_ACCOUNT": {
+    "HEADER": "mAiN AcCoUnT CoNtAcT",
+    "HEADER_RESPONSIBLE_MANAGER": "pRoPeRtY MaNaGeR AcCoUnT CoNtAcT",
+    "HEADER_RESPONSIBLE_OWNER": "tEnAnT/OwNeR AcCoUnT CoNtAcT",
+    "HEADER_ADDITIONAL": "aDdItIoNaL CoNtAcT",
+    "CONTENT_BODY": {
+      "RESPONSIBLE_FOR_PAY_INTRODUCTION": [
+        "pLeAsE PrOvIdE ThE",
+        "cOnTaCt wHo wIlL Be rEsPoNsIbLe fOr eNsUrInG ThAt tHe aCcOuNt iS PaId wHeN It bEcOmEs dUe."
+      ],
+      "MANAGER_RESPONSIBLE": "pRoPeRtY MaNaGeR",
+      "OWNER_RESPONSIBLE": "tEnAnT/OwNeR",
+      "FIRST_NAME": "fIrSt nAmE",
+      "LAST_NAME": "lAsT/FaMiLy nAmE",
+      "BIRTH_DATE": "dAtE Of bIrTh",
+      "EMAIL_ADDRESS": "eMaIl aDdReSs",
+      "MOBILE_NUMBER": "mObIlE PhOnE NuMbEr",
+      "BUSINESS_HR_PHONE_NUMBER": "bUsInEsS HoUrS PhOnE NuMbEr",
+      "AFTER_HR_PHONE_NUMBER": "aFtEr hOuRs pHoNe nUmBeR",
+      "ACCOUNT_SECRET": ["sEcReT CoDe", "sPeEdS Up vErIfIcAtIoN"],
+      "PERSONAL_IDENTIFICATION": "pErSoNaL IdEnTiFiCaTiOn",
+      "AUSTRALIAN_DRIVERS_LICENSE": "aUsTrAlIaN DrIvErS LiCeNcE",
+      "PASSPORT": "pAsSpOrT",
+      "MEDICAL_CARD": "mEdIcArE CaRd",
+      "NOTIFIED_LABEL": "hOw wOuLd yOu lIkE To bE NoTiFiEd?",
+      "POSTAL": "pOsTaL",
+      "EMAIL": "eMaIl",
+      "SMS": "sMs",
+      "NOT_ALLOWED": "n/a",
+      "ADD_ANOTHER_CONTACT": "aDd aNoThEr cOnTaCt",
+      "REMOVE_CONTACT": "rEmOvE ThIs cOnTaCt",
+      "BILLS": "bIlLs",
+      "ACCOUNT_NOTIFICATION": "aCcOuNt nOtIfIcAtIoNs aNd rEmInDeRs",
+      "MARKETING": "mArKeTiNg cOmMuNiCaTiOnS",
+      "AUSTRALIAN_LICENSE_NUMBER": "aUsTrAlIaN DrIvErS LiCeNcE NuMbEr",
+      "PASSPORT_NUMBER": "pAsSpOrT NuMbEr",
+      "MEDICAL_CARD_NUMBER": "mEdIcArE CaRd nUmBeR",
+      "COUNTRY_ISSUE": "cOuNtRy oF IsSuE",
+      "NON_PROVIDED": "pRoViDe nOnE",
+      "EXPIRY_DATE": "eXpIrY (mM/YyYy)",
+      "STATE_ISSUE_FIELD": "sTaTe iSsUeD",
+      "REFERENCE_NUMBER": "rEfErEnCe nUmBeR",
+      "DELETE_CONTACT_CONFIRMATION": "aRe yOu sUrE YoU WaNt tO DeLeTe tHiS CoNtAcT?",
+      "DRIVER_LICENSE_NUMBER": "aUsTrAlIaN DrIvErS LiCeNcE NuMbEr",
+      "STATE_ISSUE": {
+        "ACT": "aUsTrAlIaN CaPiTaL TeRrItOrY",
+        "NSW": "nEw sOuTh wAlEs",
+        "NT": "nOrThErN TeRrItOrY",
+        "QLD": "qUeEnSlAnD",
+        "SA": "sOuTh aUsTrAlIa",
+        "TAS": "tAsMaNiA",
+        "VIC": "vIcToRiA",
+        "WA": "wEsTeRn aUsTrAlIa"
+      }
+    },
+    "ERROR_LABEL": {
+      "FIRSTNAME_REQUIRED": "rEqUiReD FiElD",
+      "LASTNAME_REQUIRED": "rEqUiReD FiElD",
+      "FIRSTNAME_INVALID": "iNvAlId fIrSt nAmE",
+      "LASTNAME_INVALID": "iNvAlId lAsT NaMe",
+      "INVALID_BIRTH_DATE": "iNvAlId dAtE Of bIrTh, MuSt bE At lEaSt 18 YeArS OlD",
+      "REQUIRED_BIRTH_DATE": "rEqUiReD FiElD",
+      "DRIVERS_LICENSE_ERROR": "iNvAlId aUsTrAlIaN DrIvErS LiCeNcE",
+      "DRIVERS_LICENSE_REQUIRED": "rEqUiReD FiElD",
+      "STATE_ISSUE_ERROR": "rEqUiReD FiElD",
+      "PASSPORT_ERROR": "iNvAlId pAsSpOrT NuMbEr",
+      "PASSPORT_REQUIRED": "rEqUiReD FiElD",
+      "PASSPORT_COUNTRY_ERROR": "rEqUiReD FiElD",
+      "MEDICARE_ERROR": "iNvAlId mEdIcArE NuMbEr",
+      "MEDICARE_REQUIRED": "rEqUiReD FiElD",
+      "INVALID_MOBILE_NUMBER": "rEqUiReD FiElD",
+      "INVALID_NUMBER": "iNvAlId vAlUe",
+      "INVALID_HOME_NUMBER": "rEqUiReD FiElD",
+      "INVALID_SECRET_CODE": "rEqUiReD FiElD",
+      "INVALID_BUSINESS_NUMBER": "rEqUiReD FiElD",
+      "INVALID_EXPIRY_DATE": "iNvAlId dAtE",
+      "REQUIRED_EXPIRY_DATE": "rEqUiReD FiElD",
+      "SELECT_FROM_DROPDOWN": "sElEcT FrOm dRoPdOwN"
+    }
+  },
+  "ADDITIONAL_ACCOUNT": {
+    "HEADER": "aDdItIoNaL CoNtAcT"
+  },
+  "POSTAL_ADDRESS": {
+    "HEADER": "pOsTaL AdDrEsS",
+    "CONTENT_BODY": {
+      "CANNOT_FIND": "cAnNoT FiNd aDdReSs? ClIcK HeRe tO CoMpLeTe dEtAiLs mAnUaLlY",
+      "SAME_IN_SUPPLY": "pOsTaL AdDrEsS SaMe aS SuPpLy aDdReSs?",
+      "ADDRESS_ONE": "aDdReSs lInE 1",
+      "ADDRESS_TWO": "aDdReSs lInE 2",
+      "ADDRESS_THREE": "aDdReSs lInE 3",
+      "ADDRESS_FOUR": "aDdReSs lInE 4",
+      "CITY_SUBSURB": "cItY/SuBuRb",
+      "STATE": "sTaTe",
+      "POSTCODE": "pOsTcOdE",
+      "COUNTRY": "cOuNtRy",
+      "POSTAL_ADDRESS_FIELD": "pLeAsE StArT TyPiNg pOsTaL AdDrEsS"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_POSTAL_ADDRESS": "aT LeAsT 1 AdDrEsS LiNe rEqUiReD",
+      "REQUIRED_POSTAL_LOCALITY": "rEqUiReD FiElD",
+      "REQUIRED_POSTAL_STATE": "rEqUiReD FiElD",
+      "REQUIRED_POSTAL_POSTCODE": "rEqUiReD FiElD",
+      "REQUIRED_POSTAL_COUNTRY": "rEqUiReD FiElD",
+      "REQUIRED_POSTAL_SEARCH": "sElEcT FrOm dRoPdOwN"
+    }
+  },
+  "CONCESSION": {
+    "HEADER": "cOnCeSsIoN",
+    "CONTENT_BODY": {
+      "CARDHOLDER_NAME": "cArD HoLdEr nAmE",
+      "TYPE_OF_CONCESSION_CARD": "tYpE Of cOnCeSsIoN CaRd",
+      "CONCESSION_CARD_NUMBER": "cOnCeSsIoN CaRd nUmBeR",
+      "EXPIRY_DATE": "eXpIrY (mM/YyYy)",
+      "APPLY_CONCESSION": "aDd cOnCeSsIoN DeTaIlS To tHe aCcOuNt?",
+      "AGREE": "yEs, I AgReE",
+      "NOT_AGREE": " nO, i dO NoT AgReE"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_CARDHOLDER": "rEqUiReD FiElD",
+      "NO_CARD_TYPE_SELECTED": "iNcOrReCt cOnCeSsIoN CaRd nUmBeR",
+      "REQUIRED_CONCESSION_CARD_TYPE": "rEqUiReD FiElD",
+      "CONCESSION_ERROR": "pRoBlEm oBtAiNiNg cOnCeSsIoN TyPeS FoR ThE SuPpLy aDdReSs. SeLeCt nO AbOvE AnD MeNtIoN In tHe sPeCiAl nOtEs sEcTiOn bElOw tHaT YoU WeRe uNaBlE To aDd cOnCeSsIoN DeTaIlS",
+      "REQUIRED_CARD_TYPE": "rEqUiReD FiElD",
+      "REQUIRED_CONCESSION_NUMBER": "rEqUiReD FiElD",
+      "INVALID_EXPIRY_DATE": "iNvAlId dAtE",
+      "REQUIRED_CONCESSION_EXPIRY": "rEqUiReD FiElD"
+    }
+  },
+  "MANAGER_AGENT": {
+    "HEADER": "mAnAgEr/aGeNt cOmPaNy dEtAiLs",
+    "CONTENT_BODY": {
+      "INTRODUCTION": "pLeAsE SpEcIfY ThE PrOpErTy cOmPaNy vIa wHiCh tHe pRoPeRtY Is bEiNg mAnAgEd",
+      "COMPANY_NAME": "cOmPaNy nAmE",
+      "CONTACT_NUMBER": "cOmPaNy cOnTaCt nUmBeR",
+      "QUICK_SEARCH": "qUiCk aDdReSs sEaRcH",
+      "CANCEL_SEARCH": "mAnUaL AdDrEsS SeArCh",
+      "ADDRESS_SEARCH_LABEL": "pLeAsE StArT TyPiNg cOmPaNy aDdReSs",
+      "CANNOT_FIND": "cAnNoT FiNd aDdReSs? ClIcK HeRe tO CoMpLeTe dEtAiLs mAnUaLlY",
+      "CLEAR_ICON": "aDdReSs sEaRcH UnAvAiLaBlE",
+      "ADDRESS_ONE": "aDdReSs lInE 1",
+      "ADDRESS_TWO": "aDdReSs lInE 2",
+      "ADDRESS_THREE": "aDdReSs lInE 3",
+      "ADDRESS_FOUR": "aDdReSs lInE 4",
+      "CITY_SUBSURB": "cItY/SuBuRb",
+      "STATE": "sTaTe",
+      "POSTCODE": "pOsTcOdE",
+      "COUNTRY": "cOuNtRy"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_AT_LEAST_ONE": "aT LeAsT 1 AdDrEsS LiNe rEqUiReD",
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "SELECT_FROM_DROPDOWN": "sElEcT FrOm dRoPdOwN"
+    }
+  },
+  "HOLIDAY_RENTAL": {
+    "HEADER": "hOlIdAy lEtTiNg/rEnTaL CoMpAnY DeTaIlS",
+    "CONTENT_BODY": {
+      "INTRODUCTION": "pLeAsE SpEcIfY ThE PrOpErTy cOmPaNy vIa wHiCh tHe pRoPeRtY Is bEiNg mAnAgEd",
+      "COMPANY_NAME": "cOmPaNy nAmE",
+      "CONTACT_NUMBER": "cOmPaNy cOnTaCt nUmBeR",
+      "QUICK_SEARCH": "qUiCk aDdReSs sEaRcH",
+      "CANCEL_SEARCH": "mAnUaL AdDrEsS SeArCh",
+      "ADDRESS_SEARCH_LABEL": "pLeAsE StArT TyPiNg cOmPaNy aDdReSs",
+      "CANNOT_FIND": "cAnNoT FiNd aDdReSs? ClIcK HeRe tO CoMpLeTe dEtAiLs mAnUaLlY",
+      "CLEAR_ICON": "aDdReSs sEaRcH UnAvAiLaBlE",
+      "ADDRESS_ONE": "aDdReSs lInE 1",
+      "ADDRESS_TWO": "aDdReSs lInE 2",
+      "ADDRESS_THREE": "aDdReSs lInE 3",
+      "ADDRESS_FOUR": "aDdReSs lInE 4",
+      "CITY_SUBSURB": "cItY/SuBuRb",
+      "STATE": "sTaTe",
+      "POSTCODE": "pOsTcOdE",
+      "COUNTRY": "cOuNtRy"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_AT_LEAST_ONE": "aT LeAsT 1 AdDrEsS LiNe rEqUiReD",
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "SELECT_FROM_DROPDOWN": "sElEcT FrOm dRoPdOwN"
+    }
+  },
+  "DIRECT_DEBIT": {
+    "HEADER": "dIrEcT DeBiT",
+    "CONTENT_BODY": {
+      "SETUP_DIRECT_DEBIT": "sEtUp dIrEcT DeBiT (aUtOmAtEd pAyMeNt) On tHe aCcOuNt?",
+      "BANK_ACCOUNT": "yEs, A BaNk aCcOuNt",
+      "CREDIT_CARD": "yEs, A CrEdIt cArD",
+      "NO_DIRECT_DEBIT": "nO, i wIlL PaY BiLlS By tHe dUe dAtE",
+      "SECURING_PAYFRAME": "sEcUrInG CrEdIt cArD DeTaIlS...",
+      "SECURE_CARD_ENTRY": "cReAtInG SeCuRe aReA FoR CrEdIt cArD EnTrY...",
+      "BANK_ACCOUNT_NAME": "bAnK AcCoUnT NaMe",
+      "ACCOUNT_NUMBER": "aCcOuNt nUmBeR",
+      "ACCOUNT_BSB": "aCcOuNt bSb",
+      "EDIT_BUTTON": "cHaNgE CrEdIt cArD DeTaIlS",
+      "CANCEL_EDIT": "cAnCeL ChAnGe",
+      "UNABLE_TO_LOAD_MW": "tEmPoRaRiLy uNaBlE To cReAtE SeCuRe aReA FoR CrEdIt cArD EnTrY. pLeAsE SeLeCt \"nO\" AbOvE AnD CoNtInUe cOmPlEtInG ThE FoRm, MeNtIoN In tHe sPeCiAl nOtEs sEcTiOn bElOw tHaT YoU WeRe uNaBlE To aDd cReDiT CaRd dEtAiLs (PlEaSe dO NoT AdD YoU CrEdIt cArD DeTaIlS InTo tHe nOtEs sEcTiOn)"
+    },
+    "ERROR": {
+      "REQUIRED_BANK_ACCOUNT_NAME": "rEqUiReD FiElD",
+      "BANK_ACCOUNT_CARD_NUMBER": "wE HaVe dEtEcTeD ThAt a cReDiT CaRd nUmBeR HaS BeEn eNtErEd. ThIs sEcTiOn iS OnLy fOr bAnK AcCoUnTs. If yOu wOuLd lIkE To pAy bY CrEdIt cArD, pLeAsE SeLeCt tHe cReDiT CaRd pAyMeNt oPtIoN.",
+      "INVALID_VALUE": "iNvAlId vAlUe",
+      "REQUIRED_ACCOUNTBSB": "rEqUiReD FiElD",
+      "LENGTH_ACCOUNTBSB": "aCcOuNt bSb sHoUlD Be 6 dIgItS LoNg",
+      "REQUIRED_ACCOUNT_NUMBER": "rEqUiReD FiElD",
+      "LENGTH_ACCOUNT_NUMBER": "aCcOuNt nUmBeR ShOuLd bE At lEaSt 6 dIgItS LoNg"
+    }
+  },
+  "ADDITIONAL_NOTE": {
+    "HEADER": "aDdItIoNaL NoTe",
+    "CONTENT_BODY": {
+      "NOTE": "pLeAsE EnTeR AnY SpEcIaL NoTeS ThAt yOu wIsH To pAsS OnTo oUr cUsToMeR SeRvIcE StAfF"
+    }
+  },
+  "ACCEPTANCE": {
+    "HEADER": "aCcEpTaNcE",
+    "CONTENT_BODY": {
+      "UPDATE": "uPdAtE",
+      "SUCCESS_MESSAGE_HEADER": "yOuR ApPlIcAtIoN HaS BeEn a sUcCeSs!",
+      "ERROR_MESSAGE_HEADER": "pRoBlEm sUbMiTtInG YoUr rEqUeSt",
+      "CANCEL_MOVE_IN_HEADER": "cAnCeL ReQuEsT AnD ReMoVe dEtAiLs",
+      "ERROR_MESSAGE_PARAGRAPH": "tHeRe wAs a pRoBlEm oN OuR EnD ThAt cAuSeD YoUr rEqUeSt nOt tO Be sUbMiTtEd.<br/> <br/>tHaNk yOu fOr tAkInG ThE TiMe tO CoMpLeTe tHiS FoRm, We vErY MuCh aPpReCiAtE YoUr eFfOrT. pLeAsE WaIt a fEw mInUtEs aNd tRy sUbMiTtInG AgAiN.<br/><br/> iF YoUr iNtErNeT CoNnEcTiOn iS WoRkInG BuT YoU ArE StIlL ExPeRiEnCiNg tHiS IsSuE, pLeAsE Do nOt hEsItAtE To cOnTaCt oUr sUpPoRt tEaM To hElP YoU CoMpLeTe tHe fOrM",
+      "SUCCESS_MESSAGE_PARAGRAPH": "iF YoU DoN'T HeAr fRoM Us sHoRtLy wE ReCoMmEnD ChEcKiNg yOuR JuNk aNd sPaM MaIl fOlDeRs aNd uPdAtInG SeTtInGs tO AlLoW EmAiL FrOm uS As a 'SaFe sEnDeR'",
+      "CANCEL_MOVE_IN": "aRe yOu sUrE YoU LiKe yOu lIkE To cAnCeL YoUr sUbMiSsIoN? <br/> <br/>iF YoU ArE HaViNg aNy iSsUe cOmPlEtInG ThIs fOrM Or hAvE AnY QuEsTiOn, PlEaSe dO NoT HeSiTaTe tO CoNtAcT OuR SuPpOrT TeAm<br/>",
+      "ACCEPTANCE_HEADING_MESSAGE": "yOu aRe aLmOsT FiNiShEd, ThAnK YoU FoR YoUr pAtIeNcE. pLeAsE ReViEw tHe bElOw dEtAiLs bEfOrE SuBmItTiNg tHe fOrM<br/><br/>",
+      "SUPPLY_DETAILS": {
+        "HEADER": "mOvInG In",
+        "CONTENT_BODY": {
+          "MOVING_IN_AS": "mOvInG In aS",
+          "TENANT": "tEnAnT",
+          "OWNER": "oWnEr",
+          "PROPERTY_MANAGER": "pRoPeRtY MaNaGeR Or lEtTiNg aGeNt",
+          "HOLIDAY_RENTAL": "hOlIdAy rEnTaL / LeTtInG",
+          "SETTLEMENT": "sEtTlEmEnT On",
+          "SERVICE_ADDRESS": {
+            "HEADER": "sErViCe aDdReSs"
+          },
+          "SERVICE_CONNECTED": "sErViCe cUrReNtLy cOnNeCtEd",
+          "SERVICE_DISCONNECTED": "sErViCe cUrReNtLy dIsCoNnEcTeD",
+          "SERVICE_CONNECTION_UNKNOWN": "sErViCe cOnNeCtIoN CuRrEnTlY UnKnOwN",
+          "LIFE_SUPPORT": {
+            "HEADER": "lIfE SuPpOrT",
+            "CONTENT_BODY": {
+              "IS_REQUIRED": "lIfE SuPpOrT ReQuIrEd uSiNg tHe fOlLoWiNg eQuIpMeNt",
+              "NOT_REQUIRED": "lIfE SuPpOrT NoT ReQuIrEd",
+              "MEDICAL_COOLING_REQUIRED": "mEdIcAl cOoLiNg rEqUiReD",
+              "MEDICAL_COOLING_NOT_REQUIRED": "mEdIcAl cOoLiNg nOt rEqUiReD",
+              "MEDICAL_CERTIFICATE_NOT_PROVIDED": "nOn mEdIcAl cErTiFiCaTe pRoViDeD",
+              "MEDICAL_CERTIFICATE_PROVIDED": "mEdIcAl cErTiFiCaTe pRoViDeD"
+            }
+          }
+        }
+      },
+      "TRADE_WASTE": {
+        "HEADER": "tRaDe wAsTe",
+        "DISCHARGE_INFORMATION": "dIsChArGe iNfOrMaTiOn",
+        "CONTENT_BODY": {
+          "NO_TRADE_DISCHARGED": "nO TrAdE WaStE WiLl bE DiScHaRgEd",
+          "WILL_DISCHARGED": "wIlL DiScHaRgE TrAdE WaStE",
+          "NO_EQUIPMENT_INSTALLED": "nO TrAdE WaStE EqUiPmEnT InStAlLeD",
+          "INSTALLED": "iNsTaLlEd",
+          "FOLLOWING_EQUIPMENT": "fOlLoWiNg eQuIpMeNt",
+          "BUSINESS_ACTIVITY_IS": "bUsInEsS AcTiViTy iS",
+          "MAX_FLOW_RATE": ["mAx iNsTaNtAnEoUs fLoW RaTe", "lItReS / SeCoNd"],
+          "MAX_DISCHARGE_VOLUME": ["mAx dAiLy dIsChArGe vOlUmE", "lItReS"],
+          "DISCHARGE_START_DATE": "dIsChArGe sTaRt dAtE",
+          "DISCHARGE_DAYS": "dIsChArGe dAyS",
+          "DISCHARGE_HOURS": "dIsChArGe hOuRs",
+          "UPLOADED_PLANS": ["uPlOaDeD", "sItE", "pLaN", "pLaNs"],
+          "NO_PLANS_UPLOADED": "nO SiTe pLaNs uPlOaDeD",
+          "IS": "iS",
+          "ARE": "aRe",
+          "AND": "aNd",
+          "BETWEEN": "bEtWeEn",
+          "NOT_KNOWN": "nOt kNoWn"
+        }
+      },
+      "ACCOUNT_DETAILS": {
+        "HEADER": "aCcOuNt dEtAiLs",
+        "CONTENT_BODY": {
+          "RESIDENTIAL": "rEsIdEnTiAl aCcOuNt",
+          "COMMERCIAL": "cOmMeRcIaL AcCoUnT"
+        }
+      },
+      "MAIN_CONTACT": {
+        "HEADER": "mAiN AcCoUnT CoNtAcT",
+        "HEADER_RESPONSIBLE_MANAGER": "pRoPeRtY MaNaGeR AcCoUnT CoNtAcT",
+        "HEADER_RESPONSIBLE_OWNER": "tEnAnT/OwNeR AcCoUnT CoNtAcT",
+        "CONTENT_BODY": {
+          "EMAIL_ADDRESS": "eMaIl aDdReSs",
+          "MOBILE": "mObIlE PhOnE",
+          "BUSINESS": "bUsInEsS PhOnE",
+          "AFTER_HOURS_PHONE": "a/hOuRs pHoNe",
+          "BIRTH_DATE": "bIrThDaTe",
+          "PERSONAL_IDENTIFICATION": "pErSoNaL Id",
+          "DRIVER_LICENCE": "dRiVeR LiCeNcE",
+          "MEDICARE_CARD": "mEdIcArE CaRd",
+          "PASSPORT": "pAsSpOrT",
+          "SECRET_CODE": "cOnTaCt sEcReT",
+          "MAIN_CONTACT_NOTIFICATION": {
+            "HEADER": "nOtIfIcAtIoN"
+          }
+        }
+      },
+      "ADDITIONAL_CONTACT": {
+        "HEADER": "aDdItIoNaL CoNtAcT",
+        "CONTENT_BODY": {
+          "EMAIL_ADDRESS": "eMaIl aDdReSs",
+          "MOBILE": "mObIlE PhOnE",
+          "BUSINESS": "bUsInEsS PhOnE",
+          "AFTER_HOURS_PHONE": "a/hOuRs pHoNe",
+          "BIRTH_DATE": "bIrThDaTe",
+          "PERSONAL_IDENTIFICATION": "pErSoNaL Id",
+          "DRIVER_LICENCE": "dRiVeR LiCeNcE",
+          "MEDICARE_CARD": "mEdIcArE CaRd",
+          "PASSPORT": "pAsSpOrT",
+          "SECRET_CODE": "cOnTaCt sEcReT",
+          "ADDITIONAL_CONTACT_NOTIFICATION": {
+            "HEADER": "nOtIfIcAtIoN"
+          }
+        }
+      },
+      "POSTAL_ADDRESS": {
+        "HEADER": "pOsTaL AdDrEsS",
+        "CONTENT_BODY": {}
+      },
+      "CONCESSION": {
+        "HEADER": "cOnCeSsIoN",
+        "AUTHORISATION_QUESTION_AGREE_YES": "aUtHoRiSaTiOn pRoViDeD",
+        "AUTHORISATION_QUESTION_AGREE_NO": "nO AuThOrIsAtIoN PrOvIdEd",
+        "AUTHORISATION_UPLOAD_YES": "cOnCeSsIoN CaRd uPlOaDeD",
+        "AUTHORISATION_UPLOAD_NO": "nO CoNcEsSiOn cArD UpLoAdEd",
+        "AUTHORISATION_NOT_SPECIFIED": "nOt sPeCiFiEd",
+        "APPLICABLE": "aPpLiCaBlE"
+      },
+      "MANAGER_AGENT": {
+        "HEADER": "pRoPeRtY MaNaGeR / LeTtInG AgEnT"
+      },
+      "HOLIDAY_RENTAL": {
+        "HEADER": "hOlIdAy lEtTiNg / rEnTaL CoMpAnY"
+      },
+      "DIRECT_DEBIT": {
+        "HEADER": "dIrEcT DeBiT",
+        "CONTENT_BODY": {
+          "ACCOUNT_BSB": "bSb",
+          "CREDIT_CARD": "cReDiT CaRd",
+          "BANK_ACCOUNT": "bAnK AcCoUnT",
+          "ACCOUNT_NAME": "aCcOuNt nAmE",
+          "CARD_ENDING": "cArD: eNdInG",
+          "NAME_ON_CARD": "nAmE On cArD",
+          "ACCOUNT_NUMBER": "nUm",
+		  "EXPIRY_DATE": "eXp:"
+        }
+      },
+      "ADDITIONAL_NOTE": {
+        "HEADER": "aDdItIoNaL NoTe"
+      },
+      "NOTIFICATION_OPTIONS": {
+        "POSTAL": "pOsTaL",
+        "EMAIL": "eMaIl",
+        "SMS": "sMs",
+		"NONE": "nOnE",
+        "BILLS": "bIlLs",
+        "ACCOUNT_NOTIFICATIONS": "nOtIfIcAtIoNs aNd rEmInDeRs",
+        "MARKETING": "mArKeTiNg"
+      }
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "CLOSE_MESSAGE": "tHiS WiNdOw/tAb iS No lOnGeR ReQuIrEd,<Br/>FoR PrIvAcY ReAsOnS We eNcOuRaGe yOu tO ClOsE It",
+      "LOADING_CONFIG": "lOaDiNg mOvE-In pOrTaL...",
+      "PROGRESS_BAR_SUBMIT": "sUbMiTtInG YoUr rEqUeSt...",
+      "PROGRESS_BAR_LONG_RESPONSE": "sUbMiTtInG YoUr rEqUeSt iS TaKiNg a bIt lOnGeR ThAn eXpEcTeD. sOrRy fOr tHe dElAy, PlEaSe dO NoT ClOsE ThIs wInDoW",
+      "HEADER": "mOvE In rEqUeSt",
+      "TRY_AGAIN": "tRy aGaIn",
+      "IDLE_TIME": [
+        "yOu hAvE BeEn iNaCtIvE FoR",
+        "fOr pRiVaCy rEaSoNs tHiS FoRm wIlL AuToMaTiCaLlY Be cLeArEd iN"
+      ],
+	  "SECONDS": "sEcOnDs",
+      "NEXT": "nExT",
+      "PREVIOUS": "pReViOuS",
+      "YES": "yEs",
+      "NO": "nO",
+      "OK": "oK",
+      "NONE_SPECIFIED": "nOnE SpEcIfIeD",
+      "CANCEL": "cAnCeL",
+      "SUBMIT": "sUbMiT",
+      "DRAG_AND_DROP": [
+        "dRaG-AnD-DrOp fIlE HeRe oR",
+        "cLiCk tO BrOwSe fOr fIlE",
+        "tO UpLoAd"
+      ],
+      "UPLOADER": {
+        "SUCCESS": "fIlE UpLoAdEd sUcCeSsFuLlY",
+        "FAIL": "fAiLeD To uPlOaD",
+        "FILE_EXCEEDED": ["eRrOr: FiLe sIzE ExCeEdS", "mB"],
+        "INVALID_TYPE": "fIlE TyPe iS NoT AlLoWeD",
+        "DELETE": "dElEtE",
+        "REMOVE": "rEmOvE",
+        "CANCEL": "aBoRt",
+        "LIFE_SUPPORT": "mEdIcAl cErTiFiCaTe aSsOcIaTeD WiTh yOuR LiFe sUpPoRt rEqUiReMeNt",
+        "CONCESSION": "a sCaN Or pIcTuRe oF YoUr cOnCeSsIoN CaRd",
+		"DELETE_IMAGE_CONFIRMATION": "aRe yOu sUrE YoU WoUlD LiKe tO ReMoVe tHiS FiLe?"
+      }
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "rEqUiReD FiElD",
+      "INVALID_EMAIL_ADDRESS": "iNvAlId eMaIl aDdReSs"
+    },
+    "PORTAL_CONFIG": {
+      "PORTALCONFIG_ERROR": "pRoBlEm lOaDiNg mOvE-In pOrTaL, pLeAsE TrY AgAiN ShOrTlY",
+      "HEADER": "uNaBlE To lOaD MoVe-iN PoRtAl",
+      "HEADER_TITLE_ERROR": "pRoBlEm lOaDiNg mOvE-In pOrTaL, pLeAsE TrY AgAiN ShOrTlY",
+      "MW_UNABLE_TO_LOAD": "pRoBlEm lOaDiNg sEcUrE CrEdIt cArD ArEa",
+      "PROBLEM_SUBMITTING": "pRoBlEm sUbMiTtInG YoUr rEqUeSt ...",
+      "EXTRA_DATA_ERROR": "eXtRa dAtA Is iNvAlId"
+    },
+    "PAYMENT": {
+      "CONTACT_SUPPORT": ["nEeD HeLp? CaLl uS On", "oR EmAiL Us aT"]
+    }
+  },
+  "CONNECTION_ERROR_LABELS": {
+    "NO_CONNECTION_HEADER": "cOnNeCtIoN ErRoR",
+    "NO_CONNECTION": "pRoBlEm lOgIn, LoOkS LiKe yOu dOn't hAvE InTeRnEt cOnNeCtIoN.<br>pLeAsE FiX YoUr iNtErNeT CoNnEcTiOn bEfOrE TrYiNg aGaIn.",
+    "NO_BACKEND_HEADER": "sErVeR ErRoR",
+    "NO_BACKEND": "pRoBlEm lOgIn, LoOkS LiKe oUr sErVeR Is hAvInG PrObLeMs, SyStEm aDmInIsTrAtOr hAs bEeN NoTiFiEd.<br>pLeAsE TrY AgAiN ShOrTlY"
+  }  
+}

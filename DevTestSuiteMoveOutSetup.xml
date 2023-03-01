@@ -1,0 +1,8 @@
+<suite name="Dev Move Out Setup Suite">
+	<test name="testing">
+		<classes>
+			<!-- this class only needs to be executed once -->							
+			<class name="au.com.blueoak.portal.dev.move_out.MoveOutTestDataSetup" />			
+		</classes>
+	</test>
+</suite>

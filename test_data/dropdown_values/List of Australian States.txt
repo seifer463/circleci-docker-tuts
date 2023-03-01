@@ -1,0 +1,12 @@
+    utility.prototype.getStateList = function () {
+      var state = [];
+      state["ACT"] = "Australian Capital Territory";
+      state["NSW"] = "New South Wales";
+      state["NT"] = "Northern Territory";
+      state["QLD"] = "Queensland";
+      state["SA"] = "South Australia";
+      state["TAS"] = "Tasmania";
+      state["VIC"] = "Victoria";
+      state["WA"] = "Western Australia";
+      return state;
+    };

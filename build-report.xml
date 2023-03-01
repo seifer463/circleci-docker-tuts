@@ -1,0 +1,13 @@
+<project default="junitreport">
+
+	<target name="junitreport">
+		<echo>Preparing junit reports...</echo>
+	    <junitreport todir="test-output/junitreports">
+	        <fileset dir="test-output/junitreports">
+	            <include name="TEST-*.xml"/>
+	        </fileset>
+	        <report format="noframes" todir="test-output/junitreports"/>
+	    </junitreport>
+	 </target>
+	
+</project>

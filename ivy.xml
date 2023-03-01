@@ -1,0 +1,65 @@
+<ivy-module version="2.0"
+	xmlns:m2="http://ant.apache.org/ivy/maven"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info organisation="bluebilling" module="portal_selenium"/>
+    <dependencies>
+			<dependency org="commons-io" name="commons-io" rev="2.11.0" transitive="false" conf="default->master"/>
+			<dependency org="commons-lang" name="commons-lang" rev="2.6" transitive="false" conf="default->master"/>
+	    	<dependency org="org.apache.commons" name="commons-lang3" rev="3.9" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.commons" name="commons-vfs2" rev="2.6.0" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.poi" name="poi" rev="3.12" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.poi" name="poi-ooxml" rev="3.12" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.poi" name="poi-ooxml-schemas" rev="3.12" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.pdfbox" name="pdfbox-app" rev="1.8.8" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.13" transitive="false" conf="default->master"/>
+			<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.13" transitive="false" conf="default->master"/>
+	
+	    	<!-- spring libraries -->
+			<dependency org="org.springframework" name="spring-beans" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+			<dependency org="org.springframework" name="spring-context" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+			<dependency org="org.springframework" name="spring-core" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+			<dependency org="org.springframework" name="spring-expression" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+			<dependency org="org.springframework" name="spring-jdbc" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+			<dependency org="org.springframework" name="spring-test" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+			<dependency org="org.springframework" name="spring-tx" rev="4.1.0.RELEASE" transitive="false" conf="default->master"/>
+
+			<!-- aws libraries -->
+			<dependency org="com.amazonaws" name="aws-java-sdk-core" rev="1.11.881" transitive="false" conf="default->master"/>
+			<dependency org="com.amazonaws" name="aws-java-sdk-s3" rev="1.11.881" transitive="false" conf="default->master"/>
+			<dependency org="com.amazonaws" name="aws-java-sdk-cloudfront" rev="1.11.881" transitive="false" conf="default->master"/>
+			<dependency org="com.amazonaws" name="jmespath-java" rev="1.11.881" transitive="false" conf="default->master"/>
+			<dependency org="software.amazon.ion" name="ion-java" rev="1.0.2" transitive="false" conf="default->master"/>
+			<dependency org="com.github.abashev" name="vfs-s3" rev="4.3.4" transitive="false" conf="default->master"/>
+	
+			<!-- xml libraries -->
+			<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.11.3" transitive="false" conf="default->master"/>
+			<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.11.3" transitive="false" conf="default->master"/>
+			<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.11.3" transitive="false" conf="default->master"/>
+			<dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor" rev="2.11.3" transitive="false" conf="default->master"/>
+
+			<!-- logging libraries -->
+    		<dependency org="log4j" name="log4j" rev="1.2.17" transitive="false" conf="default->master"/>
+        	<dependency org="commons-logging" name="commons-logging" rev="1.2" transitive="false" conf="default->master"/>
+        	
+        	<dependency org="mysql" name="mysql-connector-java" rev="5.1.32" transitive="false" conf="default->master"/>
+
+			<dependency org="javax.mail" name="javax.mail-api" rev="1.6.2" transitive="false" conf="default->master"/>
+			<dependency org="com.sun.mail" name="smtp" rev="1.6.2" transitive="false" conf="default->master"/>
+			<dependency org="com.sun.mail" name="javax.mail" rev="1.6.2" transitive="false" conf="default->master"/>
+			
+			<dependency org="org.jsoup" name="jsoup" rev="1.13.1" transitive="false" conf="default->master"/>
+	    	<dependency org="joda-time" name="joda-time" rev="2.10.6" transitive="false" conf="default->master"/>
+			<dependency org="commons-codec" name="commons-codec" rev="1.11" transitive="false" conf="default->master"/>
+			
+			<!-- TestNG libraries -->
+			<dependency org="com.beust" name="jcommander" rev="1.78" transitive="false" conf="default->master"/>
+			<dependency org="org.testng" name="testng" rev="7.3.0" transitive="false"/>
+			
+			<!-- Selenium libraries -->
+			<dependency org="org.seleniumhq.selenium" name="selenium-java" rev="3.141.59"/>
+			<!-- if you want to implement this https://github.com/fslev/selenium-jutils#retry-on-error, 
+			you need to download this jar below
+			<dependency org="io.github.fslev" name="selenium-jutils" rev="1.23" transitive="false" conf="default->master"/> -->
+    </dependencies>
+</ivy-module>

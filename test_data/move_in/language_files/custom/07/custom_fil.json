@@ -1,0 +1,21 @@
+{
+  "SUPPLY_DETAILS": {
+    "HEADER": "Mga Detalye Ng Supply",
+    "CONTENT_BODY": {
+      "MOVING_IN_AS": "Ako ay isang:",
+      "TENANT": "Nangungupahan",
+      "OWNER": "May-ari",
+      "PROPERTY_MANAGER": "Nangangasiwa O Nagpapaubaya",
+      "SUPPLY_ADDRESS": "Istak Address",
+      "SUPPLY_ADDRESS_FIELD": "Simulan ang Pag-type ng Istak Address",
+      "COMPLEX_NAME": "Pangalan ng Gusali",
+      "TENANCY_TYPE": "Uri ng Pangungupahan",
+      "TENANCY_NUMBER": "Numero ng Pangungupahan",
+      "STREET_NUMBER": "Numero ng Kalye",
+      "STREET_NAME": "Pangalan ng kalye",
+      "STREET_TYPE": "Uri ng Kalye",
+      "LOCALITY": "Lungsod",
+      "STATE": "Estado"
+    }
+  }
+}

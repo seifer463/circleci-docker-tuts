@@ -1,0 +1,53 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "NaMe oN CaRd",
+      "CARD_EXPIRY": "ExPiRy (Mm/yY)"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PAYMENT_AMOUNT": "PaYmEnT AmOuNt",
+      "LARGE_AMOUNT_CHECKBOX": "LaRgE PaYmEnT AmOuNt dEtEcTeD, tIcK To cOnFiRm tHe aMoUnT Is cOrReCt.",
+      "EMAIL_CHECKBOX": "EmAiL A PaYmEnT ReCeIpT",
+      "BUTTON_PAYMENT": "MaKe pAyMeNt",
+      "PROGRESS_BAR": "PrOcEsSiNg pAyMeNt...",
+      "PROGRESS_BAR_SECURE": "CrEaTiNg sEcUrE PaYmEnT CoNnEcTiOn...",
+      "LOADING_CONFIG": "LoAdInG SeCuRe pAyMeNt aReA...",
+      "HEADER": [
+        "PaY My",
+        "AcCoUnT"
+      ],
+      "IDLE_TIME": [
+        "YoU ArE CuRrEnTlY InAcTiVe! ThIs wInDoW WiLl aUtOmAtIcAlLy rEfReSh iN",
+        "SeCoNdS"
+      ],
+      "CLOSE_BUTTON": "ClOsE",
+      "ACCOUNT_NUMBER_SAMPLE": "YoUr aCcOuNt nUmBeR CaN Be fOuNd aT ThE MaRkEd pOsItIoN On yOuR BiLl",
+      "TRY_AGAIN": "TrY AgAiN",
+      "BTN_NEXT": "NeXt",
+      "TOTAL": "ToTaL"
+    },
+    "PAYMENT": {
+      "SUCCESS": {
+        "HEADER": "PaYmEnT SuCcEsSfUlLy pRoCeSsEd",
+        "EMAILED_TO": "PaYmEnT ReCeIpT HaS BeEn eMaIlEd tO"
+      },
+      "FAILED": {
+        "HEADER": "PaYmEnT PrOcEsSiNg fAiLeD",
+        "EMAILED_TO": "FaIlEd pAyMeNt dEtAiLs hAs bEeN EmAiLeD To"
+      },
+      "PROCESSING_FEE": {
+        "CALCULATED_AMOUNT": [
+          "PrOcEsSiNg fEe oF",
+          "Is aPpLiCaBlE. a tOtAl oF",
+          "WiLl bE PrOcEsSeD"
+        ]
+      },
+      "CONTACT_SUPPORT": [
+        "NeEd hElP? cAlL Us oN",
+        "Or eMaIl uS At"
+      ]
+    }
+  }
+}

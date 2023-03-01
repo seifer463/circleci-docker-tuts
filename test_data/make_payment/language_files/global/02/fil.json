@@ -1,0 +1,93 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+	  "CARD_HOLDER": "Pangalan sa card",
+      "CARD_NUMBER": "Numero ng card",
+      "CARD_EXPIRY": "Pag-expire (mm/yy)"
+    },
+    "ERROR": {
+	  "CARD_HOLDER_INVALID": "Di-wasto ang pangalan",
+      "CARD_HOLDER_LENGTH_MIN": "Ang pangalan ng may-ari ng card ay masyadong maikli",
+      "CARD_HOLDER_LENGTH_MAX": "Ang pangalan ng may hawak ng card ay masyadong mahaba",
+      "CARD_NUMBER_REQUIRED": "Kinakailangan ang numero ng card",
+      "CARD_NUMBER_LENGTH_MIN": "Ang haba ng minimum na numero ng card ay hindi tama",
+      "CARD_NUMBER_LENGTH_MAX": "Ang haba ng numero ng maximum card ay hindi tama",
+      "CARD_NUMBER_VALID_CARD": "Di-wasto ang numero ng card",
+      "CARD_NUMBER_NOT_SUPPORTED": "Ang tinukoy na uri ng card ay hindi tinatanggap",
+      "CARD_EXPIRY_REQUIRED": "Kinakailangan ang pag-expire ng card",
+      "CARD_EXPIRY_INVALID": "Di-wasto ang pag-expire ng card",
+      "CARD_EXPIRY_EXPIRED": "Nag-expire na ang card",
+      "CARD_CVV_REQUIRED": "Kinakailangan ang cvv",
+      "CARD_CVV_LENGTH_MIN": "Di-wasto ang minimum na haba ng card cvv",
+      "CARD_CVV_LENGTH_MAX": "Hindi wasto ang haba ng card cvv"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "LARGE_AMOUNT_CHECKBOX": "Malaking halaga ng pagbabayad ang nakita, lagyan ng tsek upang kumpirmahin na tama ang halaga.",		
+	  "EMAIL_CHECKBOX": "Mag-email ng resibo sa pagbabayad",
+	  "EMAIL_LABEL": "Email Address (paghiwalayin ang maramihang mga email na may kuwit)",
+	  "ACCOUNT_NUMBER": "Numero ng Akaunto",
+      "BUTTON_PAYMENT": "",
+      "PROGRESS_BAR": "Pinoproseso ang pagbabayad ... mangyaring maghintay.",
+	  "PROGRESS_BAR_SECURE": "Paglikha ng secure na koneksyon sa pagbabayad ... mangyaring maghintay.",
+      "LOADING_CONFIG": "Nilo-load ang configuration ...",
+      "HEADER": [
+        "Magbayad ako",
+        "Akaunto"
+      ],
+      "IDLE_TIME": [
+        "Ikaw ay kasalukuyang hindi aktibo! Awtomatiko itong i-refresh ang window na ito",
+        "segundo"
+      ],
+	  "CLOSE_BUTTON": "Isara",
+      "ACCOUNT_NUMBER_SAMPLE": "Ang iyong numero ng akaunto ay matatagpuan sa minarkahang posisyon sa iyong kuwenta",
+	  "TRY_AGAIN": "Subukan Muli",
+	  "BTN_NEXT": "Sunod",
+	  "TOTAL": "Kabuuan"
+    },
+    "ERROR": {
+      "INVALID_PAYMENT_AMOUNT": "Di-wasto ang halaga ng pagbabayad",
+      "MINIMUM_AMOUNT": [
+        "Minimum ng",
+        "kailangan"
+      ],
+      "REQUIRED_ACCOUNT_NUMBER": "Kinakailangan ang numero ng akaunto",
+      "REQUIRED_EMAIL_ADDRESS": "Kinakailangan ang email address",
+      "API_MW_DETAILS_403": "API 403 Code. Hindi maiproseso ang iyong kahilingan dahil hindi namin ma-verify ang mga ibinigay na detalye. Pakisubukang muli ngunit kung magpatuloy ang problemang ito mangyaring makipag-ugnay sa serbisyo ng customer upang makumpleto ang pagbabayad.",
+      "API_MW_DETAILS_500": "API 500 Code. Hindi maproseso ang iyong kahilingan dahil sa mga problema sa teknikal. Pakisubukang muli ngunit kung magpatuloy ang problemang ito mangyaring makipag-ugnay sa serbisyo ng customer upang makumpleto ang pagbabayad.",
+      "API_MW_DETAILS_400": "API 400 Code. Hindi maproseso ang iyong kahilingan dahil sa mga problema sa teknikal. Pakisubukang muli ngunit kung magpatuloy ang problemang ito mangyaring makipag-ugnay sa serbisyo ng customer upang makumpleto ang pagbabayad."
+    },
+    "PAYMENT": {
+      "SUCCESS": {
+        "EMAILED_TO": "Ang resibo sa pagbabayad ay na-email sa"
+      },
+      "FAILED": {
+        "HEADER": "Nabigo ang pagproseso ng pagbabayad"
+      },
+      "PORTAL_CONFIG": {
+        "PORTALCONFIG_ERROR": "Problema sa pagkuha ng configuration file. Pakisubukang muli sa ilang sandali",
+        "HEADER": "Hindi ma-load ang portal ng pagbabayad!",
+        "HEADER_TITLE_ERROR": "Problema sa pagkuha ng configuration file ...",
+		"MW_UNABLE_TO_LOAD": "Problema sa pakikipag-ugnay sa gateway ng pagbabayad, mangyaring subukan muli sa ilang sandali."
+      },
+      "PROCESSING_FEE": {
+        "CALCULATED_AMOUNT": [
+          "Ang bayad sa pagpoproseso ng",
+          "ay naaangkop. Isang kabuuan",
+          "mapoproseso."
+        ],		
+        "ERROR_GETTING_PROCESSING_FEE": "Hindi matukoy kung ang anumang mga bayarin sa pagproseso ay naaangkop, kung ang isang naaangkop ay ilalapat ito sa iyong account mamaya."
+      }
+    }
+  },
+  "CONNECTION_ERROR": {
+    "CONNECTION_ERROR_LABELS": {
+      "NO_CONNECTION_HEADER": "Error sa Koneksyon",
+      "NO_CONNECTION": "Problema sa pag-log in, mukhang wala kang koneksyon sa Internet.<br>Pakiayos ang iyong koneksyon sa Internet bago subukang muli.",
+      "NO_BACKEND_HEADER": "Error sa Server",
+      "NO_BACKEND": "Problema sa pag-log in, mukhang nagkakaproblema ang aming server, naabisuhan ang system administrator.<br>Pakisubukang muli sa ilang sandali"
+    },
+    "BUTTON": "Nakuha ko"
+  }
+}

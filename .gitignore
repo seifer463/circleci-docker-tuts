@@ -1,0 +1,11 @@
+/bin/
+# This is for the generated report every time TestNg executes
+/test-output/
+# This is for the log files generated every time test cases are executed
+/log/
+# This is for the preferences settings for the eclipse
+/.settings
+/dependencyTree/
+/libs/
+# This is the file created from build.ivy.download task
+ivy.jar.file

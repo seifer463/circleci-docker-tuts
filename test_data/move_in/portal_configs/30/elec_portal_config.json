@@ -1,0 +1,564 @@
+{
+	"portal_name": "Selenium BlueBilling",
+	"business_name": "ALZHEIMER'S australia ACT incorporated",
+	"business_number": "ABN 66 342 708 600",
+	"business_url": "https://blueoak.com.au",
+	"support_contact": {
+		"phone": "1300 584 628",
+		"email": "support@bluebilling.com.au"
+	},
+	"idle_time": 900,
+	"timeout_warning": 30,
+	"use_session_store": true,
+	"locale": {
+		"timezone": "Australia/Melbourne",
+		"date": "dd/MM/yyyy",
+		"time": "h:mm tt",
+		"currency_symbol": "€",
+		"currency_significant_digits": 4,
+		"thousand_separator": ",",
+		"decimal_symbol": ".",
+		"phone_mobile": "1111 222 2222",
+		"phone_landline": "333 444 5555"
+	},
+	"recaptchaKey": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI",
+	"address_lookup": {
+		"enabled": false,
+		"timeout": 60,
+		"api_key": "AIzaSyAYZT-or7nmY9aWtzB7Gii95qUPKRExnu8"
+	},
+	"business_lookup": {
+		"enabled": false,
+		"timeout": 60,
+		"api_key": "7644efa9-4d99-47c0-9c78-89c7fae1cd79"
+	},
+	"payment_gateway": {
+		"hostname": "https://base.merchantwarrior.com/",
+		"timeout": 60,
+		"merchant": {
+			"uuid": "54909a2c6bb50",
+			"api_key": "4y4zagxd"
+		}
+	},
+	"api_server": {
+		"patience_warning": 20,
+		"timeout": 60
+	},
+	"payment": {
+		"custom_ui": {
+			"style_sheet": false,
+			"language": false
+		},
+		"declaration": {
+			"credit_card": "<b>Payment Sucharge Fees:</b> A credit/debit card surcharge of 1.5% (inc. GST) applies for Visa and Mastercard, 3% surcharge (inc GST) applies for AMEX and Diners Card. Please check our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a><ul><li>the debit payment will be based on the bills issued according to each bill cycle</li></ul>",
+			"bank_account": "<b>Payment Dishonor Fees:</b> A dishonor fee of $15.00 (inc GST) applied for failed direct debt.<ul><li>the bank payment will be based on the bills issued according to each bill cycle. Please check our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a></li></ul>"
+		},
+		"authorisation": {
+			"credit_card": [
+				"<b>Payment</b> I/We hereby authorise to debit my/our credit card on behalf of ",
+				"through the payment gateway as per the service agreement provided. Please check our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a>"
+			],
+			"bank_account": [
+				"<b>Payment</b> I/We hereby authorise SR Global Solutions Pty Ltd ACN 132 951 172 (\"Merchant Warrior\"), Direct Debit User ID Number 397351, to debit my/our account on behalf of ",
+				"through the Bulk Electronic Clearing System (BECS) as per the service agreement provided. <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a>"
+			]
+		},
+		"minimum_amount": 5.00,
+		"large_amount_warning": 1000,
+		"prepopulate_allowed": true,
+		"supported": [{
+				"type": "CREDIT_CARD_VI",
+				"gateway_id": "visa",
+				"display": "Visa"
+			},
+			{
+				"type": "CREDIT_CARD_MC",
+				"gateway_id": "mastercard",
+				"display": "Mastercard"
+			},
+			{
+				"type": "CREDIT_CARD_AX",
+				"gateway_id": "amex",
+				"display": "American Express"
+			}
+		],
+		"default_currency": "AUD",
+		"default_customer": {
+			"customer_name": "Website Payment, BlueBilling",
+			"customer_address": "132 Cremorne Street",
+			"customer_city": "Richmond",
+			"customer_state": "Victoria",
+			"customer_post_code": "3121",
+			"customer_country": "AU"
+		}
+	},
+	"move_in": {
+		"custom_ui": {
+			"style_sheet": false,
+			"language": true
+		},
+		"introduction": "This agreement authorises Blue Oak Solutions Pty Ltd (BlueOak) to manage the supply of your electricity and/or utilities. For any help completing this form or to setup a direct debit facility please call our office on 1300 584 628 during business hours. <b>If your residence does not currently have power, it may take up to three business days to re-connect your power.</b> <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a>",
+		"allowed_dates": {
+			"into_past": 10,
+			"into_future": 20,
+			"lease_date": {
+				"weekends_allowed": true,
+				"public_holidays_allowed": true
+			},
+			"move_in_date": {
+				"weekends_allowed": true,
+				"public_holidays_allowed": true
+			},
+			"settlement_date": {
+				"weekends_allowed": true,
+				"public_holidays_allowed": true
+			}			
+		},
+		"supply_address": {
+			"read_only_when_supplied_by_hosting_application": true
+		},
+		"supply_state": {
+            "introduction": "This is a test introduction for Supply Connected",
+			"enabled": false
+		},
+		"trade_waste": {
+			"enabled": true,
+			"attachments": {
+				"text": "<p>Please upload all site plans and work drawings below. We will review all the documentation provided and be in contact to arrange a site inspection before permit is issued.<br/><br/>You can review our trade waste pricing <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\" rel=\"nofollow\">here</a>.</p>",
+				"total_size_mb": 1,
+				"total_files": 2
+			}
+		},
+		"account_type": {
+			"read_only_when_supplied_by_hosting_application": true
+		},
+		"account_category": {
+			"tenant": "TENANT",
+			"owner": "OWNER",
+			"agent": "RUM",
+			"holiday": "LETTING_POOL"
+		},
+		"life_support": {
+			"electricity": {
+				"enabled": false
+			},
+			"water": {
+				"enabled": true
+			},
+			"medical_cooling": {
+				"enabled": false
+			},
+			"medical_certificate": {
+				"enabled": true,
+				"required": false
+			},
+			"attachments": {
+				"total_size_mb": 1,
+				"total_files": 3
+			}
+		},
+		"account_contact": {
+			"residential_account": {
+				"date_of_birth": {
+					"enabled": true,
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				},
+				"identification": {
+					"enabled": true,
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				}
+			},
+			"notification": {
+				"introduction": "",
+				"bills": {
+					"available_methods": [
+						"POSTAL",
+						"EMAIL",
+						"SMS"
+					],
+					"default_methods": [],
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				},
+				"reminders": {
+					"available_methods": [
+						"EMAIL",
+						"SMS",
+						"POSTAL"
+					],
+					"default_methods": [],
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				},
+				"marketing": {
+					"available_methods": [
+						"POSTAL",
+						"EMAIL",
+						"SMS"
+					],
+					"default_methods": [],
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				}
+			},
+			"contact_method": {
+				"email": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				},
+				"phone_mobile": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				},
+				"phone_business": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				},
+				"phone_home": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": false
+				}
+			},
+			"secret_code": {
+				"enabled": false,
+				"required": true
+			},
+			"additional_contacts": {
+				"total_allowed": 1,
+				"mandatory_for_tenant": false,
+				"mandatory_for_owner": true,
+				"mandatory_for_agent": true
+			}
+		},
+		"direct_debit": {
+			"required": false,
+			"authorisation": {
+				"credit_card": [
+					"<p><b>Move-In DD</b> I/We hereby authorise to debit my/our credit card on behalf of ",
+					"through the payment gateway as per the service agreement provided and agree to the the following<ul><li>the debit payment will be based on the bills issued according to each bill cycle</li><li>the amount debited may vary</li><li>prior to the first debit payment, we will advise you in writing of the first bill to be debited under your direct debit drawing arrangement</li></ul></p>"
+				],
+				"bank_account": [
+					"<p><b>Move-In DD</b> I/We hereby authorise SR Global Solutions Pty Ltd ACN 132 951 172 (\"Merchant Warrior\"), Direct Debit User ID Number 397351, to debit my/our account on behalf of ",
+					"through the Bulk Electronic Clearing System (BECS) as per the service agreement provided and agree to the the following<ul><li>the debit payment will be based on the bills issued according to each bill cycle</li><li>the amount debited may vary</li><li>prior to the first debit payment, we will advise you in writing of the first bill to be debited under your direct debit drawing arrangement</li></ul></p>"
+				]
+			}
+		},
+		"postal_address_always": false,
+		"concession": {
+			"enabled": true,
+			"not_available": "We cannot apply concession directly to your account. However, please consult our comprehensive <a href=\"https://www.blueoak.com.au/concession-guide\" target=\"_blank\" rel=\"nofollow\">online guide</a> that walks you through how to go about claiming your concession directly from the appropriate government organisation.",
+			"authorisation": {
+				"method": "UPLOAD",
+				"text": "'Company' is seeking your consent to collect and use your name, address, payment and concession card information from the Department of Human Services/Department of Veteran Affairs to validate your concession eligibility. This authority is only effective for the period that you are a customer of 'Company' and you can revoke your consent at any time by contacting us. If you do not provide your consent you may not be eligible for the concession. You are required to notify us and your card issuer of any changes in your circumstances which may affect your eligibility for a concession.<br/><br/>Do you understand and consent to 'Company' accessing your information held by the Department of Human Services/Department of Veteran Affairs? Visit our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a>",
+				"required": false,
+				"attachments": {
+					"total_size_mb": 1,
+					"total_files": 3
+				}
+			}
+		},
+		"property_manager": {
+			"enabled": false,
+			"required": true
+		},
+		"additional_notes_length": 20,
+		"acceptance": [{
+				"text": "I/We confirm the above details are accurate and by clicking submit I understand an account will be setup with these details",
+				"enabled": false,
+				"required": true
+			},
+			{
+				"text": "I/We agree to the <a href=\"https://www.blueoak.com.au/terms-and-condition.pdf\" target=\"_blank\" rel=\"nofollow\">Terms and Conditions</a> and also acknowledge <a href=\"https://www.blueoak.com.au/our-prices\" target=\"_blank\" rel=\"nofollow\">BlueOak's Standard Fee Schedule</a>",
+				"enabled": false,
+				"required": true
+			},
+			{
+				"text": "I/We will add enquiries@blueoak.com.au to my email contacts or white list where required",
+				"enabled": false,
+				"required": true
+			}
+		],
+		"extra_data": {}
+	},
+	"move_out": {
+		"custom_ui": {
+			"style_sheet": false,
+			"language": false
+		},
+		"introduction": "The below online form notifies Blue Oak Solution Pty Ltd (BlueOak) that you are moving out of a property that BlueOak supplies electricity and/or utilities. We'll process your disconnection request and send any further communication including a final bill to your new address. If you wish to use BlueOak as your electricity supplier for your new address, you can also do this through the form below",
+		"allowed_dates": {
+			"into_past": 5,
+			"into_future": 10
+		},
+		"account_number": {
+			"enabled": true,
+			"required": true,
+			"only_valid": false
+		},
+		"account_contact": {
+			"residential_account": {
+				"date_of_birth": {
+					"enabled": true,
+					"main_contact_mandatory": false
+				},
+				"identification": {
+					"enabled": true,
+					"main_contact_mandatory": true
+				}
+			},
+			"notification": {
+				"introduction": "<p>Paper bills put upward pressure on prices so we encourage you to use our eBilling service.</p>",
+				"bills": {
+					"available_methods": [
+						"POSTAL",
+						"EMAIL"
+					],
+					"default_methods": [
+						"POSTAL"
+					],
+					"extra_text": " (additional fees apply for mailing bills)",
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				}
+			},
+			"contact_method": {
+				"email": {
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": true
+				},
+				"phone_mobile": {
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": true
+				},
+				"phone_business": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": true
+				},
+				"phone_home": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": true
+				}
+			},
+			"secret_code": {
+				"enabled": true,
+				"required": true
+			}
+		},
+		"postal_address": {
+			"text": "We require a forwarding address to be provided to ensure your final bill is delivered promptly",
+			"required": false
+		},
+		"additional_notes_length": 256,
+		"acceptance": [{
+				"text": "I/We confirm the above details are accurate and by clicking submit I understand an account will be setup with these details",
+				"enabled": true,
+				"required": true
+			},
+			{
+				"text": "I/We agree to the <a href=\"https://www.blueoak.com.au/terms-and-condition.pdf\" target=\"_blank\" rel=\"nofollow\">Terms and Conditions</a> and also acknowledge <a href=\"https://www.blueoak.com.au/our-prices\" target=\"_blank\" rel=\"nofollow\">BlueOak's Standard Fee Schedule</a>.",
+				"enabled": true,
+				"required": true
+			},
+			{
+				"text": "I/We have added enquiries@blueoak.com.au to my email contacts or white list where required",
+				"enabled": true,
+				"required": false
+			}
+		],
+		"extra_data": {
+            "content_checking": "^.*$"
+        }		
+	},
+	"customer_portal": {
+		"custom_ui": {
+			"style_sheet": true,
+			"language": true
+		},
+		"additional_menu": [{
+				"style": "knowledge",
+				"display_name": "Help and Support",
+				"url": "https://blueoak.com.au/help_and_support"
+			},
+			{
+				"style": "home-phone",
+				"display_name": "Contact",
+				"url": "https://blueoak.com.au/contact"
+			}
+		],
+		"password": {
+			"min_length": 8,
+			"min_strength": 3,
+			"needs_upper_case": true,
+			"needs_lower_case": true,
+			"needs_number": true,
+			"needs_non_alpha": true
+		},
+		"move_out": {
+			"enabled": true,
+			"url": "https://selenium-portal-26.blueacorns.com.au/embedded/move-out"
+		},
+		"transaction": {
+			"pagination": 5
+		}
+	},
+	"connection": {
+		"custom_ui": {
+			"style_sheet": false,
+			"language": false
+		},
+		"introduction": "This agreement authorises Blue Oak Solutions Pty Ltd (BlueOak) to manage the supply of your electricity and/or utilities. For any help completing this form or to setup a direct debit facility please call our office on 1300 584 628 during business hours. <b>If your residence does not currently have power, it may take up to three business days to re-connect your power.</b> Please check our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a>",
+		"allowed_dates": {
+			"into_past": 5,
+			"into_future": 10
+		},
+		"supply_address": {
+			"read_only_when_supplied_by_hosting_application": true
+		},
+		"account_type": {
+			"read_only_when_supplied_by_hosting_application": true
+		},
+		"account_category": {
+			"owner": "OWNER",
+			"agent": "MANAGING_AGENT"
+		},
+		"account_contact": {
+			"residential_account": {
+				"date_of_birth": {
+					"enabled": true,
+					"required": true
+				},
+				"identification": {
+					"enabled": true,
+					"required": false
+				}
+			},
+			"notification": {
+				"introduction": "<p><strong>Paper bills</strong> put upward pressure on prices so we encourage you to use our eBilling service.<ul><li><b>Test Item's #1</b></li><li><i>Test Item's #2</i></li></ul> Please check our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a></p>",
+				"bills": {
+					"available_methods": [
+						"POSTAL",
+						"EMAIL"
+					],
+					"default_methods": [
+						"POSTAL"
+					],
+					"tooltip": "Bill delivery method",
+					"extra_text": "(additional fees apply for mailing bills)",
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				},
+				"reminders": {
+					"available_methods": [
+						"POSTAL",
+						"EMAIL",
+						"SMS"
+					],
+					"default_methods": [
+						"EMAIL",
+						"SMS"
+					],
+					"tooltip": "All account and bill reminders\nas well as any account issues",
+					"extra_text": null,
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				},
+				"marketing": {
+					"available_methods": [
+						"POSTAL",
+						"EMAIL",
+						"SMS"
+					],
+					"default_methods": [],
+					"tooltip": "Marketing related communications",
+					"extra_text": null,
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": true
+				}
+			},
+			"contact_method": {
+				"email": {
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				},
+				"phone_mobile": {
+					"main_contact_mandatory": true,
+					"other_contact_mandatory": false
+				},
+				"phone_business": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": true
+				},
+				"phone_home": {
+					"main_contact_mandatory": false,
+					"other_contact_mandatory": true
+				}
+			},
+			"secret_code": {
+				"enabled": true,
+				"required": false
+			},
+			"additional_contacts": {
+				"total_allowed": 2,
+				"mandatory_for_owner": false,
+				"mandatory_for_agent": true
+			}
+		},
+		"direct_debit": {
+			"required": true,
+			"authorisation": {
+				"credit_card": [
+					"<p><b>Connection DD</b> I/We hereby authorise to debit my/our credit card on behalf of ",
+					"through the payment gateway as per the service agreement provided and agree to the the following<ul><li>the debit payment will be based on the bills issued according to each bill cycle</li><li>the amount debited may vary</li><li>prior to the first debit payment, we will advise you in writing of the first bill to be debited under your direct debit drawing arrangement</li></ul></p>"
+				],
+				"bank_account": [
+					"<p><b>Connection DD</b> I/We hereby authorise SR Global Solutions Pty Ltd ACN 132 951 172 (\"Merchant Warrior\"), Direct Debit User ID Number 397351, to debit my/our account on behalf of ",
+					"through the Bulk Electronic Clearing System (BECS) as per the service agreement provided and agree to the the following<ul><li>the debit payment will be based on the bills issued according to each bill cycle</li><li>the amount debited may vary</li><li>prior to the first debit payment, we will advise you in writing of the first bill to be debited under your direct debit drawing arrangement</li></ul></p>"
+				]
+			}
+		},
+		"postal_address_always": true,
+		"concession": {
+			"enabled": true,
+			"not_available": "We cannot apply concession directly to your account. However, please consult our comprehensive <a href=\"https://www.blueoak.com.au/concession-guide\" target=\"_blank\" rel=\"nofollow\">online guide</a> that walks you through how to go about claiming your concession directly from the appropriate government organisation.",
+			"authorisation": {
+				"method": "UPLOAD",
+				"text": "'Company' is seeking your consent to collect and use your name, address, payment and concession card information from the Department of Human Services/Department of Veteran Affairs to validate your concession eligibility. This authority is only effective for the period that you are a customer of 'Company' and you can revoke your consent at any time by contacting us. If you do not provide your consent you may not be eligible for the concession. You are required to notify us and your card issuer of any changes in your circumstances which may affect your eligibility for a concession.<br/><br/>Do you understand and consent to 'Company' accessing your information held by the Department of Human Services/Department of Veteran Affairs? Please check our <a href=\"https://www.blueoak.com.au/trade_waste_pricing.html\" target=\"_blank\">Terms and Conditions</a>",
+				"required": true,
+				"attachments": {
+					"total_size_mb": 1,
+					"total_files": 4
+				}
+			}
+		},
+		"property_manager": {
+			"enabled": true,
+			"required": true
+		},
+		"project_manager": {
+			"enabled": true,
+			"required": true
+		},
+		"additional_notes_length": 256,
+		"acceptance": [{
+				"text": "I/We confirm the above details are accurate and by clicking submit I understand an account will be setup with these details",
+				"enabled": true,
+				"required": true
+			},
+			{
+				"text": "I/We agree to the <a href=\"https://www.blueoak.com.au/terms-and-condition.pdf\" target=\"_blank\" rel=\"nofollow\">Terms and Conditions</a> and also acknowledge <a href=\"https://www.blueoak.com.au/our-prices\" target=\"_blank\" rel=\"nofollow\">BlueOak's Standard Fee Schedule</a>",
+				"enabled": true,
+				"required": true
+			},
+			{
+				"text": "I/We will add enquiries@blueoak.com.au to my email contacts or white list where required",
+				"enabled": true,
+				"required": false
+			}
+		],
+		"extra_data": {
+            "content_checking": "^.*$"
+        }		
+	}
+}

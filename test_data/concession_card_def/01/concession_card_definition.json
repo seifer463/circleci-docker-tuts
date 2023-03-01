@@ -1,0 +1,165 @@
+
+[
+    {
+        "enabled": true,
+        "services": null,
+        "state": "VIC",
+        "card_type": "vic_pen_cnssn",
+        "card_name": "Pensioner Card Centrelink",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": true
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "VIC",
+        "card_type": "vic_pen_veterns",
+        "card_name": "Pensioner Card Veteran Affairs",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "VIC",
+        "card_type": "vic_health_card",
+        "card_name": "Health Care Card",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "VIC",
+        "card_type": "vic_dva_gold",
+        "card_name": "DVA Gold Card",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "NSW",
+        "card_type": "nsw_pen_cnssn",
+        "card_name": "Pensioner Card (DHS)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "NSW",
+        "card_type": "nsw_pen_veterns",
+        "card_name": "Pensioner Card (DVA)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "NSW",
+        "card_type": "nsw_health_card",
+        "card_name": "Health Care Card (DHS)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "NSW",
+        "card_type": "nsw_dva_gold",
+        "card_name": "DVA Gold Card (War Widow & War Widower Pension)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "NSW",
+        "card_type": "nsw_total_perm_incap",
+        "card_name": "Totally and Permanently Incapacitated (TPI)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "NSW",
+        "card_type": "nsw_disab_pension",
+        "card_name": "Disability Pension (EDA)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_senior",
+        "card_name": "Queensland Seniors Card",
+        "card_number_format": "^3[47][0-9]{13}$",
+        "expiry_required": true
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_dva_gold",
+        "card_name": "DVA Gold Card",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_pen_cnssn",
+        "card_name": "Pensioner Card Centrelink",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_pen_veterns",
+        "card_name": "Pensioner Card Veteran Affairs",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_health_card",
+        "card_name": "Centrelink Health Care Card",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": false,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_asylum",
+        "card_name": "Asylum Seeker",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": false
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_resi_multi",
+        "card_name": "Home Parks and Multi Units",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": true
+    },
+    {
+        "enabled": true,
+        "services": null,
+        "state": "QLD",
+        "card_type": "qld_repat_card",
+        "card_name": "Repatriation Heath Card (RHC)",
+        "card_number_format": "^[0-9a-zA-Z]*$",
+        "expiry_required": true
+    }
+]

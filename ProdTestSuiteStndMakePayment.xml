@@ -1,0 +1,7 @@
+<suite name="Prod Stand alone Make Payment Suite">
+	<test name="testing">
+		<classes>
+			<class name="au.com.blueoak.portal.prod.make_payment.tests.StndMakePayment" />
+		</classes>
+	</test>
+</suite>

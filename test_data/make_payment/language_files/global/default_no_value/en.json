@@ -1,0 +1,28 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+    },
+    "ERROR": {
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+    },
+    "ERROR": {
+    },
+    "PAYMENT": {
+      "SUCCESS": {
+      },
+      "FAILED": {
+      },
+      "PORTAL_CONFIG": {
+      },
+      "PROCESSING_FEE": {
+      }
+    }
+  },
+  "CONNECTION_ERROR": {
+    "CONNECTION_ERROR_LABELS": {
+    }
+  }
+}

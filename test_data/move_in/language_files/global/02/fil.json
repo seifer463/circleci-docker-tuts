@@ -1,0 +1,636 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "Name on Credit Card",
+      "CARD_NUMBER": "Credit Card Number",
+      "CARD_EXPIRY": "Credit Card Expiry (MM/YY)",
+      "CARD_CVV": "CVV"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "Required Field",
+	  "CARD_HOLDER_INVALID": "Name is invalid",
+      "CARD_HOLDER_LENGH_MIN": "Card holder name is too short",
+      "CARD_HOLDER_LENGH_MAX": "Card holder name is too long",
+      "CARD_NUMBER_REQUIRED": "Required Field",
+      "CARD_NUMBER_LENGTH_MIN": "Card number is invalid",
+      "CARD_NUMBER_LENGTH_MAX": "Card number is invalid",
+      "CARD_NUMBER_INVALID_CARD": "Card number is invalid",
+      "CARD_NUMBER_NOT_SUPPORTED": "Card type is not accepted",
+      "CARD_EXPIRY_REQUIRED": "Required Field",
+      "CARD_EXPIRY_INVALID": "Card expiry is invalid",
+      "CARD_EXPIRY_EXPIRED": "Card has expired",
+      "CARD_CVV_REQUIRED": "Required Field",
+      "CARD_CVV_LENGTH_MIN": "CVV too short",
+      "CARD_CVV_LENGTH_MAX": "CVV too long",
+      "ERROR_SUBMITTING": "Credit card details could not be secured due to"
+    }
+  },
+  "SUPPLY_DETAILS": {
+    "HEADER": "Supply Details",
+    "CONTENT_BODY": {
+      "CANCEL_SEARCH": "Manual Address Search",
+      "QUICK_SEARCH": "Quick Address Search",
+      "MOVING_IN_AS": "fil I am a:",
+      "TENANT": "fil Tenant",
+      "OWNER": "fil Owner",
+      "PROPERTY_MANAGER": "fil Property Manager or Letting Agent",
+      "LESS_COMMENCEMENT_DATE": "Lease Commencement Date",
+      "MOVE_IN_DATE": "Move In Date",
+      "SUPPLY_ADDRESS": "fil Supply Address",
+      "MOVE_IN_DATE_SAME_AS_SETTLEMENT_DATE": "Settlement Date same as Move In Date?",
+      "SELECTED_SETTLEMENT_YES": "Yes",
+      "SELECTED_SETTLEMENT_NO": "No",
+      "SETTLEMENT_DATE": "Settlement Date",
+      "SELECTED_HOLIDAY_RENTAL_YES": "Yes",
+      "SELECTED_HOLIDAY_RENTAL_NO": "No",
+      "IS_THIS_HOLIDAY_RENTAL": "Is this a Holiday Rental or Holiday Letting?",
+      "RESPONSIBLE_FOR_PAYING": "Who is responsible for paying the account?",
+      "RESPONSIBLE_OWNER_OWNER": "I am, the owner",
+      "RESPONSIBLE_OWNER_MANAGER": "Property manager",
+      "RESPONSIBLE_MANAGER_MANAGER": "I am, the property manager",
+      "RESPONSIBLE_MANAGER_OWNER": "Tenant/Owner",
+      "OWNER_AGREEMENT_DATE": "Owner Agreement Date",
+      "SUPPLY_ADDRESS_FIELD": "fil Please start typing supply address",
+      "REQUIRED_SERVICE": "Required Field",
+      "ELECTRICITY": "Electricity",
+      "ELECTRICITY_REQUIRED": "fil Is Electricity required for specific medical equipment?",
+      "FILE_COUNT_EXCEED": "Unable to upload all requested files as maximum allowable files is",
+      "FILE_DUPLICATE_FOUND": "cannot be uploaded as they already are present. Please remove these existing files and upload again",
+      "WATER_REQUIRED": "fil Is Water required for specific medical equipment?",
+      "LIFE_SUPPORT": "fil Life Support",
+	  "POSTCODE": "fil Postcode",
+      "EQUIPMENT_FOR_LIFE_SUPPORT": "Is anyone at this property dependent on electricity for life support equipment",
+      "SELECT_EQUIPMENT": "Please select one or more life support devices in-use:",
+      "LIFE_SUPPORT_EQUIPMENT": {
+        "OXYGEN CONCENTRATOR": "Oxygen Concentrator",
+        "INTERMITTENT PERITONEAL DIALYSIS MACHINE": "Intermittent Peritoneal Dialysis Machine",
+        "HAEMODIALYSIS MACHINE": "Haemodialysis Machine",
+        "CHRONIC POSITIVE AIRWAYS PRESSURE RESPIRATOR": "Chronic Positive Airways Pressure Respirator",
+        "CRIGLER NAJJAR SYNDROME PHOTOTHERAPY EQUIPMENT": "Crigler Najjar Syndrome Phototherapy Equipment",
+        "VENTILATOR FOR LIFE SUPPORT": "Ventilator for Life Support",
+        "OTHER": "Other"
+      },
+      "EQUIPMENT_FOR_MEDICAL_COOLING": "Is equipment in use for Medical Cooling purpose at the Supply Address?",
+      "OPTION_LIFE_SUPPORT_YES": "Yes",
+      "OPTION_LIFE_SUPPORT_NO": "No",
+      "OWNER_AGREEMENT_DATE_SAME_AS_SETTLEMENT_DATE": "Settlement Date same as Owner Agreement Date?",
+      "COMPLEX_NAME": "fil Complex Name (if known)",
+      "TENANCY_TYPE": "fil Tenancy Type",
+      "TENANCY_TYPES": {
+        "NOT_APPLICABLE": "Not applicable",
+        "APART": "Apartment",
+        "ATM": "ATM",
+        "HOUSE": "House",
+        "LOT": "Lot",
+        "OFFICE": "Office",
+        "SHOP": "Shop",
+        "SITE": "Site",
+        "SUITE": "Suite",
+        "TENANCY": "Tenancy",
+        "UNIT": "Unit",
+        "VILLA": "Villa"
+      },
+      "TENANCY_NUMBER": "fil Tenancy Number",
+      "STREET_NUMBER": "fil Street Number",
+      "STREET_NAME": "fil Street Name",
+      "STREET_TYPE": "fil Street Type",
+      "LOCALITY": "fil City/Suburb",
+      "STATE": "fil State",
+      "PUBLIC_ICON": "Address Search",
+      "CLEAR_ICON": "Address Search Unavailable",
+      "SEARCHING_ICON": "Searching Address...",
+      "SUPPLY_CONNECTED": "fil Supply Connected",
+      "SERVICE_CONNECTION": "fil Is service currently connected (i.e. on)?",
+      "CONNECTED": "fil Connected",
+      "DISCONNECTED": "fil Disconnected",
+      "DO_NOT_KNOW": "fil Do not know",
+      "CANNOT_FIND_ADDRESS": "Cannot find address? Click here to complete details manually"
+    },
+    "ERROR_LABEL": {
+      "INSTALLED_EQUIPMENT_OTHER": "Specify the name of the equipment",
+      "STREET_NAME_REQUIRED": "Required Field",
+      "STREET_TYPE_REQUIRED": "Required Field",
+      "LOCALITY_REQUIRED": "Required Field",
+      "STATE_REQUIRED": "Required Field",
+      "POSTCODE_REQUIRED": "Required Field",
+      "ADDRESS_SEARCH": "Select from dropdown",
+      "INVALID_DATE": "Invalid date",
+      "REQUIRED_FIELD": "Required Field",
+      "REQUIRED_OTHER_EQUIPMENT": "Specify the name of the equipment",
+      "SELECT_FROM_DROPDOWN": "Select from dropdown",
+      "CANNOT_SELECT_PUBLIC_HOLIDAY": "Cannot select public holiday",
+      "CANNOT_SELECT_WEEKEND": "Cannot select weekend",
+      "LOADING_PUBLIC_HOLIDAYS": "Loading public holidays"
+    }
+  },
+  "TRADE_WASTE": {
+    "HEADER": "Trade Waste",
+    "CONTENT_BODY": {
+      "TRADE_WASTE_DISCHARGED": "Will trade waste be discharged?",
+      "EQUIPMENT_INSTALLED": "Is trade waste equipment installed?",
+      "SELECTED_YES": "Yes",
+      "SELECTED_NO": "No",
+      "SELECT_EQUIPMENT": "Please select one or more trade waste equipment installed",
+      "TRADE_WASTE_EQUIPMENT": {
+        "GREASE_TRAP": "Grease trap",
+        "GREASE_EXTRACTOR": "Grease extractor - filter",
+        "OIL_SEPARATOR": "Oil/plate separator",
+        "DILUTION_PIT": "Dilution pit",
+        "OIL_SUMP": "Oil trap-garage sump",
+        "SOLID_PIT": "Solid settlement pit",
+        "BASKET_TRAP": "Basket trap",
+        "SILVER_UNIT": "Silver recovery unit",
+        "PLASTER_ARRESTOR": "Plaster arrestor",
+        "HOLDING_TANK": "Holding tank",
+        "COOLING_PIT": "Cooling pit",
+        "EFFLUENT_TANK": "Effluent tank final",
+        "EFFLUENT_PUMP": "Effluent pump",
+        "LINT_TRAP": "Lint trap",
+        "OTHER": "Other"
+      },
+      "BUSINESS_ACTIVITY_HEADER": "Business activity at the property",
+      "RETAIL_FOOD_BUSINESS": "Retail food business",
+      "RETAIL_MOTOR_VEHICLE": "Retail motor vehicle",
+      "OTHER": "Other",
+      "DISCHARGE_INFORMATION": {
+        "HEADER": "Discharge Information",
+        "INFO": "Please answer the below details to the best of your ability. If you are unsure you may leave it blank.",
+        "MAX_RATE": "Maximum instantaneous flow rate (Litres / second)",
+        "MAX_VOLUME": "Maximum daily discharge volume (Litres)",
+        "START_DATE": "Discharge Start Date",
+        "DAYS": "Discharge Days (select one or more)",
+        "HOURS_STARTING": "Discharge Hours Starting",
+        "HOURS_ENDING": "Discharge Hours Ending",
+        "DAY_OF_WEEK": {
+          "SUN": "Su",
+          "MON": "Mo",
+          "TUE": "Tu",
+          "WED": "We",
+          "THU": "Th",
+          "FRI": "Fr",
+          "SAT": "Sa"
+        }
+      },
+      "ERROR_LABEL": {
+        "BUSINESS_ACTIVITY": "Select from dropdown",
+        "INSTALLED_EQUIPMENT": "Select at least one",
+        "INSTALLED_EQUIPMENT_OTHER": "Specify the name of the equipment",
+        "NOT_POSITIVE_NUMBER": "Should be a positive value",
+        "NO_START_HOUR": "Specify start of the discharge hours",
+        "NO_END_HOUR": "Specify end of the discharge hours",
+        "FILE_EXCEEDED": ["Error: File size exceeds ", "MB."]
+      }
+    }
+  },
+  "ACCOUNT_DETAILS": {
+    "HEADER": "Account Details",
+    "CONTENT_BODY": {
+      "TYPE_OF_ACCOUNT": "Account Type",
+      "RESIDENTIAL": "Residential",
+      "COMMERCIAL": "Commercial",
+      "COMMERCIAL_ENTITY": "Commercial Entity Details",
+      "COMPANY_ABN_ACN": "Company ABN or ACN",
+      "COMPANY_NAME": "Company/Entity Name",
+      "TRADING_NAME": "Trading Name",
+      "PUBLIC_ICON": "Business details search",
+      "SEARCHING_ICON": "Searching business details..."
+    },
+    "ERROR_LABEL": {
+      "TIMEOUT_ERROR": "ABN/ACN search currently unavailable, please enter manually",
+      "NOT_ACTIVE": "Provided ABN/ACN is currently not active",
+      "NOT_FOUND": "No matches found for provided ABN/ACN",
+      "REQUIRED_FIELD": "Required Field",
+      "REQUIRED_ENTITY": "Required Field",
+      "INVALID_ENTITY": "The entity name should be alphanumeric",
+      "INVALID_ABN": "Invalid ABN/ACN"
+    }
+  },
+  "MAIN_ACCOUNT": {
+    "HEADER": "Main Account Contact",
+    "HEADER_RESPONSIBLE_MANAGER": "Property Manager Account Contact",
+    "HEADER_RESPONSIBLE_OWNER": "Tenant/Owner Account Contact",
+    "HEADER_ADDITIONAL": "Additional Contact",
+    "CONTENT_BODY": {
+      "RESPONSIBLE_FOR_PAY_INTRODUCTION": [
+        "Please provide the",
+        "contact who will be responsible for ensuring that the account is paid when it becomes due."
+      ],
+      "MANAGER_RESPONSIBLE": "Property Manager",
+      "OWNER_RESPONSIBLE": "Tenant/Owner",
+      "FIRST_NAME": "First Name",
+      "LAST_NAME": "Last/Family Name",
+      "BIRTH_DATE": "Date of Birth",
+      "EMAIL_ADDRESS": "Email Address",
+      "MOBILE_NUMBER": "Mobile Phone Number",
+      "BUSINESS_HR_PHONE_NUMBER": "Business Hours Phone Number",
+      "AFTER_HR_PHONE_NUMBER": "After Hours Phone Number",
+      "ACCOUNT_SECRET": ["Secret Code", "speeds up verification"],
+      "PERSONAL_IDENTIFICATION": "Personal Identification",
+      "AUSTRALIAN_DRIVERS_LICENSE": "Australian Drivers Licence",
+      "PASSPORT": "Passport",
+      "MEDICAL_CARD": "Medicare Card",
+      "NOTIFIED_LABEL": "How would you like to be notified?",
+      "POSTAL": "Postal",
+      "EMAIL": "Email",
+      "SMS": "SMS",
+      "NOT_ALLOWED": "N/A",
+      "ADD_ANOTHER_CONTACT": "ADD ANOTHER CONTACT",
+      "REMOVE_CONTACT": "REMOVE THIS CONTACT",
+      "BILLS": "Bills",
+      "ACCOUNT_NOTIFICATION": "Account Notifications and Reminders",
+      "MARKETING": "Marketing Communications",
+      "AUSTRALIAN_LICENSE_NUMBER": "Australian Drivers Licence Number",
+      "PASSPORT_NUMBER": "Passport Number",
+      "MEDICAL_CARD_NUMBER": "Medicare Card Number",
+      "COUNTRY_ISSUE": "Country of Issue",
+      "NON_PROVIDED": "Provide None",
+      "EXPIRY_DATE": "Expiry (MM/YYYY)",
+      "STATE_ISSUE_FIELD": "State Issued",
+      "REFERENCE_NUMBER": "Reference Number",
+      "DELETE_CONTACT_CONFIRMATION": "Are you sure you want to delete this contact?",
+      "DRIVER_LICENSE_NUMBER": "Australian Drivers Licence Number",
+      "STATE_ISSUE": {
+        "ACT": "Australian Capital Territory",
+        "NSW": "New South Wales",
+        "NT": "Northern Territory",
+        "QLD": "Queensland",
+        "SA": "South Australia",
+        "TAS": "Tasmania",
+        "VIC": "Victoria",
+        "WA": "Western Australia"
+      }
+    },
+    "ERROR_LABEL": {
+      "FIRSTNAME_REQUIRED": "Required Field",
+      "LASTNAME_REQUIRED": "Required Field",
+      "FIRSTNAME_INVALID": "Invalid First Name",
+      "LASTNAME_INVALID": "Invalid Last Name",
+      "INVALID_BIRTH_DATE": "Invalid Date of Birth, must be at least 18 years old",
+      "REQUIRED_BIRTH_DATE": "Required Field",
+      "DRIVERS_LICENSE_ERROR": "Invalid Australian Drivers Licence",
+      "DRIVERS_LICENSE_REQUIRED": "Required Field",
+      "STATE_ISSUE_ERROR": "Required Field",
+      "PASSPORT_ERROR": "Invalid Passport Number",
+      "PASSPORT_REQUIRED": "Required Field",
+      "PASSPORT_COUNTRY_ERROR": "Required Field",
+      "MEDICARE_ERROR": "Invalid Medicare Number",
+      "MEDICARE_REQUIRED": "Required Field",
+      "INVALID_MOBILE_NUMBER": "Required Field",
+      "INVALID_NUMBER": "Invalid Value",
+      "INVALID_HOME_NUMBER": "Required Field",
+      "INVALID_SECRET_CODE": "Required Field",
+      "INVALID_BUSINESS_NUMBER": "Required Field",
+      "INVALID_EXPIRY_DATE": "Invalid Date",
+      "REQUIRED_EXPIRY_DATE": "Required Field",
+      "SELECT_FROM_DROPDOWN": "Select from dropdown"
+    }
+  },
+  "ADDITIONAL_ACCOUNT": {
+    "HEADER": "Additional Contact"
+  },
+  "POSTAL_ADDRESS": {
+    "HEADER": "Postal Address",
+    "CONTENT_BODY": {
+      "CANNOT_FIND": "Cannot find address? Click here to complete details manually",
+      "SAME_IN_SUPPLY": "Postal address same as supply address?",
+      "ADDRESS_ONE": "Address Line 1",
+      "ADDRESS_TWO": "Address Line 2",
+      "ADDRESS_THREE": "Address Line 3",
+      "ADDRESS_FOUR": "Address Line 4",
+      "CITY_SUBSURB": "City/Suburb",
+      "STATE": "State",
+      "POSTCODE": "Postcode",
+      "COUNTRY": "Country",
+      "POSTAL_ADDRESS_FIELD": "Please start typing postal address"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_POSTAL_ADDRESS": "At least 1 address line required",
+      "REQUIRED_POSTAL_LOCALITY": "Required Field",
+      "REQUIRED_POSTAL_STATE": "Required Field",
+      "REQUIRED_POSTAL_POSTCODE": "Required Field",
+      "REQUIRED_POSTAL_COUNTRY": "Required Field",
+      "REQUIRED_POSTAL_SEARCH": "Select from dropdown"
+    }
+  },
+  "CONCESSION": {
+    "HEADER": "Concession",
+    "CONTENT_BODY": {
+      "CARDHOLDER_NAME": "Card Holder Name",
+      "TYPE_OF_CONCESSION_CARD": "Type of Concession Card",
+      "CONCESSION_CARD_NUMBER": "Concession Card Number",
+      "EXPIRY_DATE": "Expiry (MM/YYYY)",
+      "APPLY_CONCESSION": "Add concession details to the account?",
+      "AGREE": "Yes, I agree",
+      "NOT_AGREE": " No, I do not agree"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_CARDHOLDER": "Required Field",
+      "NO_CARD_TYPE_SELECTED": "Incorrect Concession Card Number",
+      "REQUIRED_CONCESSION_CARD_TYPE": "Required Field",
+      "CONCESSION_ERROR": "Problem obtaining concession types for the supply address. Select No above and mention in the special notes section below that you were unable to add concession details",
+      "REQUIRED_CARD_TYPE": "Required Field",
+      "REQUIRED_CONCESSION_NUMBER": "Required Field",
+      "INVALID_EXPIRY_DATE": "Invalid date",
+      "REQUIRED_CONCESSION_EXPIRY": "Required Field"
+    }
+  },
+  "MANAGER_AGENT": {
+    "HEADER": "Manager/Agent Company Details",
+    "CONTENT_BODY": {
+      "INTRODUCTION": "Please specify the property company via which the property is being managed",
+      "COMPANY_NAME": "Company Name",
+      "CONTACT_NUMBER": "Company Contact Number",
+      "QUICK_SEARCH": "Quick Address Search",
+      "CANCEL_SEARCH": "Manual Address Search",
+      "ADDRESS_SEARCH_LABEL": "Please start typing company address",
+      "CANNOT_FIND": "Cannot find address? Click here to complete details manually",
+      "CLEAR_ICON": "Address Search Unavailable",
+      "ADDRESS_ONE": "Address Line 1",
+      "ADDRESS_TWO": "Address Line 2",
+      "ADDRESS_THREE": "Address Line 3",
+      "ADDRESS_FOUR": "Address Line 4",
+      "CITY_SUBSURB": "City/Suburb",
+      "STATE": "State",
+      "POSTCODE": "Postcode",
+      "COUNTRY": "Country"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_AT_LEAST_ONE": "At least 1 address line required",
+      "REQUIRED_FIELD": "Required Field",
+      "SELECT_FROM_DROPDOWN": "Select from dropdown"
+    }
+  },
+  "HOLIDAY_RENTAL": {
+    "HEADER": "Holiday Letting/Rental Company Details",
+    "CONTENT_BODY": {
+      "INTRODUCTION": "Please specify the property company via which the property is being managed",
+      "COMPANY_NAME": "Company Name",
+      "CONTACT_NUMBER": "Company Contact Number",
+      "QUICK_SEARCH": "Quick Address Search",
+      "CANCEL_SEARCH": "Manual Address Search",
+      "ADDRESS_SEARCH_LABEL": "Please start typing company address",
+      "CANNOT_FIND": "Cannot find address? Click here to complete details manually",
+      "CLEAR_ICON": "Address Search Unavailable",
+      "ADDRESS_ONE": "Address Line 1",
+      "ADDRESS_TWO": "Address Line 2",
+      "ADDRESS_THREE": "Address Line 3",
+      "ADDRESS_FOUR": "Address Line 4",
+      "CITY_SUBSURB": "City/Suburb",
+      "STATE": "State",
+      "POSTCODE": "Postcode",
+      "COUNTRY": "Country"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_AT_LEAST_ONE": "At least 1 address line required",
+      "REQUIRED_FIELD": "Required Field",
+      "SELECT_FROM_DROPDOWN": "Select from dropdown"
+    }
+  },
+  "DIRECT_DEBIT": {
+    "HEADER": "Direct Debit",
+    "CONTENT_BODY": {
+      "SETUP_DIRECT_DEBIT": "Setup direct debit (automated payment) on the account?",
+      "BANK_ACCOUNT": "Yes, a Bank Account",
+      "CREDIT_CARD": "Yes, a Credit Card",
+      "NO_DIRECT_DEBIT": "No, I will pay bills by the due date",
+      "SECURING_PAYFRAME": "Securing credit card details...",
+      "SECURE_CARD_ENTRY": "Creating secure area for credit card entry...",
+      "BANK_ACCOUNT_NAME": "Bank Account Name",
+      "ACCOUNT_NUMBER": "Account Number",
+      "ACCOUNT_BSB": "Account BSB",
+      "EDIT_BUTTON": "Change Credit Card Details",
+      "CANCEL_EDIT": "Cancel change",
+      "UNABLE_TO_LOAD_MW": "Temporarily unable to create secure area for credit card entry. Please select \"no\" above and continue completing the form, mention in the special notes section below that you were unable to add credit card details (Please do not add you credit card details into the notes section)"
+    },
+    "ERROR": {
+      "REQUIRED_BANK_ACCOUNT_NAME": "Required Field",
+      "BANK_ACCOUNT_CARD_NUMBER": "We have detected that a credit card number has been entered. This section is only for bank accounts. If you would like to pay by credit card, please select the Credit Card payment option.",
+      "INVALID_VALUE": "Invalid Value",
+      "REQUIRED_ACCOUNTBSB": "Required Field",
+      "LENGTH_ACCOUNTBSB": "Account BSB should be 6 digits long",
+      "REQUIRED_ACCOUNT_NUMBER": "Required Field",
+      "LENGTH_ACCOUNT_NUMBER": "Account Number should be at least 6 digits long"
+    }
+  },
+  "ADDITIONAL_NOTE": {
+    "HEADER": "Additional Note",
+    "CONTENT_BODY": {
+      "NOTE": "Please enter any special notes that you wish to pass onto our customer service staff"
+    }
+  },
+  "ACCEPTANCE": {
+    "HEADER": "Acceptance",
+    "CONTENT_BODY": {
+      "UPDATE": "update",
+      "SUCCESS_MESSAGE_HEADER": "Your application has been a success!",
+      "ERROR_MESSAGE_HEADER": "Problem Submitting Your Request",
+      "CANCEL_MOVE_IN_HEADER": "Cancel Request and Remove Details",
+      "ERROR_MESSAGE_PARAGRAPH": "There was a problem on our end that caused your request not to be submitted.<br/> <br/>Thank you for taking the time to complete this form, we very much appreciate your effort. Please wait a few minutes and try submitting again.<br/><br/> If your internet connection is working but you are still experiencing this issue, please do not hesitate to contact our support team to help you complete the form",
+      "SUCCESS_MESSAGE_PARAGRAPH": "If you don't hear from us shortly we recommend checking your junk and spam mail folders and updating settings to allow email from us as a 'safe sender'",
+      "CANCEL_MOVE_IN": "Are you sure you like you like to cancel your submission? <br/> <br/>If you are having any issue completing this form or have any question, please do not hesitate to contact our support team<br/>",
+      "ACCEPTANCE_HEADING_MESSAGE": "You are almost finished, thank you for your patience. Please review the below details before submitting the form<br/><br/>",
+      "SUPPLY_DETAILS": {
+        "HEADER": "Moving In",
+        "CONTENT_BODY": {
+          "MOVING_IN_AS": "Moving in as",
+          "TENANT": "Tenant",
+          "OWNER": "Owner",
+          "PROPERTY_MANAGER": "Property Manager or Letting Agent",
+          "HOLIDAY_RENTAL": "Holiday Rental / Letting",
+          "SETTLEMENT": "Settlement on",
+          "SERVICE_ADDRESS": {
+            "HEADER": "Service Address"
+          },
+          "SERVICE_CONNECTED": "Service currently connected",
+          "SERVICE_DISCONNECTED": "Service currently disconnected",
+          "SERVICE_CONNECTION_UNKNOWN": "Service connection currently unknown",
+          "LIFE_SUPPORT": {
+            "HEADER": "Life Support",
+            "CONTENT_BODY": {
+              "IS_REQUIRED": "Life support required using the following equipment",
+              "NOT_REQUIRED": "Life Support NOT REQUIRED",
+              "MEDICAL_COOLING_REQUIRED": "Medical Cooling Required",
+              "MEDICAL_COOLING_NOT_REQUIRED": "Medical Cooling NOT REQUIRED",
+              "MEDICAL_CERTIFICATE_NOT_PROVIDED": "Non Medical Certificate Provided",
+              "MEDICAL_CERTIFICATE_PROVIDED": "Medical Certificate Provided"
+            }
+          }
+        }
+      },
+      "TRADE_WASTE": {
+        "HEADER": "Trade Waste",
+        "DISCHARGE_INFORMATION": "Discharge Information",
+        "CONTENT_BODY": {
+          "NO_TRADE_DISCHARGED": "No trade waste will be discharged",
+          "WILL_DISCHARGED": "Will discharge trade waste",
+          "NO_EQUIPMENT_INSTALLED": "No trade waste equipment installed",
+          "INSTALLED": "Installed",
+          "FOLLOWING_EQUIPMENT": "following equipment",
+          "BUSINESS_ACTIVITY_IS": "Business activity is",
+          "MAX_FLOW_RATE": ["Max instantaneous flow rate", "Litres / second"],
+          "MAX_DISCHARGE_VOLUME": ["Max daily discharge volume", "Litres"],
+          "DISCHARGE_START_DATE": "Discharge Start Date",
+          "DISCHARGE_DAYS": "Discharge Days",
+          "DISCHARGE_HOURS": "Discharge Hours",
+          "UPLOADED_PLANS": ["Uploaded", "site", "plan", "plans"],
+          "NO_PLANS_UPLOADED": "No site plans uploaded",
+          "IS": "is",
+          "ARE": "are",
+          "AND": "and",
+          "BETWEEN": "between",
+          "NOT_KNOWN": "not known"
+        }
+      },
+      "ACCOUNT_DETAILS": {
+        "HEADER": "Account Details",
+        "CONTENT_BODY": {
+          "RESIDENTIAL": "Residential Account",
+          "COMMERCIAL": "Commercial Account"
+        }
+      },
+      "MAIN_CONTACT": {
+        "HEADER": "Main Account Contact",
+        "HEADER_RESPONSIBLE_MANAGER": "Property Manager Account Contact",
+        "HEADER_RESPONSIBLE_OWNER": "Tenant/Owner Account Contact",
+        "CONTENT_BODY": {
+          "EMAIL_ADDRESS": "Email Address",
+          "MOBILE": "Mobile Phone",
+          "BUSINESS": "Business Phone",
+          "AFTER_HOURS_PHONE": "A/Hours Phone",
+          "BIRTH_DATE": "Birthdate",
+          "PERSONAL_IDENTIFICATION": "Personal Id",
+          "DRIVER_LICENCE": "Driver Licence",
+          "MEDICARE_CARD": "Medicare Card",
+          "PASSPORT": "Passport",
+          "SECRET_CODE": "Contact Secret",
+          "MAIN_CONTACT_NOTIFICATION": {
+            "HEADER": "Notification"
+          }
+        }
+      },
+      "ADDITIONAL_CONTACT": {
+        "HEADER": "Additional Contact",
+        "CONTENT_BODY": {
+          "EMAIL_ADDRESS": "Email Address",
+          "MOBILE": "Mobile Phone",
+          "BUSINESS": "Business Phone",
+          "AFTER_HOURS_PHONE": "A/Hours Phone",
+          "BIRTH_DATE": "Birthdate",
+          "PERSONAL_IDENTIFICATION": "Personal Id",
+          "DRIVER_LICENCE": "Driver Licence",
+          "MEDICARE_CARD": "Medicare Card",
+          "PASSPORT": "Passport",
+          "SECRET_CODE": "Contact Secret",
+          "ADDITIONAL_CONTACT_NOTIFICATION": {
+            "HEADER": "Notification"
+          }
+        }
+      },
+      "POSTAL_ADDRESS": {
+        "HEADER": "Postal Address",
+        "CONTENT_BODY": {}
+      },
+      "CONCESSION": {
+        "HEADER": "Concession",
+        "AUTHORISATION_QUESTION_AGREE_YES": "Authorisation Provided",
+        "AUTHORISATION_QUESTION_AGREE_NO": "No Authorisation Provided",
+        "AUTHORISATION_UPLOAD_YES": "Concession Card Uploaded",
+        "AUTHORISATION_UPLOAD_NO": "No Concession Card Uploaded",
+        "AUTHORISATION_NOT_SPECIFIED": "Not Specified",
+        "APPLICABLE": "Applicable"
+      },
+      "MANAGER_AGENT": {
+        "HEADER": "Property Manager / Letting Agent"
+      },
+      "HOLIDAY_RENTAL": {
+        "HEADER": "Holiday Letting / Rental Company"
+      },
+      "DIRECT_DEBIT": {
+        "HEADER": "Direct Debit",
+        "CONTENT_BODY": {
+          "ACCOUNT_BSB": "BSB",
+          "CREDIT_CARD": "Credit Card",
+          "BANK_ACCOUNT": "Bank Account",
+          "ACCOUNT_NAME": "Account Name",
+          "CARD_ENDING": "Card: ending",
+          "NAME_ON_CARD": "Name On Card",
+          "ACCOUNT_NUMBER": "Num",
+		  "EXPIRY_DATE": "Exp:"
+        }
+      },
+      "ADDITIONAL_NOTE": {
+        "HEADER": "Additional Note"
+      },
+      "NOTIFICATION_OPTIONS": {
+        "POSTAL": "Postal",
+        "EMAIL": "Email",
+        "SMS": "SMS",
+		"NONE": "None",
+        "BILLS": "Bills",
+        "ACCOUNT_NOTIFICATIONS": "Notifications and Reminders",
+        "MARKETING": "Marketing"
+      }
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "CLOSE_MESSAGE": "This window/tab is no longer required,<br/>for privacy reasons we encourage you to close it",
+      "LOADING_CONFIG": "Loading move-in portal...",
+      "PROGRESS_BAR_SUBMIT": "Submitting your request...",
+      "PROGRESS_BAR_LONG_RESPONSE": "Submitting your request is taking a bit longer than expected. Sorry for the delay, please do not close this window",
+      "HEADER": "Move In Request",
+      "TRY_AGAIN": "Try Again",
+      "IDLE_TIME": [
+        "You have been inactive for",
+        "for privacy reasons this form will automatically be cleared in"
+      ],
+	  "SECONDS": "seconds",
+      "NEXT": "Next",
+      "PREVIOUS": "Previous",
+      "YES": "Yes",
+      "NO": "No",
+      "OK": "Ok",
+      "NONE_SPECIFIED": "None Specified",
+      "CANCEL": "Cancel",
+      "SUBMIT": "Submit",
+      "DRAG_AND_DROP": [
+        "Drag-and-drop file here or",
+        "click to browse for file",
+        "to upload"
+      ],
+      "UPLOADER": {
+        "SUCCESS": "File uploaded successfully",
+        "FAIL": "Failed to upload",
+        "FILE_EXCEEDED": ["Error: File size exceeds", "MB"],
+        "INVALID_TYPE": "File type is not allowed",
+        "DELETE": "Delete",
+        "REMOVE": "Remove",
+        "CANCEL": "Abort",
+        "LIFE_SUPPORT": "medical certificate associated with your life support requirement",
+        "CONCESSION": "a scan or picture of your concession card",
+        "DELETE_IMAGE_CONFIRMATION": "Are you sure you would like to remove this file?"
+      }
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "Required Field",
+      "INVALID_EMAIL_ADDRESS": "Invalid Email Address"
+    },
+    "PORTAL_CONFIG": {
+      "PORTALCONFIG_ERROR": "Problem loading move-in portal, please try again shortly",
+      "HEADER": "Unable to load move-in portal",
+      "HEADER_TITLE_ERROR": "Problem loading move-in portal, please try again shortly",
+      "MW_UNABLE_TO_LOAD": "Problem loading secure credit card area",
+      "PROBLEM_SUBMITTING": "Problem submitting your request ...",
+      "EXTRA_DATA_ERROR": "Extra data is invalid"
+    },
+    "PAYMENT": {
+      "CONTACT_SUPPORT": ["Need Help? Call us on", "or email us at"]
+    }
+  },
+  "CONNECTION_ERROR_LABELS": {
+    "NO_CONNECTION_HEADER": "Connection Error",
+    "NO_CONNECTION": "Problem login, looks like you don't have Internet connection.<br>Please fix your Internet connection before trying again.",
+    "NO_BACKEND_HEADER": "Server Error",
+    "NO_BACKEND": "Problem login, looks like our server is having problems, system administrator has been notified.<br>Please try again shortly"
+  }
+}

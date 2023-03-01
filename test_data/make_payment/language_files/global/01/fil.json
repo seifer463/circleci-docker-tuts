@@ -1,0 +1,105 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "fil Name on Card",
+      "CARD_NUMBER": "fil Card Number",
+      "CARD_EXPIRY": "fil Expiry (MM/YY)",
+      "CARD_CVV": "fil CVV"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "fil Card holder name is required",
+      "CARD_HOLDER_INVALID": "fil Name is invalid",
+      "CARD_HOLDER_LENGTH_MIN": "fil Card holder name is too short",
+      "CARD_HOLDER_LENGTH_MAX": "fil Card holder name is too long",
+      "CARD_NUMBER_REQUIRED": "fil Card number is required",
+      "CARD_NUMBER_LENGTH_MIN": "fil Card number is invalid",
+      "CARD_NUMBER_LENGTH_MAX": "fil Card number is invalid",
+      "CARD_NUMBER_VALID_CARD": "fil Card number is invalid",
+      "CARD_NUMBER_NOT_SUPPORTED": "fil Specified card type is not accepted",
+      "CARD_EXPIRY_REQUIRED": "fil Card expiry is required",
+      "CARD_EXPIRY_INVALID": "fil Card expiry is invalid",
+      "CARD_EXPIRY_EXPIRED": "fil Card has expired",
+      "CARD_CVV_REQUIRED": "fil CVV required",
+      "CARD_CVV_LENGTH_MIN": "fil CVV invalid",
+      "CARD_CVV_LENGTH_MAX": "fil CVV invalid"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PAYMENT_AMOUNT": "fil Payment Amount",
+      "LARGE_AMOUNT_CHECKBOX": "fil Large payment amount detected, tick to confirm the amount is correct.",
+      "EMAIL_CHECKBOX": "fil Email a payment receipt",
+      "EMAIL_LABEL": "fil mail Address (separate multiple emails with a comma)",
+      "ACCOUNT_NUMBER": "fil Account Number",
+      "BUTTON_PAYMENT": "fil Make Payment",
+      "PROGRESS_BAR": "fil Processing payment...",
+      "PROGRESS_BAR_SECURE": "fil Creating secure payment connection...",
+      "LOADING_CONFIG": "fil Loading secure payment area...",
+      "HEADER": [
+        "fil Pay my",
+        "fil Account"
+      ],
+      "IDLE_TIME": [
+        "fil You are currently inactive! This window will automatically refresh in",
+        "fil seconds"
+      ],
+      "CLOSE_BUTTON": "fil Close",
+      "ACCOUNT_NUMBER_SAMPLE": "fil Your account number can be found at the marked position on your bill",
+      "TRY_AGAIN": "fil Try Again",
+      "BTN_NEXT": "fil NEXT",
+      "TOTAL": "fil TOTAL"
+    },
+    "ERROR": {
+      "INVALID_ACCOUNT_NUMBER": "fil Account number is invalid",
+      "INVALID_PAYMENT_AMOUNT": "fil Payment amount is invalid",
+      "ACCOUNT_NUMBER_NOT_FOUND": "fil No details found",
+      "MINIMUM_AMOUNT": [
+        "fil Minimum of",
+        "fil required"
+      ],
+      "REQUIRED_ACCOUNT_NUMBER": "fil Account number is required",
+      "REQUIRED_EMAIL_ADDRESS": "fil Email address is required",
+      "INVALID_EMAIL_ADDRESS": "fil These email addresses are invalid",
+      "API_MW_DETAILS_403": "fil Your request could not be processed as we could not verify supplied details. Please try again but if this problem persist please contact customer service to complete the payment",
+      "API_MW_DETAILS_500": "fil Your request could not be processed due to technical difficulties. Please try again but if this problem persist please contact customer service to complete the payment",
+      "API_MW_DETAILS_400": "fil Your request could not be processed due to technical difficulties. Please try again but if this problem persist please contact customer service to complete the payment"
+    },
+    "PAYMENT": {
+      "SUCCESS": {
+        "HEADER": "fil Payment successfully processed",
+        "EMAILED_TO": "fil Payment receipt has been emailed to"
+      },
+      "FAILED": {
+        "HEADER": "fil Payment processing failed",
+        "EMAILED_TO": "fil Failed payment details has been emailed to"
+      },
+      "PORTAL_CONFIG": {
+        "PORTALCONFIG_ERROR": "fil Problem loading payment portal, please try again shortly",
+        "HEADER": "fil Unable to load payment portal",
+        "HEADER_TITLE_ERROR": "fil Problem loading payment portal, please try again shortly",
+        "MW_UNABLE_TO_LOAD": "fil Problem communicating with payment portal, please try again shortly"
+      },
+      "PROCESSING_FEE": {
+        "CALCULATED_AMOUNT": [
+          "fil Processing fee of",
+          "fil is applicable. A total of",
+          "fil will be processed"
+        ],
+        "ERROR_GETTING_PROCESSING_FEE": "fil Problem retrieving processing fees, please continue your payment"
+      },
+      "CONTACT_SUPPORT": [
+        "fil Need Help? Call us on",
+        "fil or email us at"
+      ]
+    }
+  },
+  "CONNECTION_ERROR": {
+    "CONNECTION_ERROR_LABELS": {
+      "NO_CONNECTION_HEADER": "fil Connection Error",
+      "NO_CONNECTION": "fil Problem login, looks like you don't have Internet connection.<br>Please fix your Internet connection before trying again.",
+      "NO_BACKEND_HEADER": "fil Server Error",
+      "NO_BACKEND": "fil Problem login, looks like our server is having problems, system administrator has been notified.<br>Please try again shortly"
+    },
+    "BUTTON": "fil Got it"
+  }
+}

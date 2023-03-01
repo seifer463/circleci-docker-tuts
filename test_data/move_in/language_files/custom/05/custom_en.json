@@ -1,0 +1,10 @@
+{
+  "TRADE_WASTE": {
+    "CONTENT_BODY": {
+      "ERROR_LABEL": {
+        "NO_START_HOUR": "sPeCiFy sTaRt oF ThE DiScHaRgE HoUrS",
+        "NO_END_HOUR": "sPeCiFy eNd oF ThE DiScHaRgE HoUrS"
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug = "false">
+
+	<!-- STDOUT appender -->
+	<appender name = "STDOUT" class = "org.apache.log4j.ConsoleAppender"> 
+		<layout class="org.apache.log4j.EnhancedPatternLayout"> 
+			<param name = "ConversionPattern"        value = "%throwable{short}%m%n" />
+		</layout>
+<!--
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="INFO"/>
+        </filter>
+-->
+    </appender>
+
+	<!-- FILE appender 
+	   SEE http://java.dzone.com/articles/monitoring-declarative-transac?page=0,0 shows how to display transaction status in logs
+	-->
+    <appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender"> 
+		<param name="File" 							value="log/blueoak_portal.log"/>
+		<param name="DatePattern" 					value="'.'yyyy-MM-dd"/>
+		<param name="Append" 						value="true"/>
+        <layout class="org.apache.log4j.PatternLayout"> 
+			<param name="ConversionPattern" 		value="%d{ABSOLUTE} %-5p [%-8t] %X{xaStatus} %m%n"/> 
+        </layout>
+        <filter class="au.com.blueoak.portal.utility.TransactionIndicatingFilter"/>
+    </appender> 
+
+	<!-- EMAIL appender -->
+	<appender name="EMAIL" class="org.apache.log4j.net.SMTPAppender"> 
+        <param name="BufferSize" 					value="512" />
+        <param name="SMTPHost"                      value="email-smtp.us-west-2.amazonaws.com" />
+        <param name="SMTPPort"                      value="587" />        
+        <param name="SMTPProtocol"                  value="smtp" />
+        <param name="SMTPUsername"                  value="AKIAIDMPBN5J6N7XAOEA" />
+        <param name="SMTPPassword"                  value="An68Tt9DfTk8NbhT8L+wGiRplF/YGdlf7Ie1Ja91zW5y" />
+        <param name="From"                          value="portal.log4j@bluebilling.com.au" />
+        <param name="To"                            value="attila.marton@blueoak.com.au" />
+        <param name="Subject"                       value="[BlueOak Portal Selenium] Application Message" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"         value="[%d{ISO8601}]%n%n%-5p%n%n%c%n%n%m%n%n" />
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="ERROR"/>
+            <param name="LevelMax" value="FATAL"/>
+        </filter>
+	</appender> 
+
+	<!-- setup "au.com.blueoak.portal" logger -->
+	<logger name="au.com.blueoak.portal" additivity="false">
+		<level value="DEBUG"/> 
+		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="FILE"/>
+	</logger>
+
+	<!-- setup "au.com.blueoak.portal.dev" logger -->
+	<logger name="au.com.blueoak.portal.dev" additivity="false">
+		<level value="DEBUG"/> 
+ 		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="FILE"/>
+	</logger>    
+
+	<!-- setup "au.com.blueoak.portal.prod" logger -->
+	<logger name="au.com.blueoak.portal.prod" additivity="false">
+		<level value="DEBUG"/>
+ 		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="FILE"/>
+	</logger>
+
+	<!-- setup "root" logger -->
+	<root> 
+		<level value="WARN"/> <!-- Logging Levels :: DEBUG > INFO > WARN > ERROR > FATAL -->
+ 		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="FILE"/>
+		<appender-ref ref="EMAIL"/>
+	</root>
+</log4j:configuration>

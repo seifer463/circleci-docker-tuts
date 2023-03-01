@@ -1,0 +1,50 @@
+{
+  "SUPPLY_DETAILS": {
+    "CONTENT_BODY": {
+      "SETTLEMENT_DATE": "sEtTlEmEnT DaTe"
+    },
+    "ERROR_LABEL": {
+      "INVALID_DATE": "iNvAlId dAtE"
+    }
+  },
+  "HOLIDAY_RENTAL": {
+    "HEADER": "hOlIdAy lEtTiNg/rEnTaL CoMpAnY DeTaIlS",
+    "CONTENT_BODY": {
+      "INTRODUCTION": "pLeAsE SpEcIfY ThE PrOpErTy cOmPaNy vIa wHiCh tHe pRoPeRtY Is bEiNg mAnAgEd",
+      "COMPANY_NAME": "cOmPaNy nAmE",
+      "CONTACT_NUMBER": "cOmPaNy cOnTaCt nUmBeR",
+      "QUICK_SEARCH": "qUiCk aDdReSs sEaRcH",
+      "CANCEL_SEARCH": "mAnUaL AdDrEsS SeArCh",
+      "ADDRESS_SEARCH_LABEL": "pLeAsE StArT TyPiNg cOmPaNy aDdReSs",
+      "CANNOT_FIND": "cAnNoT FiNd aDdReSs? ClIcK HeRe tO CoMpLeTe dEtAiLs mAnUaLlY",
+      "CLEAR_ICON": "aDdReSs sEaRcH UnAvAiLaBlE",
+      "ADDRESS_ONE": "aDdReSs lInE 1",
+      "ADDRESS_TWO": "aDdReSs lInE 2",
+      "ADDRESS_THREE": "aDdReSs lInE 3",
+      "ADDRESS_FOUR": "aDdReSs lInE 4",
+      "CITY_SUBSURB": "cItY/SuBuRb",
+      "STATE": "sTaTe",
+      "POSTCODE": "pOsTcOdE",
+      "COUNTRY": "cOuNtRy"
+    },
+    "ERROR_LABEL": {
+      "REQUIRED_AT_LEAST_ONE": "aT LeAsT 1 AdDrEsS LiNe rEqUiReD",
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "SELECT_FROM_DROPDOWN": "sElEcT FrOm dRoPdOwN"
+    }
+  },
+  "ACCEPTANCE": {
+    "CONTENT_BODY": {
+      "HOLIDAY_RENTAL": {
+        "HEADER": "hOlIdAy lEtTiNg / rEnTaL CoMpAnY"
+      }
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PROGRESS_BAR_SUBMIT": "sUbMiTtInG YoUr rEqUeSt...",
+      "NEXT": "nExT",
+      "PREVIOUS": "pReViOuS"	  
+    }
+  }
+}

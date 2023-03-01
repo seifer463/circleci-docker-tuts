@@ -1,0 +1,757 @@
+{
+  "LOGIN": {
+    "LABEL": {
+      "TITLE": "{{portalName}} Online Portal Login",
+      "FORGOT_PASSWORD": "Forgot password? First time user?"
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "Email Address is Required Field",
+      "INVALID_EMAIL_ADDRESS": "Invalid Email Address",
+      "REQUIRED_PASSWORD": "Password is Required Field"
+    },
+    "PLACEHOLDER": {
+      "EMAIL_ADDRESS": "Email Address",
+      "PASSWORD": "Password"
+    },
+    "BUTTON": {
+      "LOG_IN": "Log in"
+    }
+  },
+  "MISSING_CONFIG": {
+    "HEADER_LABEL": "Unable to load online portal",
+    "MESSAGE_LABEL": "Problem loading the configuration file, please check the configuration file name",
+    "BUTTON_LABEL": "Try Again"
+  },
+  "RESET_PASSWORD": {
+    "LABEL": {
+      "TITLE": "Reset {{portalName}} Online Portal Password",
+      "REMEMBERED_PASSWORD": "Remembered your password?"
+    },
+    "ERROR": {
+      "REQUIRED_EMAIL_ADDRESS": "Email Address is Required Field",
+      "INVALID_EMAIL_ADDRESS": "Invalid Email Address"
+    },
+    "PLACEHOLDER": {
+      "EMAIL_ADDRESS": "Email Address"
+    },
+    "BUTTON": {
+      "SEND_LINK": "Send reset link"
+    },
+    "DIALOG": {
+      "SUCCESS_TITLE": "Password Reset Link",
+      "SUCCESS_CONTENT": "If an active registration is found the reset link will be emailed to the specified email address. This may take up to 1 minute."
+    }
+  },
+  "CHANGE_PASSWORD": {
+    "LABEL": {
+      "TITLE": "Set {{portalName}} Online Portal Password",
+      "UPDATE_TITLE": "Update {{portalName}} password",
+      "UPDATE_INTRODUCTION_TEXT": "You password has expired, please update using the below requirements.",
+      "TIP": "Your password length must be at least {{minPassLength}} characters long{{included_details}} and must not contain spaces or emoji.",
+      "MUST_CONTAIN": "must contain"
+    },
+    "ERROR": {
+      "REQUIRED_PASSWORD": "Password is Required Field",
+      "PASSWORD_LENGTH": "Password length must be at least {{minPassLength}} characters long",
+      "WEAK_PASSWORD": "Weak password",
+      "PASSWORD_MISMATCH": "Password does not match",
+      "PASSWORD_MUST": "Password must contain ",
+      "NEEDS_UPPER_CASE": "at least one upper case",
+      "NEEDS_LOWER_CASE": "at least one lower case",
+      "NEEDS_NUMBER": "at least one number",
+      "NEEDS_NON_ALPHA": "at least one special character",
+      "MUST_NOT_CONTAIN_SPACES": "Password must not contain spaces",
+      "MUST_NOT_CONTAIN_EMOJI": "Password must not contain emoji"
+    },
+    "PLACEHOLDER": {
+      "PASSWORD": "Password",
+      "CONFIRM_PASSWORD": "Confirm Password"
+    },
+    "BUTTON": {
+      "SET_PASSWORD": "Set password",
+      "UPDATE_PASSWORD": "Update password",
+      "PROCEED_LOGIN": "Proceed with login",
+      "LOG_IN": "Log in",
+      "TRY_AGAIN": "Try again",
+      "REQUEST_AGAIN": "Request again"
+    },
+    "DIALOG": {
+      "SUCCESS": "Password has been successfully reset.",
+      "FAIL": "Time allowed to complete the password reset has expired. Please contact customer support for assistance or submit a request for another password reset link.",
+      "UPDATE_FAIL": "There was a problem updating the password. Please contact customer support for assistance or try again.",
+      "WEAK_PASSWORD": "Provided password is not strong enough, such as by containing dictionary words or being a common password. Please specify a new password.",
+      "INCOMPLETE_LINK": "The link used to access this page is incomplete. Please try again by clicking on the link provided in the password reset email. If you continue seeing this error, please contact our customer support team."
+    }
+  },
+  "HEADER": {
+    "LABEL": {
+      "TITLE": "My {{portalName}}",
+      "LOGOUT": "Logout",
+      "ACCOUNT": "My Account",
+      "ACCOUNT_SECONDARY_TEXT": "What are my account details?",
+      "USAGE": "My Usage",
+      "USAGE_SECONDARY_TEXT": "How much am I using?",
+      "BILLS": "My Bills",
+      "BILLS_SECONDARY_TEXT": "What was I billed?",
+      "MAKE_PAYMENT": "Make a Payment",
+      "MAKE_PAYMENT_SECONDARY_TEXT": "Pay my account",
+      "ACCESSING_PORTAL": "you are accessing portal as"
+    },
+    "PLACEHOLDER": {
+      "ACCOUNT_DETAILS": "account number or account name...",
+      "TENANCY_ADDRESS": "service/tenancy address ..."
+    },
+    "BUTTON": {
+      "SEARCH_BY": "Search by",
+      "ACCOUNT": "Account",
+      "SERVICES": "Services"
+    },
+    "OPTIONS": {
+      "MORE_SERVICES": "Show {{amountRows}} more services/tenancy addresses...",
+      "MORE_ACCOUNT": "Show {{amountRows}} more accounts...",
+      "NO_ACCOUNTS_FOUND": "No accounts found",
+      "NO_SERVICES_FOUND": "No services/tenancy addresses found"
+    }
+  },
+  "FOOTER": {
+    "LABEL": {
+      "WEBSITE": "{{portalName}} Website"
+    }
+  },
+  "ACCOUNT": {
+    "LABEL": {
+      "COMPANY": "Company",
+      "TRADING_NAME": "T/A",
+      "REGISTRATION_NUMBER": "ABN/ACN",
+      "POSTAL_ADDRESS": "Postal Address",
+      "DIRECT_DEBIT": "Direct Debit",
+      "CONCESSION": "Concession",
+      "NO_PAYMENT_METHOD": "None Established",
+      "NUMBER_ENDING": "ending",
+      "EXPIRY": "Expires",
+      "CONCESSION_CARD_EXPIRY": "Expiry:",
+      "CREDIT_CARD": "Credit Card",
+      "CARD_NUMBER": "Card Number:",
+      "BANK_ACCOUNT": "Bank Account",
+      "NONE_SPECIFIED": "None specified",
+      "CLICK_HERE": "click here",
+      "TO_PROVIDE_DIRECT_DEBIT": "to provide direct debit details",
+      "TO_CONCESSION_DETAILS": "to find out about available concessions",
+      "CONCESSION_UPDATE_NOT_AVAILABLE": "If you hold a valid concession card and you are the primary account holder, you can obtain further details from our website on how to advise us of your concession details.",
+      "BSB": "BSB",
+      "ACCOUNT": "Account",
+      "SERVICE": "Service",
+      "SERVICES": "Services",
+      "LIFE_SUPPORT": "Life Support In Use",
+      "SERVICE_WITH_CLOSE_DATE": "Open from {{openDate}} to {{closeDate}}",
+      "SERVICE_ONLY_OPEN_DATE": "Open since {{openDate}}",
+      "SERVICE_WITH_FUTURE_DATES": "Opening from {{openDate}} to {{closeDate}}",
+      "SERVICE_FUTURE_OPEN_DATE": "Opening from {{openDate}}",
+      "CONTACT_DETAILS": "Account Contact",
+      "CONTACTS_DETAILS": "Account Contacts",
+      "MAIN_CONTACT": "Primary",
+      "BUSINESS_HOUR_PHONE": "Phone, Business Hours",
+      "AFTER_HOUR_PHONE": "Phone, After Hours",
+      "MOBILE": "Mobile",
+      "EMAIL_ADDRESS": "Email Address",
+      "NOTIFICATIONS": "Notifications",
+      "BILLS": "Bill Delivery",
+      "REMINDERS": "Reminders",
+      "ACCOUNT_ISSUES": "Account Issues",
+      "ACCOUNT_CHANGES": "Account Updates",
+      "MARKETING": "Marketing",
+      "NOTIFICATION_ENABLED": "{{method}} enabled",
+      "NOTIFICATION_DISABLED": "{{method}} disabled",
+      "NOT_AVALIABLE": "{{method}} option not available"
+    },
+    "DEBIT_DIALOG": {
+      "HEADER": "SSL-Secure Payment Gateway",
+      "SETUP_AUTOMATED_PAYMENT": "Setup direct debit (automated payment) on the account?",
+      "UPDATE_AUTOMATED_PAYMENT": "Update currenct direct debit (automated payment) on the account?",
+      "YES": "Yes, a",
+      "BANK_ACCOUNT": "Bank Account",
+      "CREDIT_CARD": "Credit Card",
+      "REMOVE": "Remove, I will pay by due date",
+      "BANK_ACCOUNT_NAME": "Bank Account Name",
+      "ACCOUNT_BSB": "Account BSB",
+      "ACCOUNT_NUMBER": "Account Number",
+      "LOADING_PAYFRAME": "Creating secure area for credit card entry ... please wait.",
+      "NAME_ON_CARD": "Name on Credit Card",
+      "CARD_NUMBER": "Credit Card Number",
+      "CARD_EXPIRES": "Credit Card Expires",
+      "CURRENT_DETAILS": [
+        "Account current has the following",
+        "direct debit details specified:"
+      ],
+      "CONFIRM_REMOVE": [
+        "Yes, I confirm that above",
+        "direct debit details are to be removed from the account and I will pay bills when thay fall due."
+      ],
+      "ALSO_APPLY": "Apply the direct debit (automated payment) change to all {{count}} accounts you have access to?",
+      "YES_APPLY": "Yes, apply the change to all {{count}} accounts",
+      "NO_APPLY": "No, only apply the above change to the current account",
+      "SECURING": ["Securing", "details ... please wait."],
+      "ALSO_REMOVE": "Also remove any direct debit (automated payment) on all {{count}} accounts you have access to?",
+      "YES_REMOVE": "Yes, remove any direct debit specified on all {{count}} accounts",
+      "NO_REMOVE": "No, only remove the direct debit from the current account",
+      "REMOVING": ["Removing", "details ... please wait."],
+      "ADD_DETAILS": "Add Details",
+      "UPDATE_DETAILS": "Update Details",
+      "REMOVE_DETAILS": "Remove Details",
+      "EDIT_CREDIT_CARD": "Edit Credit Card details",
+      "CANCEL_EDITING": "Cancel Credit Card editing",
+      "SUCCESS_CREDIT_CARD": "Credit card details have been successfully secured.",
+      "SUCCESS_CREDIT_CARD_FOR_ALL": "Credit card details have been successfully secured for all {{count}} accounts.",
+      "FAIL_CREDIT_CARD": "Credit card details could not be secured due to {{message}}.",
+      "FAIL_CREDIT_CARD_FOR_ALL": "Credit card details could not be secured for all {{failedCount}} accounts due to {{message}}.",
+      "WARNING_CREDIT_CARD": "Credit card details have been successfully secured for {{count}} accounts.\nFailed to secure details for following {{failedCount}} accounts: ",
+      "SUCCESS_BANK_ACCOUNT": "Bank account details have been successfully secured.",
+      "SUCCESS_BANK_ACCOUNT_FOR_ALL": "Bank account details have been successfully secured for all {{count}} accounts.",
+      "FAIL_BANK_ACCOUNT": "Bank account details could not be secured due to {{message}}.",
+      "FAIL_BANK_ACCOUNT_FOR_ALL": "Bank account details could not be secured for all {{failedCount}} accounts due to {{message}}.",
+      "WARNING_BANK_ACCOUNT": "Bank account details have been successfully secured for {{count}} accounts.\nFailed to secure details for following {{failedCount}} accounts: ",
+      "SUCCESS_REMOVE": "Direct debit details have been successfully removed.",
+      "SUCCESS_REMOVE_FOR_ALL": "Direct debit details have been successfully removed for all {{count}} accounts.",
+      "FAIL_REMOVE": "Direct debit details could not be removed due to {{message}}.",
+      "FAIL_REMOVE_FOR_ALL": "Direct debit details could not be removed for all {{count}} accounts due to {{message}}.",
+      "WARNING_REMOVE": "Direct debit details have been successfully removed for {{count}} accounts.\nFailed to remove details for following {{failedCount}} accounts: ",
+      "METHOD_ERROR": "Making any change to the direct debit is currently not allowed, please contact customer support.",
+      "AUTH_ERROR_TITLE": "Authentication error",
+      "AUTH_ERROR_CONTENT": "Your request could not be processed because {{message}}.<br>Please, log into the system again.",
+      "AUTH_ERROR_PARAGRAPH": "You currently are not authorised to access the failed account(s). Please login again.",
+      "ERROR": {
+        "REQUIRED_FIELD": "Required Field",
+        "BSB_LENGTH": "Account BSB should be 6 digits long",
+        "ACCOUNT_NUMBER_LENGTH": "Account Number should be at least 6 digits long",
+        "BANK_ACCOUNT_CARD_NUMBER": "We have detected that a credit card number has been entered. This section is only for bank accounts. If you would like to pay by credit card, please select the Credit Card payment option.",
+        "BANK_ACCOUNT_NUMBERS_ONLY": "Invalid value"
+      },
+      "TOOLTIPS": {
+        "EDIT": "Edit",
+        "ADD_CONCESSION": "Add",
+        "ADD_DIRECT_DEBIT": "Add direct debit"
+      }
+    },
+    "CONCESSION_DIALOG": {
+      "HEADER": "Concession",
+      "PLACEHOLDERS": {
+        "CARD_HOLDER_NAME": "Card Holder Name",
+        "CARD_TYPE": "Type of Concession Card",
+        "CARD_HOLDER_NUMBER": "Card Holder Number",
+        "EXPIRY_DATE": "Expiry (MM/YYYY)",
+        "TYPE_OF_CONCESSION_CARD": "Type of Concession Card"
+      },
+      "TOOLTIPS": {
+        "EDIT": "Edit",
+        "ADD": "Add"
+      },
+      "ERROR_LABEL": {
+        "REQUIRED_CARDHOLDER": "Required Field",
+        "NO_CARD_TYPE_SELECTED": "Incorrect Concession Card Number",
+        "CONCESSION_ERROR": "Problem obtaining concession types for the supply address. Select No above and mention in the special notes section below that you were unable to add concession details",
+        "REQUIRED_CARD_TYPE": "Required Field",
+        "REQUIRED_CONCESSION_NUMBER": "Required Field",
+        "INVALID_EXPIRY_DATE": "Invalid date",
+        "REQUIRED_CONCESSION_EXPIRY": "Required Field"
+      },
+      "AGREE": "Yes, I agree",
+      "NOT_AGREE": " No, I do not agree",
+      "FILE_COUNT_EXCEED": "Unable to upload all requested files as maximum allowable files is",
+      "FILE_DUPLICATE_FOUND": "cannot be uploaded as they already are present. Please remove these existing files and upload again",
+      "SUBMIT": "Submit",
+      "UPLOADER": {
+        "SUCCESS": "File uploaded successfully",
+        "FAIL": "Failed to upload",
+        "FILE_EXCEEDED": ["Error: File size exceeds", "MB"],
+        "INVALID_TYPE": "File type is not allowed",
+        "DELETE": "Delete",
+        "REMOVE": "Remove",
+        "CANCEL": "Abort"
+      },
+      "CONFIRM_DIALOG": {
+        "DELETE_IMAGE_CONFIRMATION": "Are you sure you would like to remove this file?",
+        "LABEL": {
+          "YES": "Yes",
+          "NO": "No",
+          "DRAG_AND_DROP": [
+            "Drag-and-drop file here or",
+            "click to browse for file",
+            "to upload"
+          ]
+        },
+        "UPLOAD_CONCESSION_FILE": "a scan or picture of your concession card",
+        "LOADING_FILES": "Loading files..."
+      }
+    }
+  },
+  "ACCOUNT_CONTACT": {
+    "TITLE": {
+      "ADD_CONTACT": "Add authorised contact",
+      "EDIT_MAIN_CONTACT": "Edit account holder",
+      "EDIT_OTHER_CONTACT": "Edit authorised contact"
+    },
+    "INTRODUCTION_TEXT": {
+      "ADD_CONTACT": "Adding someone you trust to manage your account will enable them to make enquiries or update information on your behalf.",
+      "EDIT_MAIN_CONTACT": "",
+      "EDIT_OTHER_CONTACT": "Having someone you trust to manage your account will enable them to make enquiries or update information on your behalf."
+    },
+    "TITLE_NOTIFICATION": {
+      "ADD_CONTACT": "What notifications is the authorised contact to receive?",
+      "EDIT_MAIN_CONTACT": "What notifications is the account holder to receive?",
+      "EDIT_OTHER_CONTACT": "What notifications is the authorised contact to receive?"
+    },
+    "NOTIFICATION_NOT_AVAILABLE": "N/A",
+    "ERROR": {
+      "REQUIRED_FIELD": "Required Field",
+      "FIRSTNAME_INVALID": "Invalid First Name",
+      "LASTNAME_INVALID": "Invalid Last Name",
+      "INVALID_EMAIL": "Invalid Email Address",
+      "INVALID_PHONE_NUMBER": "Invalid Phone Number"
+    },
+    "PLACEHOLDER": {
+      "FIRST_NAME": "First name",
+      "LAST_NAME": "Last name",
+      "EMAIL": "Email (this will also change the portal login email for this contact)",
+      "MOBILE_PHONE_NUMBER": "Mobile Phone Number",
+      "BUSINESS_PHONE_NUMBER": "Business Hour Phone Number",
+      "AFTER_PHONE_NUMBER": "After Hours Phone Number"
+    },
+    "BUTTON": {
+      "ADD_CONTACT": "Add Contact",
+      "EDIT_CONTACT": "Update Contact"
+    },
+    "TOOLTIPS": {
+      "EDIT": "Edit",
+      "ADD": "Add authorised contact",
+      "POSTAL": "Postal",
+      "EMAIL": "Email",
+      "SMS": "SMS"
+    },
+    "DIALOG": {
+      "SUCCESS_ADD": "Successfully added the new contact to the account",
+      "SUCCESS_UPDATE": "Successfully updated the contact"
+    },
+    "LOADING": "Saving account contact ... please wait",
+    "NOTHING_CHANGED":"Nothing has been saved and none of the details have changed"
+  },
+  "ACCESS_LOG_DIALOG": {
+    "TITLE": "Portal Access Log",
+    "LINK_LABEL": "Access Activity",
+    "BUTTON": "Display More Logs ...",
+    "IP_ADDRESS": "IP Address:",
+    "NO_LOGS": "The account currently has no access logs.",
+    "PORTAL_PASSWORD_RESET_REQUEST": "Password reset was requested",
+    "PORTAL_PASSWORD_UPDATE": "Password was updated",
+    "PORTAL_LOGIN_SUCCESS": "Successfully logged-in",
+    "PORTAL_LOGIN_FAILURE": "Login failed",
+    "PORTAL_ACCESS_ENABLE": "Portal access was enabled",
+    "PORTAL_ACCESS_LOCK": "Portal access was locked"
+  },
+  "LIFE_SUPPORT_DIALOG": {
+    "TITLE": "Life Support",
+    "TEXT_INTRO": "If you or a member of your household depend on electricity for life support equipment, you need to let us know. You can let us know by registering your device below.<br><br>Once we have registered you for life support, we will advise your local energy distributor and send you a medical confirmation form and practical advice on what to do in the event of a power failure or interruption (planned or unplanned).<br><br>You will need to complete the Medical Confirmation Form, have your medical practitioner sign it and then return it to us.<br><br>Is anyone at this property depends on electricity for life support equipment?",
+    "OPTION_YES": "Yes",
+    "OPTION_NO": "No",
+    "SUBMIT": "Update Life Support",
+    "SELECT_EQUIPMENT": "Please select one or more life support devices in-use:",
+    "LOADING": "Updating life support details ... please wait",
+    "SUCCESS_UPDATE": "Successfully updated Life Support details",
+    "UNSUCCESS_UPDATE": "Updating failed...",
+    "LIFE_SUPPORT_EQUIPMENT": {
+      "OXYGEN CONCENTRATOR": "Oxygen Concentrator",
+      "INTERMITTENT PERITONEAL DIALYSIS MACHINE": "Intermittent Peritoneal Dialysis Machine",
+      "HAEMODIALYSIS MACHINE": "Haemodialysis Machine",
+      "CHRONIC POSITIVE AIRWAYS PRESSURE RESPIRATOR": "Chronic Positive Airways Pressure Respirator",
+      "CRIGLER NAJJAR SYNDROME PHOTOTHERAPY EQUIPMENT": "Crigler Najjar Syndrome Phototherapy Equipment",
+      "VENTILATOR FOR LIFE SUPPORT": "Ventilator for Life Support",
+      "OTHER": "Other"
+    },
+    "ERROR_LABEL": {
+      "INSTALLED_EQUIPMENT_OTHER": "Specify the name of the equipment"
+    }
+  },
+  "USAGE": {
+    "LABEL": {
+      "SERVICE": "Service",
+      "SERVICES": "Services",
+      "NO_SERVICES": "No service attached to account.",
+      "LIFE_SUPPORT": "Life Support In Use",
+      "NOVE_OUT_TOOLTIP": "Submit Move-Out Request",
+      "MOVE_OUT_ADDITIONAL_NOTE": "Also moving out of ",
+      "SERVICE_WITH_CLOSE_DATE": "Open from {{openDate}} to {{closeDate}}",
+      "SERVICE_ONLY_OPEN_DATE": "Open since {{openDate}}",
+      "CONSUMPTION": "Consumption",
+      "PRODUCTION": "Production",
+      "AVERAGE_CONS_PROD": "Average Consumption / Production",
+      "AVERAGE_CONS": "Average Consumption",
+      "AVERAGE_PROD": "Average Production",
+      "AVG_DAILY_CONSUMPTION": "Avg Monthly Consumption",
+      "AVG_DAILY_PRODUCTION": "Avg Monthly Production",
+      "AVG_DAILY_CONSUMPTION_AND_PRODUCTION": "Avg Monthly Consumption / Production",
+      "GREENHOUSE_GAS": "Greenhouse gas",
+      "INVOICE": "Invoice",
+      "ISSUED_DUE": "Issued {{issueDate}} and Due {{dueDate}}",
+      "BILLED": "Billed",
+      "BILLED_PERIOD": "from {{startDate}} to {{endDate}}",
+      "NO_DATA": "The service has not been billed yet.",
+      "CONSUMPTION_SNAPSHOT": "Your consumption snapshot",
+      "PRODUCTION_SNAPSHOT": "Your production snapshot",
+      "RECENT_BILL": "Most recent bill",
+      "COMPARE_BILL": "Same month last year bill",
+      "RECENT_MONTHLY": "Your most recent average monthly",
+      "NOT_CHANGED": "has not changed",
+      "IS_NOTHING": "is nothing",
+      "SIGNIFICANTLY_HIGHER": "significantly higher",
+      "LESS": "less",
+      "MORE": "more",
+      "SIGNIFICANTLY_LESS": "significantly less",
+      "SIGNIFICANTLY_MORE": "significantly more",
+      "COMPARED_TO_LAST": "compared to same month last year.",
+      "COMPARED_NOT_AVAILABLE": "Same month last year is not available for comparison."
+    },
+    "SERVICES": {
+      "WATER": "water",
+      "ELECTRICITY": "electricity",
+      "THERMAL_CHILLED": "air conditioning",
+      "AIR_CONDITIONING": "air conditioning",
+      "THERMAL_HOT_WATER": "hot water",
+      "HOT_WATER": "hot water",
+      "COLD_WATER": "cold water",
+      "THERMAL": "thermal",
+      "GAS": "gas"
+    },
+    "BUTTON": {
+      "MOVE_OUT": "Move out",
+      "LIFE_SUPPORT": "Life Support"
+    }
+  },
+  "SUMMARY": {
+    "LABEL": {
+      "LAST_INVOICE_BALANCE": "Last Invoice Balance",
+      "SINCE_LAST_INVOICE": "Amount Since Last Invoice",
+      "CURRENT_ACCOUNT_BALANCE": "Current Account Balance",
+      "TOTAL_OVERDUE": "Amount Overdue",
+      "LAST_INVOICE_BALANCE_TOOLTIP": "Amount that was shown on the last invoice that was issued.",
+      "SINCE_LAST_INVOICE_TOOLTIP": "Amount (charges, credits, payments and refunds) applied to the account after the last invoice was issued.",
+      "CURRENT_ACCOUNT_BALANCE_TOOLTIP": "Total amount owing on the account currently.",
+      "TOTAL_OVERDUE_TOOLTIP": "Amount remains unpaid after it was due as at today.",
+      "NOT_AVALIABLE": "-",
+      "CREDIT": "cr"
+    }
+  },
+  "BILLS": {
+    "LABEL": {
+      "HISTORY": "Account History",
+      "DOWNLOADS": "Downloads",
+      "DOWNLOAD_STATEMENT": "Download account statement",
+      "DOWNLOAD_HISTORY": "Download transaction history",
+      "DOWNLOAD_INVOICES": "Download multiple invoices",
+      "CANCELLED": "Cancelled"
+    },
+    "TABLE": {
+      "DATE": "Date",
+      "TYPE": "Type",
+      "DESCRIPTION": "Description",
+      "DUE_DATE": "Due Date",
+      "AMOUNT": "Amount",
+      "BALANCE": "Balance",
+      "DOWNLOAD_TOOLTIP": "Download Bill",
+      "BILL_EXTENSION": "Bill Extension",
+      "DISPLAY_MORE": "Display More Transactions ...",
+      "RETRIEVING_MORE": "Retrieving Transactions ...",
+      "REFERENCE": "reference",
+      "NO_DATA": "Account currently has no transactions.",
+      "EXTENDEND_TO": ["Extendend", "to"]
+    },
+    "DIALOG": {
+      "TITLE": ["Select the date range for which", "to be downloaded"],
+      "TRANSACTION_HISTORY": "transaction history",
+      "BILLS": "bills",
+      "ACCOUNT_STATEMENT": "account statement",
+      "RANGE": {
+        "LAST_6": "Last 6 months",
+        "LAST_12": "Last 12 months",
+        "THIS_YEAR": "This year",
+        "LAST_YEAR": "Last year",
+        "THIS_FINANCIAL": "Current financial year",
+        "LAST_FINANCIAL": "Last financial year",
+        "CUSTOM": "Date range"
+      },
+      "SELECT_DATE_RANGE": "Enter a custom date range",
+      "FROM_DATE": "From Date",
+      "TO_DATE": "To Date",
+      "DOWNLOADING": ["Downloading", "... please wait."],
+      "TRANSACTIONS": "transactions",
+      "INVOICES": "invoices",
+      "SUCCESS": ["Successfully downloaded", "for the requested period."],
+      "NO_DATA": ["No", "have been found for the requested period."],
+      "NO_ACCOUNT_STATEMENT": "No account transaction found for the requested period for which an statement could be provided.",
+      "IS": "is",
+      "ARE": "are",
+      "FROM": "from",
+      "ALL_OF": "all of",
+      "FY": "FY",
+      "DATE_REQUIRED": "Choose date range",
+      "INVALID_DATE_RANGE": "Date range is invalid"
+    },
+    "TRANSACTION_TYPE": {
+      "ADJ": "Adjustment",
+      "BNV": "Utility Bill",
+      "DCS": "Discount",
+      "INV": "Invoice",
+      "PAY": "Payment",
+      "RFD": "Refund",
+      "CHG": "Charge"
+    },
+    "BUTTON": {
+      "PAY": "Pay",
+      "DOWNLOAD": "Download"
+    },
+    "BILL_EXTENSION": {
+      "TITLE": "Bill Extension",
+      "CONTENT": "Select the date to which you would like to extend the\nbill due date to (cannot request longer than four weeks)",
+      "ONE_WEEK": "One week (bill extended to {{inOneWeek}})",
+      "TWO_WEEK": "Two Weeks (bill extended to {{inTwoWeek}})",
+      "SPECIFY_DATA": "Specify date",
+      "EXTEND_TO": "Extend to {{dateFormat}}",
+      "ERROR": {
+        "DATE_IS_INVALID": "Date is invalid",
+        "REQUIRED_FIELD": "Required Field"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit"
+      },
+      "LOADING": {
+        "UPDATING_DUE_DATE": "Requesting bill extension... please wait.",
+        "MESSAGE": {
+          "IS_DONE": "Successfully extended the due that on the selected bill",
+          "ERROR": "An error has occurred"
+        }
+      },
+      "NO_FURTHER_EXTENSION": "<p class='content content-title'>No further extensions are available for the selected bill, please get in touch with us.</p>",
+      "ADDITIONAL": ""
+    }
+
+  },
+  "MAKE_PAYMENT": {
+    "LABEL": {
+      "LOADING": "Loading secure payment area ... please wait",
+      "PAYMENT_AMOUNT": "Payment Amount",
+      "EMAIL_CHECKBOX": "Email a payment receipt",
+      "EMAIL": "Email Address (separate multiple emails with a comma)",
+      "TOTAL": "TOTAL",
+      "PROCESSING_FEE": "Processing fee of {{fee}} is applicable. A total of {{amount}} will be processed",
+      "PROGRESS_BAR": "Processing payment...",
+      "SECURE_PAYMENT": "SSL-Secure Payment Gateway",
+      "LARGE_AMOUNT_CHECKBOX": "Large payment amount detected, tick to confirm the amount is correct"
+    },
+    "ERROR": {
+      "MINIMUM_AMOUNT": "Minimum of {{amount}} required",
+      "INVALID_ACCOUNT_NUMBER": "Account number is invalid",
+      "INVALID_PAYMENT_AMOUNT": "Payment amount is invalid",
+      "REQUIRED_ACCOUNT_NUMBER": "Account number is required",
+      "REQUIRED_EMAIL_ADDRESS": "Email address is required",
+      "INVALID_EMAIL_ADDRESS": "These email addresses are invalid",
+      "API_MW_DETAILS_403": "Your request could not be processed as we could not verify supplied details. Please try again but if this problem persist please contact customer service to complete the payment",
+      "API_MW_DETAILS_500": "Your request could not be processed due to technical difficulties. Please try again but if this problem persist please contact customer service to complete the payment",
+      "API_MW_DETAILS_400": "Your request could not be processed due to technical difficulties. Please try again but if this problem persist please contact customer service to complete the payment"
+    },
+    "BUTTON": {
+      "MAKE_PAYMENT": "Make Payment"
+    },
+    "DIALOG": {
+      "CLIENT_ERROR_TITLE": "Supplied details error",
+      "CLIENT_ERROR_CONTENT": "Your request could not be processed as we could not verify supplied details.<br>Please try again but if this problem persist please contact customer service to complete the payment.",
+      "SERVER_ERROR_TITLE": "Server error",
+      "SERVER_ERROR_CONTENT": "Your request could not be processed due to technical difficulties.<br>Please try again but if this problem persist please contact customer service to complete the payment.",
+      "AUTH_ERROR_TITLE": "Authentication error",
+      "AUTH_ERROR_CONTENT": "Your request could not be processed because of authentication details error.<br>Please, log into the system again."
+    }
+  },
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "Name on Card",
+      "CARD_NUMBER": "Card Number",
+      "CARD_EXPIRY": "Expiry (MM/YY)",
+      "CARD_CVV": "CVV"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "Card holder name is required",
+      "CARD_HOLDER_LENGTH_MIN": "Card holder name is too short",
+      "CARD_HOLDER_LENGTH_MAX": "Card holder name is too long",
+      "CARD_NUMBER_REQUIRED": "Card number is required",
+      "CARD_NUMBER_LENGTH_MIN": "Card number is invalid",
+      "CARD_NUMBER_LENGTH_MAX": "Card number is invalid",
+      "CARD_NUMBER_VALID_CARD": "Card number is invalid",
+      "CARD_NUMBER_NOT_SUPPORTED": "Specified card type is not accepted",
+      "CARD_EXPIRY_REQUIRED": "Card expiry is required",
+      "CARD_EXPIRY_INVALID": "Card expiry is invalid",
+      "CARD_EXPIRY_EXPIRED": "Card has expired",
+      "CARD_CVV_REQUIRED": "CVV required",
+      "CARD_CVV_LENGTH_MIN": "CVV invalid",
+      "CARD_CVV_LENGTH_MAX": "CVV invalid"
+    },
+    "DIALOG": {
+      "WAIT": "Processing payment... Please wait.",
+      "SUCCESS": "Payment successfully processed",
+      "FAIL": "Payment failed... {{message}}",
+      "FAIL_DETAILS_EMAIL": "Failed payment details has been emailed to<br>{{emails}}.",
+      "SUCCESS_DETAILS_EMAIL": "Payment receipt has been emailed to<br>{{emails}}."
+    }
+  },
+  "DIALOG": {
+    "ERROR": "Error",
+    "TOKEN_IS_EXPIRED": "Password reset token has expired, please submit another password reset request to obtain an active reset token",
+    "UPDATE_TOKEN_IS_EXPIRED": "Password reset token has expired, please submit another login request to obtain an active reset token",
+    "TOKEN_INVALID": "Password reset token is invalid, please submit another password reset request to obtain an active reset token",
+    "UPDATE_TOKEN_INVALID": "Password reset token is invalid, please submit another login request to obtain an active reset token",
+    "PREVIOUS_SESSION_TITLE": "Previous session ended",
+    "PREVIOUS_SESSION_CONTENT": "Your previous portal session that was still active has been automatically ended, only the current one will remain active",
+    "CLIENT_ERROR_TITLE": "No Details",
+    "CLIENT_ERROR_CONTENT": "We could not find any details in the system that matched.<br>Please, log into the system again.",
+    "ACCESS_ERROR_TITLE": "Access Not Available",
+    "ACCESS_ERROR_CONTENT": "You currently are not authorised to access the specified details requested. Please login again.",
+    "SERVER_ERROR_TITLE": "Server error",
+    "SERVER_ERROR_CONTENT": "Your request could not be completed due to technical difficulties. Please, try again.<br>If the problem persists contact customer service.",
+    "INTERNET_CONNECTION_ERROR_TITLE": "Internet connection error",
+    "INTERNET_CONNECTION_ERROR_CONTENT": "Problem login, looks like you don’t have Internet connection.<br>Please fix your Internet connection before trying again.",
+    "LOGIN_ERROR_TITLE": "Incorrect log in details provided",
+    "LOGIN_ERROR_CONTENT": "The email address and password provided is incorrect.",
+    "LOGIN_ERROR_UPDATE_TITLE": "Password should be updated",
+    "LOGIN_ERROR_UPDATE_CONTENT": "The email address and password provided are correct, but password shoud be changed.",
+    "EMPTY_ACCOUNTS_LIST_TITLE": "No accounts",
+    "EMPTY_ACCOUNTS_LIST_CONTENT": "Currently you do not have access to any account.<br>Please, contact customer service for assistance.",
+    "EMPTY_PERMISSIONS_LIST_TITLE": "No permissions",
+    "EMPTY_PERMISSIONS_LIST_CONTENT": "Currently you do not have permissions.<br>Please, contact customer service for assistance.",
+    "TRANSACTION_INCOMPLETE_TITLE": "Transaction is not completed",
+    "TRANSACTION_INCOMPLETE_CONTENT": "Please, wait until transaction is complete.",
+    "SERVICE_CLOSING_TITLE": "Move-Out Request",
+    "SERVICE_CLOSING_CONENT": "Would you also like to close the{{other}} open service?",
+    "SERVICES_CLOSING_CONENT": "Would you also like to close the{{other}} open services?",
+    "SESSION_ENDED_TITLE": "Current Session Ended",
+    "SESSION_ENDED_CONTENT": "Your current portal session has ended either because it expired or because another active session was created.",
+    "ACCOUNT_MODIFY_ERROR_TITLE": "Problem updating contact",
+    "ACCOUNT_MODIFY_ERROR_BODY": "The contact could not be updated. Please contact customer support to help you with your request.",
+    "CONTACT_UPDATE_ERROR_NO_ACCESS_TO_RELATED_ACCOUNT": "The contact that is being edited has access to an account that you do not have access to. Please contact customer support to help you with your request.",
+    "CONTACT_UPDATE_ERROR_SIMILAR_CONTACT_EXISTS": "Contact that is trying to be added already exists, please contact us for further assistance.",
+    "BUTTON": {
+      "GOT_IT": "Got it!",
+      "YES": "Yes",
+      "NO": "No"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PAGE_TITLE": "My {{title}} Account",
+      "CLOSE_MESSAGE": "This window/tab is no longer required,<br/>for privacy reasons we encourage you to close it",
+      "LOADING_CONFIG": "Loading customer portal configuration ...",
+      "PROGRESS_BAR_SUBMIT": "Submitting your request...",
+      "PROGRESS_BAR_LONG_RESPONSE": "Submitting your request is taking a bit longer than expected. Sorry for the delay, please do not close this window",
+      "HEADER": "Customer Request",
+      "TRY_AGAIN": "Try Again",
+      "IDLE_TIME": [
+        "You have been inactive for",
+        "for privacy reasons this form will automatically be cleared in"
+      ],
+      "NEXT": "Next",
+      "PREVIOUS": "Previous"
+    },
+    "ERROR": {
+      "PORTALCONFIG_ERROR": "Problem obtaining configuration file ... please try again shortly."
+    },
+    "PAYMENT": {
+      "CONTACT_SUPPORT": ["Need Help? Call us on", "or email us at"]
+    }
+  },
+  "WALKTHROUGH": {
+    "STEPS": {
+      "SEARCH_BAR": {
+        "TITLE": "Search Bar",
+        "BODY": "Search here if you have multiple accounts."
+      },
+      "MOBILE_SEARCH_BAR": {
+        "TITLE": "Search Bar",
+        "BODY": "Search here if you have multiple accounts."
+      },
+      "LAST_INVOICE_BALANCE": {
+        "TITLE": "Last Invoice Balance",
+        "BODY": "Total for your last invoice."
+      },
+      "SINCE_LAST_INVOICE": {
+        "TITLE": "Amount Since Last Invoice",
+        "BODY": "Total payments and credits since your last invoice."
+      },
+      "CURRENT_ACCOUNT_BALANCE": {
+        "TITLE": "Current Account Balance",
+        "BODY": "Total account balance, combination of last invoice and new charges."
+      },
+      "TOTAL_OVERDUE": {
+        "TITLE": "Amount Overdue",
+        "BODY": "Amount of your account balance that is currently overdue."
+      },
+      "BUTTON_PAY": {
+        "TITLE": "Pay Button",
+        "BODY": "Click here if you want to pay your overdue amount now."
+      },
+      "OPEN_DIRECT_DEBIT_DIALOG": {
+        "TITLE": "Direct Debit",
+        "BODY": "Click here to add, edit or remove your direct debit."
+      },
+      "EDIT_CONCESSION_CARD": {
+        "TITLE": "Concession Card",
+        "BODY": "Click here for more information on your concession."
+      },
+      "ADD_CONCESSION_CARD": {
+        "TITLE": "Concession Card",
+        "BODY": "Click here to add concession card details."
+      },
+      "OPEN_DIALOG_ACCOUNT_CONTACT": {
+        "TITLE": "Add Contact",
+        "BODY": "Click here to add a new contact to this account."
+      },
+      "EDIT_PRIMARY_ACCOUNT_CONTACT": {
+        "TITLE": "Edit Account Holder",
+        "BODY": "Click here to edit account holder contact."
+      },
+      "EDIT_SECONDARY_ACCOUNT_CONTACT": {
+        "TITLE": "Edit Authorised Contact",
+        "BODY": "Click here to edit an authorised contact."
+      },
+      "LIFE_SUPPORT_BUTTON": {
+        "TITLE": "Life Support",
+        "BODY": "Click here to add Life Support details for this service."
+      },
+      "MOVE_OUT_BUTTON": {
+        "TITLE": "Move Out",
+        "BODY": "Click here to complete a Move Out for this service."
+      },
+      "COLLAPSE_EXPAND": {
+        "TITLE": "Expand Service",
+        "BODY": "Click here to expand this service and see more information like usage and total consumption."
+      },
+      "DOWNLOADS": {
+        "TITLE": "Downloads",
+        "BODY": "Click here to download an account statement, transaction history or multiple invoices."
+      }
+    },
+    "RELEASE": {
+      "A": ["SEARCH_BAR", "MOBILE_SEARCH_BAR", "COLLAPSE_EXPAND", "PROFILE"],
+      "B": ["DOWNLOADS", "MOVE_OUT_BUTTON"],
+      "C": ["SINCE_LAST_INVOICE"],
+      "D": [
+        "BUTTON_PAY",
+        "TOTAL_OVERDUE",
+        "CURRENT_ACCOUNT_BALANCE",
+        "LAST_INVOICE_BALANCE",
+        "OPEN_DIRECT_DEBIT_DIALOG"
+      ],
+      "E": [
+        "OPEN_DIALOG_ACCOUNT_CONTACT",
+        "EDIT_ACCOUNT_CONTACT",
+        "ADD_CONCESSION_CARD",
+        "EDIT_CONCESSION_CARD",
+        "LIFE_SUPPORT_BUTTON"
+      ]
+    }
+  }
+}

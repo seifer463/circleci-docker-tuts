@@ -1,0 +1,140 @@
+{
+  "TRADE_WASTE": {
+    "HEADER": "tRaDe wAsTe",
+    "CONTENT_BODY": {
+      "TRADE_WASTE_DISCHARGED": "wIlL TrAdE WaStE Be dIsChArGeD?",
+      "EQUIPMENT_INSTALLED": "iS TrAdE WaStE EqUiPmEnT InStAlLeD?",
+      "SELECTED_YES": "yEs",
+      "SELECTED_NO": "nO",
+      "SELECT_EQUIPMENT": "pLeAsE SeLeCt oNe oR MoRe tRaDe wAsTe eQuIpMeNt iNsTaLlEd",
+      "TRADE_WASTE_EQUIPMENT": {
+        "GREASE_TRAP": "gReAsE TrAp",
+        "GREASE_EXTRACTOR": "gReAsE ExTrAcToR - FiLtEr",
+        "OIL_SEPARATOR": "oIl/pLaTe sEpArAtOr",
+        "DILUTION_PIT": "dIlUtIoN PiT",
+        "OIL_SUMP": "oIl tRaP-GaRaGe sUmP",
+        "SOLID_PIT": "sOlId sEtTlEmEnT PiT",
+        "BASKET_TRAP": "bAsKeT TrAp",
+        "SILVER_UNIT": "sIlVeR ReCoVeRy uNiT",
+        "PLASTER_ARRESTOR": "pLaStEr aRrEsToR",
+        "HOLDING_TANK": "hOlDiNg tAnK",
+        "COOLING_PIT": "cOoLiNg pIt",
+        "EFFLUENT_TANK": "eFfLuEnT TaNk fInAl",
+        "EFFLUENT_PUMP": "eFfLuEnT PuMp",
+        "LINT_TRAP": "lInT TrAp",
+        "OTHER": "oThEr"
+      },
+      "BUSINESS_ACTIVITY_HEADER": "bUsInEsS AcTiViTy aT ThE PrOpErTy",
+      "RETAIL_FOOD_BUSINESS": "rEtAiL FoOd bUsInEsS",
+      "RETAIL_MOTOR_VEHICLE": "rEtAiL MoToR VeHiClE",
+      "OTHER": "oThEr",
+      "DISCHARGE_INFORMATION": {
+        "HEADER": "dIsChArGe iNfOrMaTiOn",
+        "INFO": "pLeAsE AnSwEr tHe bElOw dEtAiLs tO ThE BeSt oF YoUr aBiLiTy. If yOu aRe uNsUrE YoU MaY LeAvE It bLaNk.",
+        "MAX_RATE": "mAxImUm iNsTaNtAnEoUs fLoW RaTe (LiTrEs / sEcOnD)",
+        "MAX_VOLUME": "mAxImUm dAiLy dIsChArGe vOlUmE (lItReS)",
+        "START_DATE": "dIsChArGe sTaRt dAtE",
+        "DAYS": "dIsChArGe dAyS (sElEcT OnE Or mOrE)",
+        "HOURS_STARTING": "dIsChArGe hOuRs sTaRtInG",
+        "HOURS_ENDING": "dIsChArGe hOuRs eNdInG",
+        "DAY_OF_WEEK": {
+          "SUN": "sU",
+          "MON": "mO",
+          "TUE": "tU",
+          "WED": "wE",
+          "THU": "tH",
+          "FRI": "fR",
+          "SAT": "sA"
+        }
+      },
+      "ERROR_LABEL": {
+        "BUSINESS_ACTIVITY": "sElEcT FrOm dRoPdOwN",
+        "INSTALLED_EQUIPMENT": "sElEcT At lEaSt oNe",
+        "INSTALLED_EQUIPMENT_OTHER": "sPeCiFy tHe nAmE Of tHe eQuIpMeNt",
+        "NOT_POSITIVE_NUMBER": "sHoUlD Be a pOsItIvE VaLuE",
+        "NO_START_HOUR": "sPeCiFy sTaRt oF ThE DiScHaRgE HoUrS",
+        "NO_END_HOUR": "sPeCiFy eNd oF ThE DiScHaRgE HoUrS",
+        "FILE_EXCEEDED": ["eRrOr: FiLe sIzE ExCeEdS ", "mB."]
+      }
+    }
+  },
+  "ACCOUNT_DETAILS": {
+    "HEADER": "aCcOuNt dEtAiLs",
+    "CONTENT_BODY": {
+      "TYPE_OF_ACCOUNT": "aCcOuNt tYpE",
+      "RESIDENTIAL": "rEsIdEnTiAl",
+      "COMMERCIAL": "cOmMeRcIaL",
+      "COMMERCIAL_ENTITY": "cOmMeRcIaL EnTiTy dEtAiLs",
+      "COMPANY_ABN_ACN": "cOmPaNy aBn oR AcN",
+      "COMPANY_NAME": "cOmPaNy/eNtItY NaMe",
+      "TRADING_NAME": "tRaDiNg nAmE",
+      "PUBLIC_ICON": "bUsInEsS DeTaIlS SeArCh",
+      "SEARCHING_ICON": "sEaRcHiNg bUsInEsS DeTaIlS..."
+    },
+    "ERROR_LABEL": {
+      "TIMEOUT_ERROR": "aBn/aCn sEaRcH CuRrEnTlY UnAvAiLaBlE, pLeAsE EnTeR MaNuAlLy",
+      "NOT_ACTIVE": "pRoViDeD AbN/AcN Is cUrReNtLy nOt aCtIvE",
+      "NOT_FOUND": "nO MaTcHeS FoUnD FoR PrOvIdEd aBn/aCn",
+      "REQUIRED_FIELD": "rEqUiReD FiElD",
+      "REQUIRED_ENTITY": "rEqUiReD FiElD",
+      "INVALID_ENTITY": "tHe eNtItY NaMe sHoUlD Be aLpHaNuMeRiC",
+      "INVALID_ABN": "iNvAlId aBn/aCn"
+    }
+  },
+  "DIRECT_DEBIT": {
+    "CONTENT_BODY": {
+      "NO_DIRECT_DEBIT": "nO, i wIlL PaY BiLlS By tHe dUe dAtE"
+    }
+  },
+  "ACCEPTANCE": {
+    "CONTENT_BODY": {
+      "TRADE_WASTE": {
+        "HEADER": "tRaDe wAsTe",
+        "DISCHARGE_INFORMATION": "dIsChArGe iNfOrMaTiOn",
+        "CONTENT_BODY": {
+          "NO_TRADE_DISCHARGED": "nO TrAdE WaStE WiLl bE DiScHaRgEd",
+          "WILL_DISCHARGED": "wIlL DiScHaRgE TrAdE WaStE",
+          "NO_EQUIPMENT_INSTALLED": "nO TrAdE WaStE EqUiPmEnT InStAlLeD",
+          "INSTALLED": "iNsTaLlEd",
+          "FOLLOWING_EQUIPMENT": "fOlLoWiNg eQuIpMeNt",
+          "BUSINESS_ACTIVITY_IS": "bUsInEsS AcTiViTy iS",
+          "MAX_FLOW_RATE": ["mAx iNsTaNtAnEoUs fLoW RaTe", "lItReS / SeCoNd"],
+          "MAX_DISCHARGE_VOLUME": ["mAx dAiLy dIsChArGe vOlUmE", "lItReS"],
+          "DISCHARGE_START_DATE": "dIsChArGe sTaRt dAtE",
+          "DISCHARGE_DAYS": "dIsChArGe dAyS",
+          "DISCHARGE_HOURS": "dIsChArGe hOuRs",
+          "UPLOADED_PLANS": ["uPlOaDeD", "sItE", "pLaN", "pLaNs"],
+          "NO_PLANS_UPLOADED": "nO SiTe pLaNs uPlOaDeD",
+          "IS": "iS",
+          "ARE": "aRe",
+          "AND": "aNd",
+          "BETWEEN": "bEtWeEn",
+          "NOT_KNOWN": "nOt kNoWn"
+        }
+      }
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "NEXT": "nExT",
+      "PREVIOUS": "pReViOuS",		
+      "DRAG_AND_DROP": [
+        "dRaG-AnD-DrOp fIlE HeRe oR",
+        "cLiCk tO BrOwSe fOr fIlE",
+        "tO UpLoAd"
+      ],
+      "UPLOADER": {
+        "SUCCESS": "fIlE UpLoAdEd sUcCeSsFuLlY",
+        "FAIL": "fAiLeD To uPlOaD",
+        "FILE_EXCEEDED": ["eRrOr: FiLe sIzE ExCeEdS", "mB"],
+        "INVALID_TYPE": "fIlE TyPe iS NoT AlLoWeD",
+        "DELETE": "dElEtE",
+        "REMOVE": "rEmOvE",
+        "CANCEL": "aBoRt",
+        "LIFE_SUPPORT": "mEdIcAl cErTiFiCaTe aSsOcIaTeD WiTh yOuR LiFe sUpPoRt rEqUiReMeNt",
+        "CONCESSION": "a sCaN Or pIcTuRe oF YoUr cOnCeSsIoN CaRd",
+		"DELETE_IMAGE_CONFIRMATION": "aRe yOu sUrE YoU WoUlD LiKe tO ReMoVe tHiS FiLe?"
+      }
+    }
+  }
+}

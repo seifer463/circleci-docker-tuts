@@ -1,0 +1,105 @@
+{
+  "MWPAYFRAME": {
+    "LABEL": {
+      "CARD_HOLDER": "nAmE On cArD",
+      "CARD_NUMBER": "cArD NuMbEr",
+      "CARD_EXPIRY": "eXpIrY (mM/Yy)",
+      "CARD_CVV": "cVv"
+    },
+    "ERROR": {
+      "CARD_HOLDER_REQUIRED": "cArD HoLdEr nAmE Is rEqUiReD",
+      "CARD_HOLDER_INVALID": "nAmE Is iNvAlId",
+      "CARD_HOLDER_LENGTH_MIN": "cArD HoLdEr nAmE Is tOo sHoRt",
+      "CARD_HOLDER_LENGTH_MAX": "cArD HoLdEr nAmE Is tOo lOnG",
+      "CARD_NUMBER_REQUIRED": "cArD NuMbEr iS ReQuIrEd",
+      "CARD_NUMBER_LENGTH_MIN": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_LENGTH_MAX": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_VALID_CARD": "cArD NuMbEr iS InVaLiD",
+      "CARD_NUMBER_NOT_SUPPORTED": "sPeCiFiEd cArD TyPe iS NoT AcCePtEd",
+      "CARD_EXPIRY_REQUIRED": "cArD ExPiRy iS ReQuIrEd",
+      "CARD_EXPIRY_INVALID": "cArD ExPiRy iS InVaLiD",
+      "CARD_EXPIRY_EXPIRED": "cArD HaS ExPiReD",
+      "CARD_CVV_REQUIRED": "cVv rEqUiReD",
+      "CARD_CVV_LENGTH_MIN": "cVv iNvAlId",
+      "CARD_CVV_LENGTH_MAX": "cVv iNvAlId"
+    }
+  },
+  "PORTAL": {
+    "LABEL": {
+      "PAYMENT_AMOUNT": "pAyMeNt aMoUnT",
+      "LARGE_AMOUNT_CHECKBOX": "lArGe pAyMeNt aMoUnT DeTeCtEd, TiCk tO CoNfIrM ThE AmOuNt iS CoRrEcT.",
+      "EMAIL_CHECKBOX": "eMaIl a pAyMeNt rEcEiPt",
+      "EMAIL_LABEL": "eMaIl aDdReSs (SePaRaTe mUlTiPlE EmAiLs wItH A CoMmA)",
+      "ACCOUNT_NUMBER": "aCcOuNt nUmBeR",
+      "BUTTON_PAYMENT": "mAkE PaYmEnT",
+      "PROGRESS_BAR": "pRoCeSsInG PaYmEnT...",
+      "PROGRESS_BAR_SECURE": "cReAtInG SeCuRe pAyMeNt cOnNeCtIoN...",
+      "LOADING_CONFIG": "lOaDiNg sEcUrE PaYmEnT ArEa...",
+      "HEADER": [
+        "pAy mY",
+        "aCcOuNt"
+      ],
+      "IDLE_TIME": [
+        "yOu aRe cUrReNtLy iNaCtIvE! tHiS WiNdOw wIlL AuToMaTiCaLlY ReFrEsH In",
+        "sEcOnDs"
+      ],
+      "CLOSE_BUTTON": "cLoSe",
+      "ACCOUNT_NUMBER_SAMPLE": "yOuR AcCoUnT NuMbEr cAn bE FoUnD At tHe mArKeD PoSiTiOn oN YoUr bIlL",
+      "TRY_AGAIN": "tRy aGaIn",
+      "BTN_NEXT": "nExT",
+      "TOTAL": "tOtAl"
+    },
+    "ERROR": {
+      "INVALID_ACCOUNT_NUMBER": "aCcOuNt nUmBeR Is iNvAlId",
+      "INVALID_PAYMENT_AMOUNT": "pAyMeNt aMoUnT Is iNvAlId",
+      "ACCOUNT_NUMBER_NOT_FOUND": "nO DeTaIlS FoUnD",
+      "MINIMUM_AMOUNT": [
+        "mInImUm oF",
+        "rEqUiReD"
+      ],
+      "REQUIRED_ACCOUNT_NUMBER": "aCcOuNt nUmBeR Is rEqUiReD",
+      "REQUIRED_EMAIL_ADDRESS": "eMaIl aDdReSs iS ReQuIrEd",
+      "INVALID_EMAIL_ADDRESS": "tHeSe eMaIl aDdReSsEs aRe iNvAlId",
+      "API_MW_DETAILS_403": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd aS We cOuLd nOt vErIfY SuPpLiEd dEtAiLs. PlEaSe tRy aGaIn bUt iF ThIs pRoBlEm pErSiSt pLeAsE CoNtAcT CuStOmEr sErViCe tO CoMpLeTe tHe pAyMeNt",
+      "API_MW_DETAILS_500": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd dUe tO TeChNiCaL DiFfIcUlTiEs. PlEaSe tRy aGaIn bUt iF ThIs pRoBlEm pErSiSt pLeAsE CoNtAcT CuStOmEr sErViCe tO CoMpLeTe tHe pAyMeNt",
+      "API_MW_DETAILS_400": "yOuR ReQuEsT CoUlD NoT Be pRoCeSsEd dUe tO TeChNiCaL DiFfIcUlTiEs. PlEaSe tRy aGaIn bUt iF ThIs pRoBlEm pErSiSt pLeAsE CoNtAcT CuStOmEr sErViCe tO CoMpLeTe tHe pAyMeNt"
+    },
+    "PAYMENT": {
+      "SUCCESS": {
+        "HEADER": "pAyMeNt sUcCeSsFuLlY PrOcEsSeD",
+        "EMAILED_TO": "pAyMeNt rEcEiPt hAs bEeN EmAiLeD To"
+      },
+      "FAILED": {
+        "HEADER": "pAyMeNt pRoCeSsInG FaIlEd",
+        "EMAILED_TO": "fAiLeD PaYmEnT DeTaIlS HaS BeEn eMaIlEd tO"
+      },
+      "PORTAL_CONFIG": {
+        "PORTALCONFIG_ERROR": "pRoBlEm lOaDiNg pAyMeNt pOrTaL, pLeAsE TrY AgAiN ShOrTlY",
+        "HEADER": "uNaBlE To lOaD PaYmEnT PoRtAl",
+        "HEADER_TITLE_ERROR": "pRoBlEm lOaDiNg pAyMeNt pOrTaL, pLeAsE TrY AgAiN ShOrTlY",
+        "MW_UNABLE_TO_LOAD": "pRoBlEm cOmMuNiCaTiNg wItH PaYmEnT PoRtAl, PlEaSe tRy aGaIn sHoRtLy"
+      },
+      "PROCESSING_FEE": {
+        "CALCULATED_AMOUNT": [
+          "pRoCeSsInG FeE Of",
+          "iS ApPlIcAbLe. A ToTaL Of",
+          "wIlL Be pRoCeSsEd"
+        ],
+        "ERROR_GETTING_PROCESSING_FEE": "pRoBlEm rEtRiEvInG PrOcEsSiNg fEeS, pLeAsE CoNtInUe yOuR PaYmEnT"
+      },
+      "CONTACT_SUPPORT": [
+        "nEeD HeLp? CaLl uS On",
+        "oR EmAiL Us aT"
+      ]
+    }
+  },
+  "CONNECTION_ERROR": {
+    "CONNECTION_ERROR_LABELS": {
+      "NO_CONNECTION_HEADER": "cOnNeCtIoN ErRoR",
+      "NO_CONNECTION": "pRoBlEm lOgIn, LoOkS LiKe yOu dOn't hAvE InTeRnEt cOnNeCtIoN.<br>pLeAsE FiX YoUr iNtErNeT CoNnEcTiOn bEfOrE TrYiNg aGaIn.",
+      "NO_BACKEND_HEADER": "sErVeR ErRoR",
+      "NO_BACKEND": "pRoBlEm lOgIn, LoOkS LiKe oUr sErVeR Is hAvInG PrObLeMs, SyStEm aDmInIsTrAtOr hAs bEeN NoTiFiEd.<br>pLeAsE TrY AgAiN ShOrTlY"
+    },
+    "BUTTON": "gOt iT"
+  }
+}

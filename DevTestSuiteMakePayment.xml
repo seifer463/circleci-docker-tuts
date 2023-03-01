@@ -1,0 +1,11 @@
+<suite name="Dev Make Payment Suite">
+	<test name="testing">
+		<classes>
+			<class name="au.com.blueoak.portal.dev.make_payment.tests.AllFieldsMakePayment" />
+			<class name="au.com.blueoak.portal.dev.make_payment.tests.AllFieldsLangFiles" />
+			<class name="au.com.blueoak.portal.dev.make_payment.tests.AcctNumMakePayment" />
+			<class name="au.com.blueoak.portal.dev.make_payment.tests.AcctNumLangFiles" />
+			<class name="au.com.blueoak.portal.dev.make_payment.tests.DisabledJavascript" />
+		</classes>
+	</test>
+</suite>
