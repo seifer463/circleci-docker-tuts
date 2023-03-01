@@ -26,7 +26,7 @@ jobs:
 
       - run:
           name: install selenium-node
-          command: docker run -d --rm --net grid -e HUB_HOST=selenium-hub -v /dev/shm:/dev/shm selenium/node-chrome:3.141.59          
+          command: docker run -d --rm --net grid -e HUB_HOST=selenium-hub --shm-size="2g" selenium/node-chrome:3.141.59          
       
       - run:
           name: "Say hello"
